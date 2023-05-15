@@ -1,0 +1,27 @@
+---
+title: Amateur Radio Daily
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo "" %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/daily.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/" title="Amateur Radio Daily" class="logo">ARD</a>
+        <a href="/about/" title="About Amateur Radio Daily">About</a>
+        <a href="/tags/" title="Post tags">Tags</a>
+        <a href="/archive/" title="List of all posts">Archive</a>
+        <a href="/atom.xml" title="RSS feed">RSS</a>
+      </nav>
+    </header>
+    {{ content | safe }}
+    <footer><p>Amateur Radio Daily By <a href="https://calemooth.com/">K4HCK</a></p></footer>
+  </body>
+</html>

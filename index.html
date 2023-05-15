@@ -1,0 +1,23 @@
+---
+title: Amateur Radio Daily | Daily news from the world of Ham Radio
+ogtype: website
+layout: post-without-comments.njk
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
+---
+<h1 class="full-bleed home-header">Amateur Radio Daily</h1>
+
+<p class="full-bleed">Amateur Radio Daily is an aggregate of notable news happening in the world of Ham Radio.</p>
+
+{% for post in posts %}
+  <article>
+    <h2>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h2>
+    {{ post.templateContent }}
+    <p class="source">Originally posted on <a href="{{ post.data.source-url | url }}">{{ post.data.source }}<span></span></a><br><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
+  </article>
+{% endfor %}

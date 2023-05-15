@@ -1,0 +1,269 @@
+body {
+  background-color: #f1592a;
+  color: #00171e;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #f1592a;
+  text-decoration-color: #f1592a;
+  text-underline-offset: .3em;
+  text-decoration-style: double;
+  text-decoration-thickness: .05em;
+}
+
+a:hover {
+  background-color: #ffde16;
+  color: #00171e;
+  text-decoration-color: #00171e;
+}
+
+::selection {
+  color: #00171e;
+  background-color: #ffde16;
+}
+
+main {
+  background-color: #fff;
+}
+
+header {
+  background-color: #20c3f9;
+  background-image:
+    linear-gradient(
+      to right,
+      #f1592a, #ffde16
+    );
+  color: #fff;
+  padding: .25rem 2rem;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  animation-name: nav;
+  animation-duration: .5s;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #000;
+  text-underline-offset: .3em;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .2em;
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.home-header {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+a.logo:hover {
+  animation-name: none;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+article {
+  font-size: 1.2rem;
+  line-height: 1.95rem;
+  padding: 3rem 0 3rem 0;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+}
+
+.date {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Noto Sans', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1.full-bleed, p.full-bleed {
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+div h2 a {
+  font-weight: normal;
+  line-height: 3rem;
+}
+
+code, pre {
+  background-color: #eff9fc;
+  border: 1px solid #20c3f9;
+  border-radius: 5px;
+  color: #07789e;
+  font-size: .9rem;
+  margin-bottom: .5rem;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+#disqus_thread {
+  margin-top: 6rem;
+}
+
+.tags-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.tags-list li {
+  display: inline-block;
+}
+
+.tags-list li a {
+  background-color: #eee;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: #00171e;
+  display: block;
+  margin: .25rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.tags-list li a:hover {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  color: #00171e;
+}
+
+.tagged-posts {
+  list-style-type: none;
+}
+
+.tagged-posts li {
+  border: 2px solid transparent;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background-color: #ddd;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #00171e;
+  padding: .25rem;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  color: #00171e;
+}
+
+time, .tag {
+  font-size: .85rem;
+}
+
+footer {
+  background-color: #f1592a;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #00171e;
+  text-decoration-color: #00171e;
+}
+
+footer a:hover {
+  background-color: transparent;
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr min(60ch, calc(100% - 64px)) 1fr;
+  grid-column-gap: .25rem;
+}
+
+.wrapper > * {
+  grid-column: 2;
+}
+
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: .75rem;
+}
+
+table span {
+  background-color: yellow;
+}
+
+@keyframes nav {
+  from {
+    color: #def4fc;
+    text-decoration-color: transparent;
+  }
+  to {
+    color: #fff;
+    text-decoration-color: #000;
+  }
+}
+
+@media screen and (max-width: 740px) {
+    header a {
+      font-size: .85rem;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+    }
+    .logo {
+      display: block;
+      font-size: 2rem;
+      margin: 0;
+      text-align: center;
+    }
+    .full-bleed {
+      grid-column: 2;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+}

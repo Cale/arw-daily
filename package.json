@@ -1,0 +1,27 @@
+{
+  "name": "midnightcheese-11ty",
+  "version": "1.0.0",
+  "description": "Midnightcheese.com blog based on 11ty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cale/midnightcheese-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cale/midnightcheese-11ty/issues"
+  },
+  "homepage": "https://github.com/Cale/midnightcheese-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.2"
+  },
+  "dependencies": {
+    "eleventy-plugin-seo": "^0.5.2"
+  }
+}
