@@ -3,7 +3,7 @@ title: AMSAT at Hamvention 2023
 date: 2023-05-07
 excerpt: We invite you to participate in the SSTV award program with the ORBICRAFT-ZORKIY satellite.
 source: AMSAT
-source-url: https://www.amsat.org/ans-127-amsat-news-service-weekly-bulletins-for-may-7/
+sourceurl: https://www.amsat.org/ans-127-amsat-news-service-weekly-bulletins-for-may-7/
 tags:
 - post
 - Hamvention

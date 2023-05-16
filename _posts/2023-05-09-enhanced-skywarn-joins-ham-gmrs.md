@@ -3,7 +3,7 @@ title: Enhanced SKYWARN System Embraces GMRS
 date: 2023-05-09
 excerpt: Chattanooga area Ham and GMRS clubs join forces to build robust SKYWARN network.
 source: Chattanooga Amateur Radio Club
-source-url: https://www.w4am.net/enhanced-skywarn/
+sourceurl: https://www.w4am.net/enhanced-skywarn/
 tags:
 - post
 - SKYWARN

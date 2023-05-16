@@ -2,8 +2,8 @@
 title: Juice’s RIME antenna finally deploys
 date: 2023-05-15
 excerpt: During the first attempt to extend the folded-up antenna, only the first segments of each half were deployed.
-source: European Space Agency
-source-url: https://www.amsat.org/ans-134-amsat-news-service-weekly-bulletins/
+source: The European Space Agency
+sourceurl: https://www.amsat.org/ans-134-amsat-news-service-weekly-bulletins/
 tags:
 - post
 - Space

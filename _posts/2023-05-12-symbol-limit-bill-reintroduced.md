@@ -3,7 +3,7 @@ title: Bill to Replace Symbol Rate Limit with Bandwidth Limit Reintroduced to US
 date: 2023-05-12
 excerpt: Congresswoman Lesko reintroduced the bill on May 11.
 source: ARRL.org
-source-url: http://www.arrl.org/news/view/congresswoman-lesko-reintroduces-bill-to-replace-symbol-rate-limit-with-bandwidth-limit
+sourceurl: http://www.arrl.org/news/view/congresswoman-lesko-reintroduces-bill-to-replace-symbol-rate-limit-with-bandwidth-limit
 tags:
 - post
 - Legislation

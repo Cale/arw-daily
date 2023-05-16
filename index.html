@@ -18,6 +18,6 @@ pagination:
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h2>
     {{ post.templateContent }}
-    <p class="source">Originally posted on <a href="{{ post.data.source-url | url }}">{{ post.data.source }}<span></span></a><br><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
+    <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}<span></span></a><br><span class="date">{{ post.date | formatDate }}</span></p>
   </article>
 {% endfor %}

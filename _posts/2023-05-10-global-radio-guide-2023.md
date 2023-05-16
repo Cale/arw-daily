@@ -3,7 +3,7 @@ title: Global Radio Guide for Summer 2023
 date: 2023-05-10
 excerpt: Chattanooga area Ham and GMRS clubs join forces to build robust SKYWARN network.
 source: SWLing Post
-source-url: https://swling.com/blog/2023/05/20th-edition-of-the-global-radio-guide-summer-2023-now-available/
+sourceurl: https://swling.com/blog/2023/05/20th-edition-of-the-global-radio-guide-summer-2023-now-available/
 tags:
 - post
 - Shortwave

@@ -3,7 +3,7 @@ title: Loss of AM in Cars - 1,300 AM Stations Could Be Left in the Dark
 date: 2023-05-08
 excerpt: Hams on NASA moon mission could phone home via Ham Radio.
 source: RadioWorld
-source-url: https://www.radioworld.com/news-and-business/nasba-on-loss-of-am-in-cars-1300-am-stations-could-be-left-in-the-dark
+sourceurl: https://www.radioworld.com/news-and-business/nasba-on-loss-of-am-in-cars-1300-am-stations-could-be-left-in-the-dark
 tags:
 - post
 - AM Radio
