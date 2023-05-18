@@ -36,7 +36,7 @@
     <id>{{ absolutePostUrl }}</id>
     <content type="html">
       {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-      <p>Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a></p>
+      &lt;p&gt;Source: &lt;a href="{{ post.data.sourceurl | url }}"&gt;{{ post.data.source }}&lt;/a&gt;&lt;/p&gt;
     </content>
   </entry>
   {%- endfor %}
