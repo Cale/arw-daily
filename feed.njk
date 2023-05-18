@@ -34,7 +34,10 @@
     <published>{{ post.date | dateToRfc3339 }}</published>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+      <p>Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a></p>
+    </content>
   </entry>
   {%- endfor %}
 </feed>
