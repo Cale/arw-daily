@@ -1,17 +1,13 @@
 ---
 title: Amateur Radio Daily | Daily news from the world of Ham Radio
 ogtype: website
-layout: post-without-comments.njk
+layout: page-index.njk
 pagination:
   data: collections.post
   size: 10
   reverse: true
   alias: posts
 ---
-<h1 class="full-bleed home-header">Amateur Radio Daily</h1>
-
-<p class="full-bleed">Amateur Radio Daily is an aggregate of notable news happening in the world of Ham Radio.</p>
-
 {% for post in posts %}
   <article>
     <h2>

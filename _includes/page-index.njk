@@ -1,14 +1,11 @@
 ---
 layout: shell.njk
 ---
+      <h1 class="full-bleed home-header">Amateur Radio Daily</h1>
+      <p class="full-bleed">Amateur Radio Daily is an aggregate of notable news happening in the world of Ham Radio.</p>
       <article class="wrapper">
-        <h1 class="full-bleed">{{ title }}</h1>
         <div class="main">
-          <span class="date">{{ date | formatDate }}</span>
           {{ content | safe }}
-          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined">
-  open_in_new
-  </span></p>
         </div>
         <div class="side">
           <div class="box submit-news">

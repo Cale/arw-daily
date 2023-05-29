@@ -1,10 +1,14 @@
 body {
-  background-color: #f1592a;
+  background-color: #00171e;
   color: #00171e;
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
+
+/* div {
+  border: 1px solid red;
+} */
 
 a {
   color: #f1592a;
@@ -27,6 +31,11 @@ a:hover {
 
 main {
   background-color: #fff;
+}
+
+.side {
+  display: none;
+  padding-top: 4rem;
 }
 
 header {
@@ -72,7 +81,9 @@ header a:hover {
 .home-header {
   font-family: 'Big Shoulders Display', sans-serif;
   font-size: 5rem;
+  margin-top: 0;
   margin-bottom: 1rem;
+  padding-top: 2.5rem;
 }
 
 a.logo:hover {
@@ -85,7 +96,7 @@ a.logo:hover {
 article {
   font-size: 1.2rem;
   line-height: 1.95rem;
-  padding: 3rem 0 3rem 0;
+  padding: 0 0 3rem 0;
 }
 
 article img {
@@ -189,14 +200,15 @@ time, .tag {
 }
 
 footer {
-  background-color: #f1592a;
+  background-color: #00171e;
+  color: #fff;
   padding: 1rem 0 1rem 0;
   text-align: center;
 }
 
 footer a {
-  color: #00171e;
-  text-decoration-color: #00171e;
+  color: #fff;
+  text-decoration-color: #fff;
 }
 
 footer a:hover {
@@ -205,15 +217,24 @@ footer a:hover {
   text-decoration-color: #fff;
 }
 
-.wrapper {
+.wrapper, .wrapper-single {
   display: grid;
-  grid-template-columns: 1fr min(60ch, calc(100% - 64px)) 1fr;
   grid-column-gap: .25rem;
+  justify-content: center;
 }
 
-.wrapper > * {
-  grid-column: 2;
+.wrapper {
+  gap: 3rem;
+  grid-template-columns: 37% 15%;
 }
+
+.wrapper-single {
+  grid-template-columns: 40%;
+}
+
+/* .wrapper > * {
+  grid-column: 2;
+} */
 
 .full-bleed {
   width: 100%;
@@ -231,6 +252,11 @@ td {
 
 table span {
   background-color: yellow;
+}
+
+.box {
+  border: 2px dotted #f1592a;
+  padding: 0 2rem 0 2rem;
 }
 
 @keyframes nav {

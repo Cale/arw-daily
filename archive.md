@@ -1,5 +1,5 @@
 ---
-layout: post-without-comments.njk
+layout: page.njk
 title: Archive of Amateur Radio Daily
 excerpt: This is the complete archive of Amateur Radio Daily.
 ogtype: website

@@ -1,28 +1,13 @@
 ---
-title: Amateur Radio Daily
+layout: shell.njk
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% seo "" %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Big+Shoulders+Display:wght@900&display=swap&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
-    <link rel="stylesheet" href="/css/daily.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="/" title="Amateur Radio Daily" class="logo">ARD</a>
-        <a href="/about/" title="About Amateur Radio Daily">About</a>
-        <a href="/tags/" title="Posts grouped by tag">Tags</a>
-        <a href="/archive/" title="List of all posts">Archive</a>
-        <a href="https://hamweekly.com/">Weekly Email</a>
-        <a href="/atom.xml" title="RSS feed">RSS</a>
-      </nav>
-    </header>
-    {{ content | safe }}
-    <footer><p>Amateur Radio Daily by <a rel="me" href="https://mastodon.radio/@K4HCK">K4HCK</a></p></footer>
-  </body>
-</html>
+      <article class="wrapper">
+        <div class="main">
+          {{ content | safe }}
+        </div>
+        <div class="side">
+          <div class="box submit-news">
+            <h3>Submit a Story</h3>
+          </div>
+        </div>
+      </article>
