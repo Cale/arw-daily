@@ -5,6 +5,7 @@ const pluginSEO = require("eleventy-plugin-seo");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true
   });
@@ -15,7 +16,7 @@ module.exports = function(eleventyConfig) {
     url: "https://daily.hamweekly.com",
     author: "K4HCK",
     twitter: "hamweekly",
-    image: "https://assets.midnightcheese.com/images/midnight-cheese-gradient.png",
+    image: "/images/amateur-radio-daily.png",
     options: {
       titleStyle: "minimalistic"
     }
