@@ -11,6 +11,6 @@ tags:
 ---
 The Northern California DX Foundation is preparing to offer $100,000 in grants to help mitigate deliberate interference in amateur radio activities.
 
-"NCDXF will entertain grant proposals from individuals and/or groups that specifically outline their approach to identify bad actors. A group of directors led by Craig Thompson (K9CT) and Don Greenbaum (N1DG) will weigh the probability of success of these proposals as well as monitor the progress of the grantees.
+> NCDXF will entertain grant proposals from individuals and/or groups that specifically outline their approach to identify bad actors. A group of directors led by Craig Thompson (K9CT) and Don Greenbaum (N1DG) will weigh the probability of success of these proposals as well as monitor the progress of the grantees.
 
-Funding is available for [research and development] as well as implementation of the technology. It is hoped that manufacturers will also assist us with equipment and resources."
+> Funding is available for [research and development] as well as implementation of the technology. It is hoped that manufacturers will also assist us with equipment and resources.

@@ -8,7 +8,7 @@ tags:
 - post
 - Licensing
 ---
-"...the Australian Maritime College (AMC), has decided not to extend its deed for the provision of amateur licensee services beyond February 2024."
+> ...the Australian Maritime College (AMC), has decided not to extend its deed for the provision of amateur licensee services beyond February 2024.
 
 Services will revert to the Australian Communications and Media Authority which will include new licensing classes and a new network of license examiners.
 

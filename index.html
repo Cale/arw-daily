@@ -9,14 +9,10 @@ pagination:
   alias: posts
 ---
 {% for post in posts %}
-  <article>
-    <h2>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h2>
-    <span class="date">{{ post.date | formatDate }}</span>
-    {{ post.templateContent }}
-    <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined">
-      open_in_new
-      </span></p>
-  </article>
+      <div class="home-post">
+      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+      <span class="date">{{ post.date | formatDate }}</span>
+      {{ post.templateContent }}
+      <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
+    </div>
 {% endfor %}

@@ -34,8 +34,12 @@ main {
 }
 
 .side {
-  display: none;
   padding-top: 4rem;
+}
+
+.side p {
+  font-size: .9rem;
+  line-height: 1.5rem;
 }
 
 header {
@@ -109,6 +113,10 @@ article img {
   font-size: 1rem;
 }
 
+.home-post {
+  margin-bottom: 6.5rem;
+}
+
 .material-symbols-outlined {
   font-size: 1.1rem;
 }
@@ -135,14 +143,29 @@ div h2 a {
   line-height: 3rem;
 }
 
-code, pre {
-  background-color: #eff9fc;
-  border: 1px solid #20c3f9;
-  border-radius: 5px;
-  color: #07789e;
-  font-size: .9rem;
+blockquote {
+  background-color: #f7f7f7;
+  border-left: 5px solid #ffde16;
+  color: #444;
   margin-bottom: .5rem;
-  padding: .5rem 1rem .5rem 1rem;
+  padding: 0;
+}
+
+blockquote::before {
+  font-family:Arial;
+  content: "\201C";
+  color: #444;
+  font-size:4em;
+  position: absolute;
+  margin: 2.5rem 0 0 .75rem;
+}
+
+blockquote::after {
+  content: '';
+}
+
+blockquote p {
+  padding: 1.5rem 1.5rem 1.5rem 3rem;
 }
 
 .tags-list {
@@ -270,7 +293,17 @@ table span {
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1500px) {
+  .wrapper {
+    gap: 3rem;
+    grid-template-columns: 55% 30%;
+  }
+  .wrapper-single {
+    grid-template-columns: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
     header a {
       font-size: .85rem;
       margin-left: .5rem;
@@ -289,7 +322,25 @@ table span {
     .full-bleed {
       grid-column: 2;
     }
-    h1 {
-      font-size: 2.5rem;
+    .wrapper, .wrapper-single {
+      display: block;
+    }
+    article {
+      padding: 1rem 1.75rem;
+    }
+    h1, h2 {
+      font-size: 1.75rem;
+    }
+    h1.home-header {
+      font-size: 3.5rem;
+    }
+    blockquote {
+      margin: 1rem 0;
+    }
+    blockquote p {
+      padding: 1rem 0 1rem 1rem;
+    }
+    blockquote::before {
+      display: none;
     }
 }
