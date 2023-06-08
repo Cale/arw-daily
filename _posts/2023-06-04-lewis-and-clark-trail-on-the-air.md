@@ -1,7 +1,7 @@
 ---
 title: Lewis and Clark Trail on the Air Event is Active
 date: 2023-06-04
-excerpt: special event commemorates the historic Lewis and Clark Trail.
+excerpt: Special event commemorates the historic Lewis and Clark Trail.
 source: Lewis and Clark Trail on the Air
 sourceurl: https://lctota.org/
 tags:
