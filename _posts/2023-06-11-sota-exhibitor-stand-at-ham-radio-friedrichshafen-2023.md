@@ -8,6 +8,7 @@ tags:
 - post
 - SOTA
 - HAM RADIO Friedrichshafen
+- Hamfest
 ---
 For the first time, [SOTA](https://www.sota.org.uk/) will have its own booth at [HAM RADIO](https://www.hamradio-friedrichshafen.com/) this year (June 23-25). SOTA is short for Summits on the Air and is an award scheme for radio amateurs that encourages portable operation in mountainous areas.
 
