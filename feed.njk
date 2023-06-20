@@ -26,7 +26,8 @@
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.post %}
+  {%- for post in collections.post | reverse %}
+  {% if loop.index0 < 20 %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -39,5 +40,6 @@
       &lt;p&gt;Source: &lt;a href="{{ post.data.sourceurl | url }}"&gt;{{ post.data.source }}&lt;/a&gt;&lt;/p&gt;
     </content>
   </entry>
-  {%- endfor %}
+{%- endif %}
+{%- endfor %}
 </feed>
