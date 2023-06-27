@@ -282,6 +282,13 @@ table span {
   padding: 0 2rem 0 2rem;
 }
 
+/* YouTube iframe */
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
 @keyframes nav {
   from {
     color: #def4fc;
