@@ -83,10 +83,10 @@ header a:hover {
 }
 
 .home-header {
-  font-family: 'Big Shoulders Display', sans-serif;
+  font-family: 'Newsreader', sans-serif;
   font-size: 5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
   padding-top: 2.5rem;
 }
 
