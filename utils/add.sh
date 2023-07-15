@@ -2,9 +2,9 @@
 
 postname=""
 read -p "Enter new post name YYYY-MM-DD-name: " postname
-#touch ../_posts/$postname.md
+#touch /home/cale/Documents/projects/arw-daily/_posts/$postname.md
 
-cat > ../_posts/$postname.md <<'_EOF'
+cat > /home/cale/Documents/projects/arw-daily/_posts/$postname.md <<'_EOF'
 ---
 title: 
 date: 2023-07-00
