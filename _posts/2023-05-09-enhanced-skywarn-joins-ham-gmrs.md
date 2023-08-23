@@ -9,7 +9,7 @@ tags:
 - SKYWARN
 - GMRS
 - Outreach
-- Clubs
+- Amateur Radio Club
 ---
 Gary, AK4ZX, Director of the Chattanooga Amateur Radio Club emailed me this morning and described an exciting endevour in which their club has created an [enhanced SKYWARN network](https://www.w4am.net/enhanced-skywarn/) by incorporating both Ham and GMRS repeater systems. Even more intriguing is the club's embrace of GMRS users as an effort to expand the Ham Radio hobby. From Gary's email:
 
