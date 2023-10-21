@@ -9,6 +9,6 @@ tags:
 - Antenna
 - Dipole
 ---
-Thanks to Tom Pierce K8EBR for submitting his write-up of a 20 meter vertical half-wave dipole. Tom describes an outstanding antenna for DX primarily because it is an efficient radiator, it exhibits a true 50 ohm input impedance, and it has an almost ideal horizontal toroid low angle radiation pattern.
+Thanks to Tom Pierce (K8EBR) for submitting his write-up of a 20 meter vertical half-wave dipole. Tom describes an outstanding antenna for DX primarily because it is an efficient radiator, it exhibits a true 50 ohm input impedance, and it has an almost ideal horizontal toroid low angle radiation pattern.
 
 <iframe src="https://docs.google.com/document/d/e/2PACX-1vSuJ5fAh9rmOll6V06NRD_moQKj7rKX1ilVcwrQzfnTJhFSjcnkFVCQ7F0PzvYpFQ/pub?embedded=true" style="width: 100%; height: 50rem;"></iframe>
