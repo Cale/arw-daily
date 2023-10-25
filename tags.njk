@@ -3,10 +3,11 @@ pagination:
   data: collections
   size: 1
   alias: tag
-excerpt: 'Tagged posts published to Amateur Radio Daily.'
-title: Tagged posts
 layout: page-single-column.njk
+eleventyComputed:
+  excerpt: Posts from Amateur Radio Daily with the {{ tag }} tag.
 permalink: /tags/{{ tag | slug }}/
+title: Tagged posts | Amateur Radio Daily
 ---
 <h1>Tagged <em>{{ tag }}</em></h1>
 
