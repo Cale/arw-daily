@@ -1,16 +1,16 @@
 ---
-excerpt: "All posts published to Amateur Radio Daily with the {{ tag }} tag."
-title: Posts tagged {{ tag }}
-layout: page-single-column.njk
-permalink: /tags/{{ tag | slug }}/
 pagination:
   data: collections
   size: 1
   alias: tag
+excerpt: 'Tagged posts published to Amateur Radio Daily.'
+title: Tagged posts
+layout: page-single-column.njk
+permalink: /tags/{{ tag | slug }}/
 ---
 <h1>Tagged <em>{{ tag }}</em></h1>
 
-{% set postslist = collections[tag] %}
+{% set postslist = collections[tag] | filterScheduledPosts%}
 <ul class="tagged-posts">
     {% for post in postslist | reverse %}
       <li>

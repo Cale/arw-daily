@@ -24,8 +24,12 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  eleventyConfig.addFilter("filterScheduledPosts", scheduled => {
+    return scheduled.filter(livePosts);
+  });
+
   eleventyConfig.addFilter("filterTagList", tags => {
-    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["post", "posts"].indexOf(tag) === -1);
   });
 
   eleventyConfig.addFilter("formatDate", dateObj => {
