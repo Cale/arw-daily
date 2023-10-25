@@ -4,9 +4,8 @@ title: Archive of Amateur Radio Daily
 excerpt: This is the complete archive of Amateur Radio Daily.
 ogtype: website
 pagination:
-  data: collections.post
+  data: collections.posts
   size: 10000
-  reverse: true
   alias: posts
 ---
 # Amateur Radio Daily Archive

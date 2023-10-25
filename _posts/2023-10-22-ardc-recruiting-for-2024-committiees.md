@@ -1,7 +1,7 @@
 ---
-title: ARDC Recruiting for 2024 Committiees
+title: ARDC Recruiting for 2024 Committees
 date: 2023-10-22
-excerpt: 
+excerpt: ARDC seeks committee volunteers for 2024.
 source: ARDC
 sourceurl: https://www.ardc.net/ardc-committee-recruitment-2024/
 tags:

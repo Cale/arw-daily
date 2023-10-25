@@ -1,6 +1,8 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
 const pluginSEO = require("eleventy-plugin-seo");
+const now = new Date();
+const livePosts = p => p.date <= now;
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -36,10 +38,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
-    collection.getAll().forEach(item => {
+    collection.getAll().filter(livePosts).forEach(item => {
       (item.data.tags || []).forEach(tag => tagSet.add(tag));
     });
     return [...tagSet];
+  });
+
+  eleventyConfig.addCollection("posts", collection => {
+    return collection.getFilteredByGlob('./_posts/*.md')
+      .filter(livePosts).reverse();
   });
 
   return {
