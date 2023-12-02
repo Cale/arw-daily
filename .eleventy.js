@@ -40,6 +40,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy/MM");
   });
 
+  eleventyConfig.addFilter('formatISO8601Date', dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISO();
+  })
+
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
     collection.getAll().filter(livePosts).forEach(item => {

@@ -14,3 +14,20 @@ layout: shell.njk
           {% include 'sidebar-content.njk' %}
         </div>
       </article>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "{{ title }}",
+        "image": [
+          "https://daily.hamweekly.com/images/amateur-radio-daily.png"
+        ],
+        "datePublished": "{{ date | formatISO8601Date }}",
+        "dateModified": "{{ date | formatISO8601Date }}",
+        "author": [{
+            "@type": "Person",
+            "name": "K4HCK Cale",
+            "url": "https://daily.hamweekly.com/about/"
+          }]
+      }
+      </script>
