@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
     title: "Amateur Radio Daily | Ham Radio News",
     description: "A daily log of Ham Radio related news stories.",
     url: "https://daily.hamweekly.com",
-    author: "K4HCK",
+    author: "K4HCK Cale",
     twitter: "hamweekly",
     image: "/images/amateur-radio-daily.png",
     options: {
