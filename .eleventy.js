@@ -3,6 +3,11 @@ const { DateTime } = require("luxon");
 const pluginSEO = require("eleventy-plugin-seo");
 const now = new Date();
 const livePosts = p => p.date <= now;
+const recentPosts = function(p) {
+  if (p.date >= DateTime.now().minus({days: 2}) && p.date <= now) {
+    return p.date
+  }
+}
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -42,7 +47,11 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('formatISO8601Date', dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISO();
-  })
+  });
+
+  eleventyConfig.addFilter("formatSitemapDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy-MM-dd");
+  });
 
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
@@ -50,6 +59,11 @@ module.exports = function(eleventyConfig) {
       (item.data.tags || []).forEach(tag => tagSet.add(tag));
     });
     return [...tagSet];
+  });
+
+  eleventyConfig.addCollection("recentNews", collection => {
+    return collection.getFilteredByGlob('./_posts/*.md')
+      .filter(recentPosts).reverse();
   });
 
   eleventyConfig.addCollection("posts", collection => {
