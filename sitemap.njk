@@ -1,0 +1,27 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for post in collections.posts %}
+  <url>
+    <loc>https://daily.hamweekly.com{{ post.url | url }}</loc>
+    <lastmod>{{ post.date | formatSitemapDate }}</lastmod>
+  </url>
+{% endfor %}
+  <url>
+    <loc>https://daily.hamweekly.com/about/</loc>
+    <lastmod>2023-12-10</lastmod>
+  </url>
+  <url>
+    <loc>https://daily.hamweekly.com/tags/</loc>
+    <lastmod>2023-12-10</lastmod>
+  </url>
+{% for tag in collections.tagList | filterTagList %}
+  <url>
+    <loc>https://daily.hamweekly.com/tags/{{tag | slug }}</loc>
+    <lastmod>2023-12-10</lastmod>
+  </url>
+{% endfor %}
+</urlset>

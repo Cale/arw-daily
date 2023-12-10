@@ -7,7 +7,7 @@ sourceurl: https://www.fcc.gov/document/fcc-adopts-rules-modernizing-amateur-rad
 tags:
 - post
 - FCC
-- Symbol Rate
+- Symbol Rate Limit
 ---
 > The Report and Order adopted today eliminates the baud rate limitation—the rate at which the carrier waveform amplitude, frequency, and/or phase is varied to transmit information—in certain amateur radio bands. Instead, the Commission establishes a 2.8 kHz bandwidth limitation in the applicable amateur radio bands. The changes will enable the amateur radio community to operate more efficiently, including in support of emergency situations when appropriate, and foster experimentation, which is a core principle of the amateur radio service.
 
