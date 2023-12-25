@@ -71,6 +71,8 @@ module.exports = function(eleventyConfig) {
       .filter(livePosts).reverse();
   });
 
+  eleventyConfig.addPassthroughCopy({ "images/favicon.png": "/" });
+
   return {
     passthroughFileCopy: true,
     dir: {
