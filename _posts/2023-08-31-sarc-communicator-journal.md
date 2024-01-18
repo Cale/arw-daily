@@ -7,6 +7,8 @@ sourceurl: https://ve7sar.blogspot.com/2023/08/the-september-october-sarc-commun
 tags:
 - post
 - SARC
+- Newsletter
+- The Communicator
 ---
 The September-October 2023 [SARC](https://ve7sar.net/) Communicator Journal is now available at [https://tinyurl.com/SARC23Sep-Oct](https://tinyurl.com/SARC23Sep-Oct).
 

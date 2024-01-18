@@ -8,6 +8,7 @@ tags:
 - post
 - SARC
 - The Communicator
+- Newsletter
 ---
 John (VE7TI) from [Surrey Amateur Radio Communications](https://ve7sar.net/) writes in to relay news of the latest issue of *The Communicator*:
 

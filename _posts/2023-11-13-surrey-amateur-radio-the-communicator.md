@@ -8,6 +8,7 @@ tags:
 - post
 - SARC
 - The Communicator
+- Newsletter
 ---
 [Surrey Amateur Radio Communications](https://ve7sar.blogspot.com) has published the November - December issue of [The Communicator](https://ve7sar.blogspot.com/2023/10/the-november-december-communicator-is.html), a popular and content-rich bi-monthly newsletter. This issue includes:
 
