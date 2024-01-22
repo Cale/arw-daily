@@ -1,6 +1,6 @@
 ---
 title: CQ Pride 2024 Special Event
-date: 2024-01-21
+date: 2024-01-22
 excerpt: Multi-day special event runs June 7 - 17.
 source: Pride Radio Group
 sourceurl: https://prideradio.group/news/announcing-cq-pride-2024-special-event
