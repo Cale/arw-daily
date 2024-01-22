@@ -41,7 +41,15 @@ This page highlights some of the best publications, organizations, and overall l
 ## Organizations
 
 - [ARDC](https://www.ardc.net/)
+- [Blind Hams](https://blindhams.wordpress.com/)
 - [HamSCI](https://hamsci.org/)
+- [Pride Radio Group](https://prideradio.group/)
+
+### Clubs
+
+- [Nashville Amateur Radio Club](https://nashvilleamateurradio.club/)
+- [Mount Juliet Simplex Society](https://146415.net/)
+- [Chattanooga Amateur Radio](https://www.w4am.net/)
 
 ## Social Media
 
