@@ -288,6 +288,13 @@ iframe {
   margin: 0 auto;
   max-width: 100%;
 }
+
+iframe.mastodon {
+  border: 0;
+  width: 100%;
+  height: 325px;
+}
+
 @keyframes nav {
   from {
     color: #def4fc;
