@@ -8,7 +8,7 @@ tags:
 - post
 - AMSAT
 - AO-73
-- FunCube
+- FUNCube
 - Satellite
 ---
 > After a good period of transponder activity FUNcube batteries need a short rest. We plan to switch the transponder OFF between March 3rd to 15th subject to operational conditions. The satellite will be placed Safe mode and will still provide low power telemetry
