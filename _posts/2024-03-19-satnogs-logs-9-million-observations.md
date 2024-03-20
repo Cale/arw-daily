@@ -1,5 +1,5 @@
 ---
-title: SatNOGS Logs 9 million Satellite Observations
+title: SatNOGS Logs 9 Million Satellite Observations
 date: 2024-03-19
 excerpt: Global network continues to capture observations from low-earth orbit satellites.
 source: SatNOGS
