@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("filterTagList", tags => {
-    return (tags || []).filter(tag => ["post", "posts"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["post", "posts", "event"].indexOf(tag) === -1);
   });
 
   eleventyConfig.addFilter("formatDate", dateObj => {
@@ -51,6 +51,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("formatSitemapDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy-MM-dd");
+  });
+
+  eleventyConfig.addFilter("limit", function(array, limit) {
+    return array.slice(0, limit);
   });
 
   eleventyConfig.addCollection("tagList", function(collection) {

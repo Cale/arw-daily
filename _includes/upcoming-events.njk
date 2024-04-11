@@ -1,0 +1,10 @@
+<h3>Upcoming Events</h3>
+{% for event in collections.event | sort(true, false, 'data.eventdate') | limit(8) %}
+   <div>
+      <span>{{ event.data.eventdate | formatDate }}</span>
+      <h4><a href="{{ event.url | url }}">{{ event.data.title }}</a></h4>
+      <p>{{ event.data.excerpt }}</p>
+   </div>
+{% endfor %}
+
+<p><a href="#">View all events</a></p>

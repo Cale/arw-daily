@@ -1,0 +1,43 @@
+---
+title: Amateur Radio Daily
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="228x228">
+    {% seo "" %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Big+Shoulders+Display:wght@900&display=swap&family=Newsreader:opsz,wght@6..72,700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <link rel="stylesheet" href="/css/daily.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/" title="Amateur Radio Daily" class="logo">Amateur Radio Daily</a>
+        <a href="/tags/" title="Posts grouped by tag">Tags</a>
+        <a href="/archive/" title="List of all posts">Archive</a>
+        <a href="https://hamweekly.com/">Weekly Email</a>
+        <a href="/links/">Links</a>
+        <a href="/about/" title="About Amateur Radio Daily">About</a>
+        <a href="/atom.xml" title="RSS feed">RSS</a>
+      </nav>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      <p><a href="/about/" title="About Amateur Radio Daily">About</a> | <a href="/tags/" title="Posts grouped by tag">Tags</a> | <a href="/archive/" title="List of all posts">Archive</a> | <a href="https://hamweekly.com/">Weekly Email</a> | <a href="/links/">Links</a> | <a href="/atom.xml" title="RSS feed">RSS</a></p>
+      <p>Amateur Radio Daily by <a rel="me" href="https://mastodon.radio/@K4HCK">K4HCK</a></p>
+    </footer>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HR844EZ86W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-HR844EZ86W');
+    </script>
+  </body>
+</html>
