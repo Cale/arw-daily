@@ -4,7 +4,7 @@ date: 2024-03-16
 excerpt: MAD takes place April 6 at the location of Canada's Cold War Museum.
 source: West Carleton Amateur Radio Club
 sourceurl: https://wcarc.ca/mad.html
-eventdate: 2024-01-01
+eventdate: 2024-04-06
 tags:
 - post
 - event

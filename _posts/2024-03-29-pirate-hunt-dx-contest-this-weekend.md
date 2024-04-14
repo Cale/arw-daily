@@ -4,7 +4,7 @@ date: 2024-03-29
 excerpt: Finnish DX club sponsors event hunting pirate stations.
 source: Sisä-Suomen Radioaktiiviset
 sourceurl: http://www.radioaktiiviset.info/blog-55-pirate-hunt-2024
-eventdate: 2024-04-30
+eventdate: 2024-03-29
 tags:
 - post
 - event
