@@ -4,8 +4,10 @@ date: 2024-01-09
 excerpt: Small-satellite conference takes place April 23-25 2024.
 source: CubeSat
 sourceurl: https://www.cubesatdw.org/
+eventdate: 2024-04-23
 tags:
 - post
+- event
 - CubeSat Developers Workshop
 ---
 > The [CubeSat Developers Workshop](https://www.cubesatdw.org/) is an annual 3-day global small-satellite conference hosted by CubeSat at Cal Poly, San Luis Obispo. In most recent years, the conference has grown immensely with over 600 attendees and 50 countries represented. This year’s conference will be held from April 23-25, 2024.

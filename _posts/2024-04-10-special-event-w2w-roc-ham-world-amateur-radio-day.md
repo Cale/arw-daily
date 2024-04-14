@@ -7,6 +7,7 @@ sourceurl: https://www.roc-ham.net/ward-2024/
 eventdate: 2024-04-18
 tags:
 - post
+- event
 - Special Event
 - World Amateur Radio Day
 ---

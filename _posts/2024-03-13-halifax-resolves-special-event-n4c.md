@@ -4,8 +4,10 @@ date: 2024-03-13
 excerpt: Hams will operate special event station N4C to commemorate Halifax Resolves.
 source: N4WFU
 sourceurl: https://daily.hamweekly.com/2024/03/halifax-resolves-special-event-n4c/
+eventdate: 2024-04-11
 tags:
 - post
+- event
 - Special Event
 ---
 By Barry Evans (N4WFU)
