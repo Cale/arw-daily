@@ -2,16 +2,13 @@
 title: Amateur Radio Daily | Daily news from the world of Ham Radio
 ogtype: website
 layout: page-index.njk
-pagination:
-  data: collections.posts
-  size: 10
-  alias: posts
 ---
-{% for post in posts %}
+<span>Latest Story</span>
+{% for post in collections.posts limit:1 %}
       <div class="home-post">
-      <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-      <span class="date">{{ post.date | formatDate }}</span>
-      {{ post.templateContent }}
-      <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
+        <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+        <span class="date">{{ post.date | formatDate }}</span>
+        {{ post.templateContent }}
+        <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
     </div>
 {% endfor %}

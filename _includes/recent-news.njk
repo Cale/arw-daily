@@ -1,0 +1,7 @@
+{% for news in collections.posts | limit(8) %}
+   <div>
+      <h4><a href="{{ news.url | url }}">{{ news.data.title }}</a></h4>
+      <p>{{ news.data.excerpt }}</p>
+      <span class="date">{{ news.date | formatDate }}</span>
+   </div>
+{% endfor %}
