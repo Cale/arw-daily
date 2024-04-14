@@ -264,6 +264,25 @@ footer a:hover {
   grid-column: 1 / -1;
 }
 
+.recent, .events {
+  display: grid;
+  gap: 1rem 3rem;
+  grid-template-columns: 26% 26%;
+  justify-content: center;
+}
+
+.section-header, .section-footer {
+  grid-column: 1 / 3;
+}
+
+.section-header {
+  border-top: 2px dotted #f1592a;
+  border-bottom: 2px dotted #f1592a;
+  font-family: 'Newsreader', sans-serif;
+  font-size: 1.5rem;
+  padding: .5rem 0 .5rem 0;
+}
+
 table {
     border-collapse: collapse;
 }

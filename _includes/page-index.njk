@@ -11,9 +11,12 @@ layout: shell.njk
           {% include 'sidebar-content.njk' %}
         </div>
       </article>
-      <section>
+      <section class="recent">
+        <h3 class="section-header">Recent News</h3>
         {% include 'recent-news.njk' %}
       </section>
-      <section>
+      <section class="events">
+        <h3 class="section-header">Upcoming Events</h3>
         {% include 'upcoming-events.njk' %}
+        <p class="section-footer"><a href="#">View all events</a></p>
       </section>
