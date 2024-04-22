@@ -31,6 +31,7 @@ a:hover {
 
 main {
   background-color: #fff;
+  padding-bottom: 3rem;
 }
 
 .side {
@@ -111,10 +112,6 @@ article img {
 .date, .source {
   color: #aaa;
   font-size: 1rem;
-}
-
-.home-post {
-  margin-bottom: 6.5rem;
 }
 
 .material-symbols-outlined {
@@ -269,6 +266,7 @@ footer a:hover {
   gap: 1rem 3rem;
   grid-template-columns: 26% 26%;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .section-header, .section-footer {
@@ -280,7 +278,28 @@ footer a:hover {
   border-bottom: 2px dotted #f1592a;
   font-family: 'Newsreader', sans-serif;
   font-size: 1.5rem;
-  padding: .5rem 0 .5rem 0;
+  margin-bottom: 0;
+  padding: .7rem 0 .5rem 0;
+}
+
+.recent h4, .events h4 {
+  margin-bottom: -.5rem;
+}
+
+.events h4 {
+  margin-top: .5rem;
+}
+
+.recent h4 a, .events h4 a {
+  text-decoration-style: solid;
+}
+
+.recent p, .events p {
+  margin-bottom: .25rem;
+}
+
+.events div {
+  margin-top: 1.25rem;
 }
 
 table {
