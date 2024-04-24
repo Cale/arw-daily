@@ -2,6 +2,7 @@ body {
   background-color: #00171e;
   color: #00171e;
   font-family: 'Noto Sans', sans-serif;
+  font-variant-numeric: slashed-zero;
   margin: 0;
   padding: 0;
 }
