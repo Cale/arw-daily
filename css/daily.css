@@ -318,6 +318,7 @@ table span {
 
 .box {
   border: 2px dotted #f1592a;
+  margin-bottom: 1rem;
   padding: 0 2rem 1rem 2rem;
 }
 
