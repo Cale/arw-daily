@@ -24,6 +24,7 @@ This page highlights some of the best publications, organizations, and overall l
 
 ### Podcasts
 
+- [Prep Comms](https://hamradionetwork.com/prepcomms)
 - [HamRadio360](http://hamradio360.com/)
 
 ### News
