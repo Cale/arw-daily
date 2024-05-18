@@ -336,6 +336,19 @@ iframe.mastodon {
   height: 325px;
 }
 
+/* Audio Player */
+
+figure {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+audio {
+  display: block;
+  padding: 1rem 0;
+  width: 100%;
+}
+
 @keyframes nav {
   from {
     color: #def4fc;
