@@ -1,7 +1,7 @@
 ---
 title: 2024 ARRL National Convention at Dayton Hamvention
 date: 2024-04-26
-excerpt: 
+excerpt: The convention focuses on all things ARRL.
 source: ARRL
 sourceurl: https://www.arrl.org/arrl-expo
 tags:

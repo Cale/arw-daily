@@ -2,7 +2,7 @@
 title: 'Hamvention Interview: Amateur Radio Emergency Data Network (AREDN)'
 date: 2024-05-17
 excerpt: Interview with Randy (WU2S) and Tim (KN6PLV) of AREDN.
-source: Amateur Radio Weekly
+source: Amateur Radio Daily
 sourceurl: https://daily.hamweekly.com/2024/05/hamvention-interview-aredn-amateur-radio-emergency-data-network/
 tags:
 - post
