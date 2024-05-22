@@ -24,16 +24,19 @@ This page highlights some of the best publications, organizations, and overall l
 
 ### Podcasts
 
+- [ICQ Amateur / Ham Radio Podcast](https://www.icqpodcast.com/)
+- [Linux in the Ham Shack](https://lhspodcast.info/)
 - [Prep Comms](https://hamradionetwork.com/prepcomms)
 - [HamRadio360](http://hamradio360.com/)
 
 ### News
 
 - [Ham Radio Newsline](https://www.arnewsline.org/)
-- [ICQ Podcast](https://www.icqpodcast.com/news)
+- [ICQ Podcast News](https://www.icqpodcast.com/news)
 
 ### Blogs
 
+- [blogs.radio](https://blogs.radio/i/)
 - [Ham Radio Outside the Box](https://hamradiooutsidethebox.ca)
 - [AmateurRadio.com](https://www.amateurradio.com)
 - [KB6NU](https://www.kb6nu.com/)
@@ -41,6 +44,7 @@ This page highlights some of the best publications, organizations, and overall l
 
 ## Organizations
 
+- [ARRL](http://www.arrl.org/)
 - [ARDC](https://www.ardc.net/)
 - [Blind Hams](https://blindhams.wordpress.com/)
 - [HamSCI](https://hamsci.org/)
@@ -61,6 +65,7 @@ This page highlights some of the best publications, organizations, and overall l
 ## Resources
 
 - [Digital Library of Amateur Radio & Communications](https://archive.org/details/dlarc)
+- [Open Source in Amateur Radio](https://opensource.radio/)
 - [NetFinder](https://netfinder.radio/)
 
 ## Projects
