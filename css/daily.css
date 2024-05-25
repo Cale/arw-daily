@@ -368,6 +368,9 @@ audio {
   .wrapper-single {
     grid-template-columns: 40%;
   }
+  .recent, .events {
+    grid-template-columns: 36% 36%;
+  }
 }
 
 @media screen and (max-width: 900px) {
