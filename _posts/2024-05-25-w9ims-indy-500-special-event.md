@@ -1,6 +1,6 @@
 ---
 title: W9IMS Indy 500 Special Event
-date: 2024-05-26
+date: 2024-05-25
 excerpt: Special event runs May 20 - 26.
 source: W9IMS
 sourceurl: https://www.qrz.com/db/w9ims

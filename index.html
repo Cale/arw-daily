@@ -3,7 +3,7 @@ title: Amateur Radio Daily | Daily news from the world of Ham Radio
 ogtype: website
 layout: page-index.njk
 ---
-{% for post in collections.posts limit:1 %}
+{% for post in collections.posts limit:2 %}
       <div class="home-post">
         <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
         <span class="date">{{ post.date | formatDate }}</span>
