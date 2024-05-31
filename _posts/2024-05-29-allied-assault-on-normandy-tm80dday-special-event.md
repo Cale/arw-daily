@@ -10,7 +10,7 @@ tags:
 - event
 - Special Event
 ---
-Plusscouts will be operating a special event station at the D-Day Museum at Omaha Beach to commemorate the 80th anniversary of Allied Forces landing at Normandy on D-Day. The event callsign will be TM80DDAY. Additional information can be found on the [Plusscouts website](http://pa3efr.nl/index.php) and on the corresponding [QRZ page](https://www.qrz.com/db/tm80dday).
+June 4-10 Plusscouts will be operating a special event station at the D-Day Museum at Omaha Beach to commemorate the 80th anniversary of Allied Forces landing at Normandy on D-Day. The event callsign will be TM80DDAY. Additional information can be found on the [Plusscouts website](http://pa3efr.nl/index.php) and on the corresponding [QRZ page](https://www.qrz.com/db/tm80dday).
 
 Planned operating frequencies include:
 
