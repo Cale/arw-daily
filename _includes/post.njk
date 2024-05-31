@@ -4,11 +4,9 @@ layout: shell.njk
       <article class="wrapper">
         <h1 class="full-bleed">{{ title }}</h1>
         <div class="main">
-          <span class="date">{{ date | formatDate }}</span>
+          <span class="post-date">{{ date | formatDate }}</span>
           {{ content | safe }}
-          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined">
-  open_in_new
-  </span></p>
+          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined"></span></p>
         </div>
         <div class="side">
           {% include 'sidebar-content.njk' %}
