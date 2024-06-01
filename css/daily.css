@@ -44,38 +44,6 @@ main {
   line-height: 1.5rem;
 }
 
-/* header {
-  background-color: #20c3f9;
-  background-image:
-    linear-gradient(
-      to right,
-      #f1592a, #ffde16
-    );
-  color: #fff;
-  padding: .25rem 2rem;
-  text-align: center;
-} */
-
-/* header a {
-  color: #fff;
-  font-weight: bold;
-  margin-right: 2rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-header a:hover {
-  animation-name: nav;
-  animation-duration: .5s;
-  background-color: transparent;
-  color: #fff;
-  text-decoration: underline;
-  text-decoration-color: #000;
-  text-underline-offset: .3em;
-  text-decoration-style: dotted;
-  text-decoration-thickness: .2em;
-} */
-
 header {
   background-color: #fff;
   padding-top: .75rem;
@@ -309,10 +277,6 @@ footer a:hover {
   grid-template-columns: 55%;
 }
 
-/* .wrapper > * {
-  grid-column: 2;
-} */
-
 .full-bleed {
   width: 100%;
   grid-column: 1 / -1;
@@ -424,6 +388,12 @@ audio {
   .wrapper-single {
     grid-template-columns: 40%;
   }
+  .wrapper-header {
+    grid-template-columns: 90%;
+  }
+  nav a {
+    padding: 0 .1rem;
+  }
   .recent, .events {
     grid-template-columns: 36% 36%;
   }
@@ -444,6 +414,12 @@ audio {
       font-size: 2rem;
       margin: 0;
       text-align: center;
+    }
+    header.wrapper-header .home-header-logo {
+      padding-top: 0;
+    }
+    header.wrapper-header .home-header-logo a {
+      font-size: 2.5rem;
     }
     .full-bleed {
       grid-column: 2;
