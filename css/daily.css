@@ -397,6 +397,9 @@ audio {
   .recent, .events {
     grid-template-columns: 36% 36%;
   }
+  h1.full-bleed {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
