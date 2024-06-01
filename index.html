@@ -6,7 +6,7 @@ layout: page-index.njk
 {% for post in collections.posts limit:2 %}
       <div class="home-post">
         <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
-        <span class="date">{{ post.date | formatDate }}</span>
+        <span class="post-date">{{ post.date | formatDate }}</span>
         {{ post.templateContent }}
         <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
     </div>

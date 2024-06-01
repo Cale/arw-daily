@@ -11,17 +11,24 @@ title: Amateur Radio Daily
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Big+Shoulders+Display:wght@900&display=swap&family=Newsreader:opsz,wght@6..72,700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
     <link rel="stylesheet" href="/css/daily.css">
+    <script defer src="/js/daily.js"></script>
   </head>
   <body>
-    <header>
+    <header class="wrapper-header">
+      <div class="top-header-row" id="header-date"></div>
+      <h1 class="home-header-logo"><a href="/">Amateur Radio Daily</a></h1>
       <nav>
-        <a href="/" title="Amateur Radio Daily" class="logo">Amateur Radio Daily</a>
-        <a href="/tags/" title="Posts grouped by tag">Tags</a>
-        <a href="/archive/" title="List of all posts">Archive</a>
-        <a href="https://hamweekly.com/">Weekly Email</a>
-        <a href="/links/">Links</a>
-        <a href="/about/" title="About Amateur Radio Daily">About</a>
-        <a href="/atom.xml" title="RSS feed">RSS</a>
+        <a href="/tags/event">Events</a>
+        <a href="/recent-news/">Recent News</a>
+        <a href="/tags/hamvention/">Hamvention</a>
+        <span>
+          <a href="/tags/" title="Posts grouped by tag">Tags</a>
+          <a href="/archive/" title="List of all posts">Archive</a>
+          <a href="https://hamweekly.com/">Newsletter</a>
+          <a href="/links/">Links</a>
+          <a href="/about/" title="About Amateur Radio Daily">About</a>
+          <a href="/atom.xml" title="RSS feed">RSS</a>
+        </span>
       </nav>
     </header>
     <main>
