@@ -369,6 +369,12 @@ audio {
   width: 100%;
 }
 
+/* Ads */
+
+.single-post-ad {
+  text-align: center;
+}
+
 @keyframes nav {
   from {
     color: #def4fc;
