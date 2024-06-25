@@ -1,5 +1,5 @@
 ---
-title: Ham radio job opportunity
+title: Ham Radio Job Opportunity
 date: 2024-06-24
 excerpt: ARDC seeks Technology Department Manager.
 source: ARDC
