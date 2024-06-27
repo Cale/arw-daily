@@ -7,25 +7,14 @@ layout: shell.njk
           <span class="post-date">{{ date | formatDate }}</span>
           {{ content | safe }}
           <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined"></span></p>
+          <div class="ad">
+            <a target="_blank" href="https://shareasale.com/r.cfm?b=2156382&amp;u=3294231&amp;m=83272&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/83272/Ham-radio-prep-marketing-square.png" border="0" /></a>
+          </div>
         </div>
         <div class="side">
           {% include 'sidebar-content.njk' %}
         </div>
       </article>
-      <section class="single-post-ad">
-        <div>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4415484158732311"
-      crossorigin="anonymous"></script>
-          <!-- SIngle article ad ARW -->
-          <ins class="adsbygoogle"
-              style="display:inline-block;width:728px;height:90px"
-              data-ad-client="ca-pub-4415484158732311"
-              data-ad-slot="5804825909"></ins>
-          <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </div>
-      </section>
       <section class="recent">
         <h3 class="section-header">Recent News</h3>
         {% include 'recent-news.njk' %}

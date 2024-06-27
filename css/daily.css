@@ -371,6 +371,11 @@ audio {
 
 /* Ads */
 
+.ad {
+  margin: 3rem auto 0 auto;
+  width: 50%;
+}
+
 .single-post-ad {
   text-align: center;
 }
@@ -453,5 +458,8 @@ audio {
     }
     blockquote::before {
       display: none;
+    }
+    .ad {
+      width: auto;
     }
 }
