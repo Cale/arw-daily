@@ -1,5 +1,5 @@
 ---
-title: GigaParts to expand Huntsville Store, Expand Product Lines
+title: GigaParts to Expand Huntsville Store, Product Lines
 date: 2023-10-18
 excerpt: GigaParts will be one of the largest technology stores in the southeast US.
 source: GigaParts
