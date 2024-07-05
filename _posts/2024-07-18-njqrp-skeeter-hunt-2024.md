@@ -7,7 +7,7 @@ sourceurl: https://www.qsl.net/w2lj/
 eventdate: 2024-08-18
 tags:
 - post
-- event
+
 - NJQRP
 - Contest
 ---
