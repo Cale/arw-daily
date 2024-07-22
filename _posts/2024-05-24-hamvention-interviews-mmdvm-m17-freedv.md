@@ -8,7 +8,7 @@ tags:
 - post
 - Interview
 - Hamvention
-- M17
+- M17 Project
 - MMDVM
 - FreeDV
 ---
