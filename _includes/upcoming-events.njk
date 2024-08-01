@@ -1,4 +1,4 @@
-{% for event in collections.event | sort(true, false, 'data.eventdate') | limit(8) %}
+{% for event in collections.event | sort(true, false, 'data.eventdate') | limit(10) %}
    <div>
       <span><strong>{{ event.data.eventdate | formatDate }}</strong></span>
       <h4><a href="{{ event.url | url }}">{{ event.data.title }}</a></h4>

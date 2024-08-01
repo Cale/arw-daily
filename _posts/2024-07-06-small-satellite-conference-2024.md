@@ -4,6 +4,7 @@ date: 2024-07-06
 excerpt: This year's theme is automation.
 source: Small Satellite Conference
 sourceurl: https://smallsat.org/
+eventdate: 2024-08-03
 tags:
 - post
 - event
