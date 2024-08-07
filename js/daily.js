@@ -46,6 +46,16 @@ function getTime() {
         month = "June"
     } else if (month == 6) {
         month = "July"
+    } else if (month == 7) {
+        month = "August"
+    } else if (month == 8) {
+        month = "September"
+    } else if (month == 9) {
+        month = "October"
+    } else if (month == 10) {
+        month = "November"
+    } else if (month == 12) {
+        month = "December"
     }
 
     var headerdate = day + " " + month + " " + daynum + ", " + year + " " + hour + ":" + minute + " UTC"
