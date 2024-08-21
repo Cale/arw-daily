@@ -1,13 +1,13 @@
 ---
 title: K4A 9-11 Remembering Our Heroes Special Event
-date: 2024-09-01
+date: 2024-08-20
 excerpt: Event will honor the victims of 9-11.
 source: WA1FCN
 sourceurl: https://www.qrz.com/db/WA1FCN
 eventdate: 2024-09-08
 tags:
 - post
-
+- event
 - Special Event
 ---
 The [Alabama Contest Group](http://alabamacontestgroup.org/) will be operating the 9-11 Remembering Our Heroes special event September 8-11. The K4A special event station will be on the air to honor the victims of 9-11.
