@@ -7,14 +7,14 @@ layout: shell.njk
           <span class="post-date">{{ date | formatDate }}</span>
           {{ content | safe }}
           <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined"></span></p>
-          <div class="ad">
-            <a target="_blank" href="https://shareasale.com/r.cfm?b=2156382&amp;u=3294231&amp;m=83272&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/83272/Ham-radio-prep-marketing-square.png" border="0" /></a>
-          </div>
         </div>
         <div class="side">
           {% include 'sidebar-content.njk' %}
         </div>
       </article>
+      <div class="ad">
+            {% include 'adsense.njk' %}
+      </div>
       <section class="recent">
         <h3 class="section-header">Recent News</h3>
         {% include 'recent-news.njk' %}
