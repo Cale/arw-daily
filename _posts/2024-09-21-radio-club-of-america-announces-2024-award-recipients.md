@@ -1,6 +1,6 @@
 ---
 title: Radio Club of America Announces 2024 Award Recipients
-date: 2024-09-20
+date: 2024-09-21
 excerpt: Several hams receive recognition.
 source: RCA
 sourceurl: https://www.radioclubofamerica.org/2024Awards_Fellows
