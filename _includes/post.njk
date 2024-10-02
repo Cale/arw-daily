@@ -6,7 +6,7 @@ layout: shell.njk
         <div class="main">
           <span class="post-date">{{ date | formatDate }}</span>
           {{ content | safe }}
-          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined"></span></p>
+          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
         </div>
         <div class="side">
           {% include 'sidebar-content.njk' %}
