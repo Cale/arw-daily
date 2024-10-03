@@ -3,7 +3,7 @@ title: Ham Radio and the Aftermath of Helene
 date: 2024-10-02
 excerpt: How amateur radio is helping post Helene.
 source: Amateur Radio Daily
-sourceurl: 
+sourceurl: https://daily.hamweekly.com/2024/10/ham-radio-and-the-helene-aftermath/
 tags:
 - post
 - Hurricane Helene
