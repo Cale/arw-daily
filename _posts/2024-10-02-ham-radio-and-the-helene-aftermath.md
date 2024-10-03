@@ -13,7 +13,7 @@ We're beginning to see ways in which amateur radio operators are stepping up to 
 
 ### Ham Publisher Directly Affected
 
-One of the most high-profile stories comes from Tom (K4SWL), publisher of [QRPer](https://qrper.com/) and [The SWLing Post](https://swling.com/blog/), two high-profile websites in the online worlds of ham radio and shortwave listening. Tom has been very [transparent](https://qrper.com/2024/09/aftermath/) with Helene's impact on his family and community, posting updates to the QRPer blog. He and his neighbors are cut off from accessing the local network of roads by car, requiring him to instead rely on bikes to check on the local community and gather supplies such as medicine.
+One of the most high-profile stories comes from Tom (K4SWL), publisher of [QRPer](https://qrper.com/) and [The SWLing Post](https://swling.com/blog/), two popular websites in the online worlds of ham radio and shortwave listening. Tom has been very [transparent](https://qrper.com/2024/09/aftermath/) with Helene's impact on his family and community, posting updates to the QRPer blog. He and his neighbors are cut off from accessing the local network of roads by car, requiring him to instead rely on bikes to check on the local community and gather supplies such as medicine.
 
 Hams will be very interested in [his use of HTs](https://qrper.com/2024/09/helene-aftermath-long-update-monday-september-30-2024/), spread across licensed, and non-licensed family members and neighbors to stay in contact with one another.
 
@@ -39,4 +39,6 @@ Traditional media reports are beginning to pop up, highlighting the ability for 
 
 ### The Larger Ham Orgs
 
-ARRL has been [in touch](http://www.arrl.org/news/view/helene-storm-updates) with key volunteers and [HamAid kits](https://www.arrl.org/files/file/Public%20Service/Emergency%20Communications/The%20ARRL%20Ham%20Aid%20Program%20Guidelines.pdf)(PDF) are ready to deploy. Contact an [ARRL Section Manager](https://www.arrl.org/sections-by-divisions) to request deployment. 
+ARRL has been [in touch](http://www.arrl.org/news/view/helene-storm-updates) with key volunteers and [HamAid kits](https://www.arrl.org/files/file/Public%20Service/Emergency%20Communications/The%20ARRL%20Ham%20Aid%20Program%20Guidelines.pdf) (PDF) are ready to deploy. Contact an [ARRL Section Manager](https://www.arrl.org/sections-by-divisions) to request deployment.
+
+Hopefully we'll see case studies coming from local ARES groups in the coming weeks and months.
