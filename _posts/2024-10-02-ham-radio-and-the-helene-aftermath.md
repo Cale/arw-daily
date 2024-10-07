@@ -42,3 +42,5 @@ Traditional media reports are beginning to pop up, highlighting the ability for 
 ARRL has been [in touch](http://www.arrl.org/news/view/helene-storm-updates) with key volunteers and [HamAid kits](https://www.arrl.org/files/file/Public%20Service/Emergency%20Communications/The%20ARRL%20Ham%20Aid%20Program%20Guidelines.pdf) (PDF) are ready to deploy. Contact an [ARRL Section Manager](https://www.arrl.org/sections-by-divisions) to request deployment.
 
 Hopefully we'll see case studies coming from local ARES groups in the coming weeks and months.
+
+- 11 Alive out of Atlanta [features ARES member KQ4KIS](https://www.11alive.com/article/weather/hurricane/helene/teen-helps-helene-recovery-efforts/85-35c49825-c96c-4769-ac26-bfb5854098a8).
