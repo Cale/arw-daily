@@ -62,6 +62,10 @@ header {
   font-size: .8rem;
 }
 
+.top-header-row a {
+  text-decoration: none;
+}
+
 nav {
   padding-top: .25rem;
   padding-bottom: .25rem;

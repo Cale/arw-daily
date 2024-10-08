@@ -64,4 +64,27 @@ function getTime() {
     document.getElementById("header-date").innerHTML = headerdate
 }
 
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest()
+    xhr.open('GET', url, true)
+    xhr.responseType = 'json'
+    xhr.onload = function() {
+      var status = xhr.status
+      if (status === 200) {
+        callback(null, xhr.response)
+      } else {
+        callback(status, xhr.response)
+      }
+    }
+    xhr.send()
+}
+
 getTime()
+getJSON('https://services.swpc.noaa.gov/products/noaa-scales.json',
+    function(err, data) {
+        if (err !== null) {
+        document.getElementById("header-solar").innerHTML = "Error loading conditions"
+        } else {
+        document.getElementById("header-solar").innerHTML = "G"+data[0]["G"]["Scale"]+" "+data[0]["G"]["Text"]
+        }
+    })
