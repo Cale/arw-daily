@@ -1,8 +1,13 @@
+@font-face {
+  font-family: Atkinson;
+  src: url('/css/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'), 
+    url('/css/Atkinson-Hyperlegible-Regular-102.woff') format('woff');
+}
+
 body {
   background-color: #00171e;
   color: #00171e;
-  font-family: 'Noto Sans', sans-serif;
-  font-variant-numeric: slashed-zero;
+  font-family: 'Atkinson', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -57,9 +62,9 @@ header {
 }
 
 .top-header-row {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
-  font-size: .8rem;
+  padding-top: .3rem;
+  padding-bottom: .2rem;
+  font-size: .9rem;
 }
 
 .top-header-row a {
@@ -97,24 +102,9 @@ nav span a {
   background-color: transparent;
 }
 
-.logo {
-  color: #fff;
-  font-family: 'Big Shoulders Display', sans-serif;
-  font-weight: normal;
-  text-transform: capitalize;
-  text-shadow: 1px 1px 2px #531a08;
-}
-
-a.logo:hover {
-  animation-name: none;
-  color: #fff;
-  font-weight: normal;
-  text-decoration: none;
-}
-
 article {
-  font-size: 1.2rem;
-  line-height: 1.95rem;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
   padding: 0 0 3rem 0;
 }
 
@@ -138,7 +128,6 @@ article img {
 }
 
 h1 {
-  font-family: 'Noto Sans', serif;
   font-size: 3rem;
   font-weight: 400;
   line-height: normal;
@@ -174,10 +163,9 @@ blockquote {
 }
 
 blockquote::before {
-  font-family:Arial;
   content: "\201C";
   color: #444;
-  font-size:4em;
+  font-size: 4em;
   position: absolute;
   margin: 2.5rem 0 0 .75rem;
 }
