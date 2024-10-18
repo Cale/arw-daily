@@ -85,6 +85,6 @@ getJSON('https://services.swpc.noaa.gov/products/noaa-scales.json',
         if (err !== null) {
         document.getElementById("header-solar").innerHTML = "Error loading conditions"
         } else {
-        document.getElementById("header-solar").innerHTML = "G"+data[0]["G"]["Scale"]+" "+data[0]["G"]["Text"]
+        document.getElementById("header-solar").innerHTML = "R"+data[0]["R"]["Scale"]+" S"+data[0]["S"]["Scale"]+" G"+data[0]["G"]["Scale"]
         }
     })

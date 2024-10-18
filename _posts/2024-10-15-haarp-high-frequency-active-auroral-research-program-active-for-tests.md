@@ -22,7 +22,6 @@ testing and maintenance on October 15-17 UTC, with operating times specified in 
 Operating frequencies will be 3.3 MHz, 5.8 MHz, and 9.6 MHz. All information is subject to change.
 For more information on research at HAARP, see the online HAARP FAQ at
 [https://haarp.gi.alaska.edu/faq](https://haarp.gi.alaska.edu/faq).
-.
 
 **October 15**   
 1700-2400 UTC   
