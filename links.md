@@ -16,6 +16,7 @@ This page highlights some of the best publications, organizations, and overall l
 - [73 from G5DOC](https://g5doc.substack.com/)
 - [Hot Iron](https://www.w4npn.net/hot-iron-directory/)
 - [The Communicator](https://ve7sar.blogspot.com/search/label/SARC%20Communicator)
+- [Amateur Radio Society of India](https://arsi.info/newsletter/)
 - [Amateur Radio Weekly](https://hamweekly.com/)
 
 ### Video Publications
