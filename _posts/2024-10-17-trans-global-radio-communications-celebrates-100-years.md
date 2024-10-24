@@ -4,7 +4,7 @@ date: 2024-10-17
 excerpt: G2SZ and ZL4AA will recognize 100 years since radio contact made between UK and New Zealand.
 source: GB2NZ
 sourceurl: https://www.gb2nz.com/
-eventdate: 2024-20-18
+eventdate: 2024-10-18
 tags:
 - post
 - event
