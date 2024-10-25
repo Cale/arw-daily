@@ -5,6 +5,15 @@ excerpt: Amateur Radio Daily and its origins.
 ---
 # About Amateur Radio Daily
 
+## License
+
+The text portion of Amateur Radio Daily is made available under a Creative Commons license, specifically, [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org). This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes. If others remix, adapt, or build upon the material, they must license the modified material under identical terms.
+
+[See the full license deed](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+## Established in 2023
+
 *Amateur Radio Daily* is a daily complement to *[Amateur Radio Weekly](https://hamweekly.com/)*. While the weekly publication aims to surface important, high-quality news and content relevant to the world of amateur radio in a given week, the daily publication aims to surface more time sensitive news and events that simply can't fit into a highly curated, weekly email format. For example, *Amateur Radio Daily* is more likely to feature special event stations, expeditions, and club activities, as well as ham radio adjacent topics such as shortwave and space exploration.
 
 One of the goals for *Amateur Radio Daily* is to fill a gap that currently exists in the online ham community. That gap is a lack of a dedicated daily ham radio news aggregation service. Since the abrupt shutdown of *Southgate Amateur Radio News* in late 2022 with the passing of its curator, Richard Brunton (G4TUT), the world of ham radio has sorely missed the tireless effort of Mr. Brunton centralizing the most important ham radio related news.
