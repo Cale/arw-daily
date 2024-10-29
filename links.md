@@ -29,6 +29,7 @@ This page highlights some of the best publications, organizations, and overall l
 - [Linux in the Ham Shack](https://lhspodcast.info/)
 - [Foundations of Amateur Radio](https://podcasts.vk6flab.com/podcasts/foundations)
 - [Store and Forward](https://www.storeandforwardradio.org/)
+- [Ham's Radio](https://hamsradio.net/ham/)
 - [Prep Comms](https://hamradionetwork.com/prepcomms)
 - [HamRadio360](http://hamradio360.com/)
 
