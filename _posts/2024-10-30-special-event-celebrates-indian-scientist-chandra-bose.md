@@ -1,7 +1,7 @@
 ---
 title: Special Event Celebrates Father of Wireless Communication, Jagadish Chandra Bose
 date: 2024-10-30
-excerpt: AU2JCB will celebrate Jagadish Chandra Bose
+excerpt: AU2JCB will celebrate Jagadish Chandra Bose.
 source: AU2JCB
 sourceurl: https://www.qrz.com/db/AU2JCB
 eventdate: 2024-11-15
