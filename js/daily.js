@@ -54,7 +54,7 @@ function getTime() {
         month = "October"
     } else if (month == 10) {
         month = "November"
-    } else if (month == 12) {
+    } else if (month == 11) {
         month = "December"
     }
 
