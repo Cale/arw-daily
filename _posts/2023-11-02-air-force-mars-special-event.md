@@ -1,7 +1,7 @@
 ---
 title: Air Force MARS Special Event
 date: 2023-11-02
-excerpt: Air Force MARS Special Event celebrates 75 years of operation
+excerpt: Air Force MARS Special Event celebrates 75 years of operation.
 source: Air Force MARS
 sourceurl: https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/afmars-75-years/
 tags:
