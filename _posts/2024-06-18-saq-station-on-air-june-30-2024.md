@@ -2,7 +2,7 @@
 title: SAQ to be On-Air June 30th for Alexanderson Day
 date: 2024-06-18
 excerpt: 1924 SAQ radio transmitter to transmit CW on 17.2 kHz.
-source: The Alexander association
+source: The Alexander Association
 sourceurl: https://alexander.n.se/en/alexanderson-day-2024/
 eventdate: 2024-06-30
 tags:
