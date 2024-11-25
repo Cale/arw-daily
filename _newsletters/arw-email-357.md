@@ -1,10 +1,5 @@
 ---
-title: Ham Radio bank heist, 8.4GHz RX, LongChat text chat, more...
-excerpt: Ham Radio bank heist, 8.4GHz RX, LongChat text chat, more...
-subject: Ham Radio bank heist, 8.4GHz RX, LongChat text chat, more...
-date: 2024-11-23
-sourceurl: https://handiham.org/wordpress1/2024/02/04/handiham-57th-anniversary-announcement/
-tags:
+layout: shell-arw-email.njk
 ---
 <h2>Top links</h2>
 {% for links in collections.links %}
