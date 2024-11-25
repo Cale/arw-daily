@@ -1,0 +1,36 @@
+---
+layout: shell-newsletter.njk
+---
+      <article class="wrapper">
+        <h1 class="full-bleed">{{ title }}</h1>
+        <div class="main">
+          <span class="post-date">{{ date | formatDate }}</span>
+          {{ content | safe }}
+          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
+        </div>
+        <div class="side">
+          {% include 'sidebar-content.njk' %}
+        </div>
+      </article>
+      
+      <section class="links">
+        <h3 class="section-header">Links</h3>
+        {% include 'newsletter-links.njk' %}
+      </section>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "{{ title }}",
+        "image": [
+          "https://daily.hamweekly.com/images/amateur-radio-daily.png"
+        ],
+        "datePublished": "{{ date | formatISO8601Date }}",
+        "dateModified": "{{ date | formatISO8601Date }}",
+        "author": [{
+            "@type": "Person",
+            "name": "K4HCK Cale",
+            "url": "https://daily.hamweekly.com/about/"
+          }]
+      }
+      </script>

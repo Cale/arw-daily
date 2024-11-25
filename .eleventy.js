@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('js');
   eleventyConfig.addPassthroughCopy('images');
+  eleventyConfig.addPassthroughCopy('newsletters');
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true
   });
@@ -58,14 +59,6 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, limit);
   });
 
-  eleventyConfig.addCollection("tagList", function(collection) {
-    let tagSet = new Set();
-    collection.getAll().filter(livePosts).forEach(item => {
-      (item.data.tags || []).forEach(tag => tagSet.add(tag));
-    });
-    return [...tagSet];
-  });
-
   eleventyConfig.addCollection("recentNews", collection => {
     return collection.getFilteredByGlob('./_posts/*.md')
       .filter(recentPosts).reverse();
@@ -74,6 +67,26 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("posts", collection => {
     return collection.getFilteredByGlob('./_posts/*.md')
       .filter(livePosts).reverse();
+  });
+
+  eleventyConfig.addCollection("links", collection => {
+    return collection.getFilteredByGlob('./_links/*.md');
+  });
+
+  eleventyConfig.addCollection("videos", collection => {
+    return collection.getFilteredByGlob('./_links/*.md');
+  });
+
+  eleventyConfig.addCollection("newsletters", collection => {
+    return collection.getFilteredByGlob('./_newsletters/*.md');
+  });
+
+  eleventyConfig.addCollection("tagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().filter(livePosts).forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+    return [...tagSet];
   });
 
   eleventyConfig.addPassthroughCopy({ "images/favicon.png": "/" });

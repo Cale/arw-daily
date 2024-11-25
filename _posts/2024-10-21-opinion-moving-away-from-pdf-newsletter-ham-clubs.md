@@ -8,7 +8,7 @@ tags:
 - post
 - Opinion
 - PDF
-- Newsletters
+- Newsletter
 ---
 > It's time for ham radio clubs to move away from the PDF based newsletter as a primary publishing format.
 
