@@ -70,15 +70,11 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("links", collection => {
-    return collection.getFilteredByGlob('./_links/*.md');
-  });
-
-  eleventyConfig.addCollection("videos", collection => {
-    return collection.getFilteredByGlob('./_links/*.md');
-  });
-
-  eleventyConfig.addCollection("newsletters", collection => {
-    return collection.getFilteredByGlob('./_newsletters/*.md');
+    const links = collection.getFilteredByGlob('./_links/*.md')
+      .sort((a, b) => {
+        return Number(a.data.order) - Number(b.data.order)
+      })
+    return links;
   });
 
   eleventyConfig.addCollection("tagList", function(collection) {

@@ -8,7 +8,7 @@ tags:
 ---
 <h2>Top links</h2>
 {% for links in collections.links %}
-    {% if links.data.linktype == 'link'  %}
+    {% if links.data.linktype == 'link' and links.data.issue == 357 %}
         <div>
             <h4><a href="{{ links.url | url }}">{{ links.data.title }}</a></h4>
             <p>{{ links.data.excerpt }}</p>
@@ -18,12 +18,12 @@ tags:
 {% endfor %}
 
 <h2>Video</h2>
-{% for videos in collections.videos | sort(false, false, 'links.data.order') %}
-    {% if videos.data.linktype == 'video'  %}
+{% for links in collections.links %}
+    {% if links.data.linktype == 'video' and links.data.issue == 357 %}
         <div>
-            <h4><a href="{{ videos.url | url }}">{{ videos.data.title }} {{videos.data.order}}</a></h4>
-            <p>{{ videos.data.excerpt }}</p>
-            <span class="date">{{ videos.date | formatDate }}</span>
+            <h4><a href="{{ links.url | url }}">{{ links.data.title }} {{ links.data.order }}</a></h4>
+            <p>{{ links.data.excerpt }}</p>
+            <span class="date">{{ links.date | formatDate }}</span>
         </div>
     {% endif %}
 {% endfor %}
