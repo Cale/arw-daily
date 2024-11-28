@@ -15,7 +15,7 @@ urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsl
 headerimage: arw-header.gif
 linktype: link
 order: 
-issue: 35
+issue: 
 ---
 _EOF
 
