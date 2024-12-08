@@ -1,6 +1,6 @@
 ---
 title: AM Night to be held December 26th
-date: 2024-12-10
+date: 2024-12-11
 excerpt: Event is organized by the Greater Cincinnati Amateur Radio Association.
 source: eHam.net
 sourceurl: https://www.eham.net/news/view-news-item?id=51561

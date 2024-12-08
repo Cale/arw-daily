@@ -1,6 +1,6 @@
 ---
 title: M17 Foundation Established
-date: 2024-12-09
+date: 2024-12-10
 excerpt: Foundation aims to consolidate disparate M17 Project.
 source: M17 Foundation
 sourceurl: https://m17foundation.org/2024/12/06/m17-foundation-established/
