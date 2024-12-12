@@ -3,26 +3,25 @@ title: Establishing a Community GMRS Repeater
 date: 2024-12-14
 excerpt: Simple inverted-Y antenna is designed to withstand heavy wind.
 source: K8EBR
-sourceurl: 
+sourceurl: https://daily.hamweekly.com/2024/12/gmrs-repeater-station-k8ebr/
 tags:
 - post
 - GMRS
 - Repeater
 - Mile High Radio Club
 ---
+*By Tom Pierce (K8EBR)*
+
 ## Background
 
-The local ham club in my home town is the Mile High Radio Club or MHRC. As a public
+The local ham club in my home town is the [Mile High Radio Club](https://milehighradioclub.org) or MHRC. As a public
 service the MHRC recently committed to providing the entire local community with a GMRS
-repeater. This location is Idyllwild, California which is to say that we live relatively isolated in a
+repeater. This location is [Idyllwild](https://idyllwildcalifornia.com/hiking/), California which is to say that we live relatively isolated in a
 very small mountain village high on Mt. San Jacinto in Southern California. Village elevation is
 5200 ft. and is embedded in a forest of tall pine and cedar. Wildfires and earthquakes are a
 constant worry here because the infamous San Andreas fault is a few miles away. Also,
 Idyllwild has become a favorite tourist destination for hikers who use the countless wilderness
 trails and seem to create their own emergencies on a regular basis.
-
-https://milehighradioclub.org
-https://idyllwildcalifornia.com/hiking/
 
 ## The GMRS Radio service
 
@@ -43,8 +42,8 @@ license enables all family members to operate a GMRS radio. The FCC has operatio
 follow and they are simple and straightforward mostly along the lines of common sense and
 courtesy.
 
-Obtain a GMRS license online: https://www.fcc.gov/wireless/universal-licensing-system
-FCC GMRS information: https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp
+- Obtain a GMRS license online: [https://www.fcc.gov/wireless/universal-licensing-system](https://www.fcc.gov/wireless/universal-licensing-system)
+- FCC GMRS information: [https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp](https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp)
 
 ## GMRS Radio
 
@@ -85,7 +84,7 @@ transceivers.
 3. Repeater antenna should have a low angle of radiation and be omni-directional.
 4. This antenna will be coax fed so should have an inherent 50 ohm input impedance.
 5. My favorite omni-directive antenna that conforms to these properties is an inverted-Y
-configuration; see [Amateur Radio Weekly archive #298]().
+configuration; see [Amateur Radio Weekly archive #298](https://hamweekly.com/archive/issues/amateur-radio-weekly-issue-298.html).
 
 The inverted-Y antenna uses quarter-wave elements. This is a length of 15.4cm or 6.0 inches
 long. The angle between the two lower elements is 90o and adjusting this angle may be used to
@@ -97,7 +96,7 @@ fiberglass tubing where a 5-ft. long broom handle was used which is significantl
 probably stronger, than online antenna fiberglass tubing sources. For a precisely calculated
 element length use the following relationship:
 
-[Image 1]
+![An inverted Y antenna](https://assets.midnightcheese.com/amateur-radio-daily/images/inverted-y-antenna.png)
 
 This antenna is amazingly simple; the photo tells the whole story. I cut the elements a few
 inches too long and then trimmed each wire a fraction of an inch at a time while watching the
@@ -114,12 +113,16 @@ program 4NEC2 which is available free online while antenna measurement data was 
 using a NanoVNA vector network analyzer. The NanoVNA is available online from Amazon or
 AliExpress and its computer software is available online for free.
 
-[Image 2]
+![NanoVNA computer plot](https://assets.midnightcheese.com/amateur-radio-daily/images/nanovna-computer-plot.png)
 
 NanoVNA computer plot. The NanoVNA may be used independently or in combination with a laptop computer as shown.
 
-[Image 3]
+![An antenna installed on a house](https://assets.midnightcheese.com/amateur-radio-daily/images/antenna-installed-on-a-house.png)
 
-[Image 4]
+![3D radiation pattern](https://assets.midnightcheese.com/amateur-radio-daily/images/3d-radiation-pattern.png)
 
-[Image 5]
+![SWR graph](https://assets.midnightcheese.com/amateur-radio-daily/images/swr-graph-plot.png)
+
+![Vertical and horizontal radiation pattern](https://assets.midnightcheese.com/amateur-radio-daily/images/vertical-horizontal-radiation-pattern.png)
+
+![Data table](https://assets.midnightcheese.com/amateur-radio-daily/images/data-table.png)
