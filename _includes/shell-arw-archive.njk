@@ -1,0 +1,42 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ subject }} - Amateur Radio Weekly - Issue {{ issue }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Issue {{ issue }} of Amateur Radio Weekly features {{ subject }}">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="K4HCK Cale">
+    <link rel="canonical" href="https://hamweekly.com/archive/issues/amateur-radio-weekly-issue-{{ issue }}.html">
+    <meta property="og:title" content="{{ subject }} - Amateur Radio Weekly - Issue {{ issue }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://hamweekly.com/archive/issues/amateur-radio-weekly-issue-{{ issue }}.html">
+    <meta property="og:description" content="Issue {{ issue }} of Amateur Radio Weekly features {{ subject }}">
+    <meta property="og:image" content="https://s3.amazonaws.com/emma-assets/b3h3/eb034ed72fd9f0ea240405f6861b43b1/arw-header-700.gif">
+    <meta name="fediverse:creator" content="@k4hck@mastodon.radio" />
+    <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="228x228">
+  </head>
+  <body class="archived-issue">
+    <div>
+        <div class="archived-header">
+            <img src="https://hamweekly.com/images/amateur-radio-weekly.gif" width="700">
+        </div>
+        <div class="archive-content">
+            {{ content | safe }}
+        </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z67TCGRJF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2Z67TCGRJF');
+    </script>
+  </body>
+</html>

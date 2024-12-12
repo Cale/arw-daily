@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('js');
   eleventyConfig.addPassthroughCopy('images');
+  eleventyConfig.addPassthroughCopy('newsletters');
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true
   });
@@ -58,14 +59,6 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, limit);
   });
 
-  eleventyConfig.addCollection("tagList", function(collection) {
-    let tagSet = new Set();
-    collection.getAll().filter(livePosts).forEach(item => {
-      (item.data.tags || []).forEach(tag => tagSet.add(tag));
-    });
-    return [...tagSet];
-  });
-
   eleventyConfig.addCollection("recentNews", collection => {
     return collection.getFilteredByGlob('./_posts/*.md')
       .filter(recentPosts).reverse();
@@ -74,6 +67,22 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("posts", collection => {
     return collection.getFilteredByGlob('./_posts/*.md')
       .filter(livePosts).reverse();
+  });
+
+  eleventyConfig.addCollection("links", collection => {
+    const links = collection.getFilteredByGlob('./_links/*.md')
+      .sort((a, b) => {
+        return Number(a.data.order) - Number(b.data.order)
+      })
+    return links;
+  });
+
+  eleventyConfig.addCollection("tagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().filter(livePosts).forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+    return [...tagSet];
   });
 
   eleventyConfig.addPassthroughCopy({ "images/favicon.png": "/" });
