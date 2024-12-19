@@ -1,6 +1,6 @@
 ---
 title: RandomGram Amateur Radio CW Event
-date: 2024-12-24
+date: 2024-12-19
 excerpt: Scores are determined entirely by the accurate exchange of random character groups in Morse code.
 source: RandomGram
 sourceurl: https://groups.io/g/RandomGram
