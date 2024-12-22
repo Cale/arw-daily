@@ -1,6 +1,8 @@
 ---
 layout: shell-arw-ar.com.njk
 ---
+<div style="display: block;font-size: 20px;font-weight: bold;margin: 0;margin: 0;padding: 20px 0 40px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 1.3;color: rgb(0,0,0);font-weight: normal">With the last few days of the year coming to a close, the year-end tradition continues where we take a look back at the most popular links from the past 12 months. The following are the top ten most clicked links of 2024. Happy holidays and here's to 2025! 73 K4HCK</div>
+
 {% for links in collections.links %}
     {% if links.data.linktype == 'link' and links.data.issue == 362 %}
         <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: rgb(241, 89, 42)"><a href="{{ links.data.sourceurl }}" style="font-weight: inherit; color: rgb(241, 89, 42); font-family: Helvetica, Arial, sans-serif;" target="_blank">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>
