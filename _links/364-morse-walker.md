@@ -1,6 +1,6 @@
 ---
 title: Morse Walker
-excerpt: A free, open-source, web-based CW pileup trainer.
+excerpt: A free, web-based CW pileup trainer with modes such as POTA, SST, and CWT, plus beginner-friendly features, including adjustable speeds and Farnsworth spacing.
 source: Morse Walker
 sourceurl: https://morsewalker.com/
 linkname: morse-walker
