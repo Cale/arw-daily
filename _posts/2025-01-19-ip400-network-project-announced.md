@@ -15,5 +15,5 @@ The [latest issue of Zero Retries](https://www.zeroretries.org/p/zero-retries-01
 > We have a ground floor opportunity to develop our own mesh network in the 420-450 MHz band that can be used for many different applications, the limit of which is the imagination alone. The first step is to get a simple chat and beaconing application running to experiment with the technology. From there we can layer on other features and frame types, and then consider moving into the repeater world. To give the project a name, it has been dubbed ‘IP400’, for Intelligent (not Internet!) Protocol.
 
 - Those interested in the project can join the [IP400 Groups.io list](https://groups.io/g/ip400).
-- A [GitHib repository](https://github.com/ve6vh/ip400) of initial software has been established.
+- A [GitHib repository](https://github.com/adrcs/ip400) of initial software has been established.
 - [IP400 project home on ADRCS](https://adrcs.org/adrcs/ip400-network-project/).
