@@ -1,6 +1,6 @@
 ---
 title: HB9RG Trophy Celebrates First Amateur Radio Contact via Satellite
-date: 2025-01-21
+date: 2025-01-22
 excerpt: Competition seeks long-distance contacts using amateur satellites.
 source: AMSAT Switzerland
 sourceurl: https://www.amsat-hb.org/hb9rg_trophy/hb9rg_trophy_2025_-_distance
