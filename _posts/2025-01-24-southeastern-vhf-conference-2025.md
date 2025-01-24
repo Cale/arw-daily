@@ -1,9 +1,9 @@
 ---
 title: Southeastern VHF Conference 2025 Announcement & Call for Papers
 date: 2025-01-24
-excerpt: 
+excerpt: Promoting amateur radio operation on the bands above 50 MHz in the southeastern United States.
 source: Southeastern VHF Conference
-sourceurl: 
+sourceurl: http://svhfs.org/wp/
 eventdate: 2025-04-04
 tags:
 - post
@@ -11,7 +11,7 @@ tags:
 - Southeastern VHF Conference
 - Conference
 ---
-*The following is a press release from the Southeastern VHF Conference:*
+*The following is a press release from the [Southeastern VHF Conference](http://svhfs.org/wp/):*
 
 ### Southeastern VHF Conference 2025 Announcement & Call For Papers   
 Quality Inn, 3095 Wilma Rudolph Blvd, Clarksville, TN 37040
