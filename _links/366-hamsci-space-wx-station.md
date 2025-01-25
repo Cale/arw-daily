@@ -1,5 +1,5 @@
 ---
-title: HamSCI announces expansion of Personal Space Weather Station activities
+title: HamSCI expands Personal Space Weather Station activities
 excerpt: New Zoom sessions will cover the operational aspects (scoping the network, project timelines, data collection topics, network monitoring, maintenance) of the PSWS network. 
 source: QRZ
 sourceurl: https://forums.qrz.com/index.php?threads/hamsci-announces-expansion-of-personal-space-weather-station-activities.942624/
