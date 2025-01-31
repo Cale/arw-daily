@@ -1,6 +1,6 @@
 ---
 title: Getting started with AREDN
-excerpt: ARDEN provides high-speed Mesh Networking and related services using Amateur radio links in the 900 MHz UHF and several microwave bands.
+excerpt: ARDEN provides high-speed Mesh Networking and related services using Amateur Radio links in the 900 MHz UHF and several microwave bands.
 source: Our Ham Station
 sourceurl: https://stationproject.blog/2025/01/27/aredn-getting-started/
 linkname: aredn-get-started
