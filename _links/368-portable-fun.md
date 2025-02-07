@@ -1,6 +1,6 @@
 ---
 title: "Super portable POTA: One Watt, one tiny key, big fun"
-excerpt: "To maximize my limited operating time, I went with my go-to minimalist setup: the Elecraft KX2 and AX1 antenna—a truly dynamic duo."
+excerpt: "To maximize my limited operating time, I went with my go-to minimalist setup: The Elecraft KX2 and AX1 antenna—a truly dynamic duo."
 source: QRPer
 sourceurl: https://qrper.com/2025/01/super-portable-pota-one-watt-one-tiny-key-big-fun/
 linkname: pota-fun
