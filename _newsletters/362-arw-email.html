@@ -15,7 +15,7 @@ issuedate: December 28, 2024
 
         {% for links in collections.links %}
             {% if links.data.linktype == 'link' and links.data.issue == 362 %}
-                <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: rgb(241, 89, 42)"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" style="font-weight: inherit; color: rgb(241, 89, 42); font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ links.data.linkname }}">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span class="e2ma-style" style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>
+                <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: #f1592a"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ links.data.linkname }}">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span class="e2ma-style" style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>
             {% endif %}
         {% endfor %}
     </td>
