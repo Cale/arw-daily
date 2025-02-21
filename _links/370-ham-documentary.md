@@ -1,5 +1,5 @@
 ---
-title: Documentary series to educate and inspire Ham enthusiasts
+title: Videos to educate and inspire Ham enthusiasts [AI content]
 excerpt: The series melds rich historical narratives with modern technological insights.
 source: Ham Radio Gizmos
 sourceurl: https://www.youtube.com/@HamRadioGizmos
