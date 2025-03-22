@@ -1,6 +1,6 @@
 ---
 title: Bandplan Generator
-excerpt: Builder allows completely customizable frequency ranges and segments and generates a well-designed plan for screen or print.
+excerpt: Allows completely customizable frequency ranges and segments generating a well-designed plan for screen or print.
 source: LY1JA
 sourceurl: https://bandplan.ham.guide/
 linkname: build-bandplan
