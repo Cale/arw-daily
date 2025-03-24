@@ -1,6 +1,6 @@
 ---
 title: Monday Overdrive for March 24th, 2025
-date: 2025-03-25
+date: 2025-03-24
 excerpt: All the leftover links from Amateur Radio Weekly issue 374. 
 source: Amateur Radio Weekly
 sourceurl: https://hamweekly.com/
