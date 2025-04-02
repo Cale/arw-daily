@@ -1,6 +1,6 @@
 ---
 title: Fram2 Makes First Amateur Radio Contact from a SpaceX Spacecraft
-date: 2025-04-01
+date: 2025-04-02
 excerpt: Rabea Rogge (LB9NJ) makes first contact with the Technical University of Berlin.
 source: Amateur Radio Daily
 sourceurl: https://daily.hamweekly.com/
