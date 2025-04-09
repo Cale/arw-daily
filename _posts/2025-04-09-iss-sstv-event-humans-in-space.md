@@ -4,8 +4,10 @@ date: 2025-04-09
 excerpt: ISS to transmit SSTV images April 11-16.
 source: ARISS
 sourceurl: https://mastodon.hams.social/@ARISS_Intl/114305089301542620
+eventdate: 2025-04-11
 tags:
 - post
+- event
 - ARISS
 - SSTV
 - ISS
