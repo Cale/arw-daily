@@ -7,6 +7,7 @@ sourceurl: https://www.rac.ca/rac-will-not-attend-hamvention-this-year/
 tags:
 - post
 - Radio Amateurs of Canada
+- Hamvention
 ---
 [Radio Amateurs of Canada](https://www.rac.ca/) (RAC), the national association for amateur radio in Canada, has voted to cancel plans to attend and operate a booth at [Hamvention](https://hamvention.org/) in Ohio. The organization cited heightened tensions between Canada and the United States as contributing to its decision. 
 
