@@ -8,7 +8,7 @@ tags:
 - post
 - ARRL
 - Radiogram
-- NTS
+- National Traffic System
 ---
 In a [recent issue](https://arrl.informz.net/informzdataservice/onlineversion/ind/bWFpbGluZ2luc3RhbmNlaWQ9MzIwMzQxNSZzdWJzY3JpYmVyaWQ9NTI4ODg4ODI3#Bookmark_A4402782A) of the [NTS Letter](https://www.arrl.org/nts-letter), the ARRL encouraged amateur radio operators to utilize the [Radiogram portal on the web](https://nts2.arrl.org/radiogram/) to submit messages to friends and family.
 
