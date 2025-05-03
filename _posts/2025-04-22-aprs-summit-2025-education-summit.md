@@ -1,18 +1,18 @@
 ---
-title: APRS Summit 2025 Takes Place May 10th
+title: APRS Summit 2025
 date: 2025-04-22
 excerpt: Online event is designed to promote Automatic Packet Reporting System.
 source: APRS Foundation
 sourceurl: https://www.aprsfoundation.org/aprs-summit-2025/
-eventdate: 2025-05-10
 tags:
 - post
-- event
 - APRS
 - APRS Foundation
 - APRS Summit
 ---
-On May 10th the the [APRS Foundation](https://www.aprsfoundation.org/) is hosting its first ever [online education summit](https://www.aprsfoundation.org/aprs-summit-2025/) to promote APRS. 
+*Editor's Note: Since this article was published, the APRS Foundation has delayed this event until fall 2025.*
+
+~~On May 10th~~ the [APRS Foundation](https://www.aprsfoundation.org/) is hosting its first ever [online education summit](https://www.aprsfoundation.org/aprs-summit-2025/) to promote APRS. 
 
 >  This groundbreaking event is designed to empower, educate, and inspire anyone interested in Automatic Packet Reporting System (APRS)—from beginners to seasoned operators.
 
