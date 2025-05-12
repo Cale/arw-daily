@@ -13,9 +13,11 @@ This page highlights some of the best publications, organizations, and overall l
 
 - [Zero Retries](https://www.zeroretries.org/)
 - [Random Wire](https://www.randomwire.us/)
+- [Ria's Ham Shack](https://n2rj.substack.com/)
 - [73 from G5DOC](https://g5doc.substack.com/)
 - [Hot Iron](https://www.w4npn.net/hot-iron-directory/)
 - [The Communicator](https://ve7sar.blogspot.com/search/label/SARC%20Communicator)
+- [The Logger's Bark](https://www.w7dk.org/2012-04-11-16-51-17)
 - [Amateur Radio Society of India](https://arsi.info/newsletter/)
 - [Amateur Radio Weekly](https://hamweekly.com/)
 
@@ -76,3 +78,4 @@ This page highlights some of the best publications, organizations, and overall l
 
 - [FreeDV](https://freedv.org/)
 - [M17](https://m17project.org/)
+- [IP400](https://github.com/adrcs/ip400)
