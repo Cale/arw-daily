@@ -1,6 +1,6 @@
 ---
 title: 'HamSCI: Space weather we can do together'
-excerpt: RSGB Tonight@8
+excerpt: What's next for HamSCI, including new developments in the HamSCI Personal Space Weather Station project.
 source: RSGB
 sourceurl: https://www.youtube.com/live/xZS5ZMUHIF0
 linkname: hamsci-preso
