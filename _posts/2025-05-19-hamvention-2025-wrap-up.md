@@ -24,6 +24,8 @@ Oh, and they're working on an [Open Source replacement](https://github.com/Rhizo
 
 One of the more exciting pieces of technology that I was anxious to see in action was the amateur radio adjacent [Meshtastic](https://meshtastic.org/) project. They even had a [special firmware](https://hamvention.meshtastic.org/) set up just for the convention. However, I was somewhat disappointed in the lack of activity. While it worked well and I was able to exchange a couple messages, there just weren't that many nodes. Maybe 2 dozen or so? I was expecting exponentially more. I'll be curious to hear what others experienced.
 
+Update: Talking with other Meshtastic users, it sounds like my device somehow missed the boat! Something to investigate.
+
 ## DX Engineering and Summit Racing
 
 We finally saw the [crossover](https://www.onallbands.com/summit-racings-roamin-gladiator-gets-a-serious-mobile-communications-upgrade-from-dx-engineering/) that ham radio and racing enthusiasts have been waiting for with a joint display from [Summit Racing](https://www.summitracing.com/) and DX Engineering. Maybe a race spec Miata outfitted with ham gear next year?
