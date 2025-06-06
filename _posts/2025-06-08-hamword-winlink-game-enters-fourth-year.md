@@ -1,6 +1,6 @@
 ---
 title: Hamword Winlink Games Enters Fourth Year
-date: 2025-05-00
+date: 2025-06-08
 excerpt: Word game helps hams brush up on Winlink communication skills.
 source: Hamword
 sourceurl: https://forums.qrz.com/index.php?threads/hamword-winlink-game-the-third-year.955953/
