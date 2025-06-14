@@ -77,6 +77,11 @@ module.exports = function(eleventyConfig) {
     return links;
   });
 
+  eleventyConfig.addCollection("events", function (collectionsApi) {
+		const events =  collectionsApi.getFilteredByTag("event").sort((a, b) => a.data.eventdate - b.data.eventdate)
+    return events.reverse();
+	});
+
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
     collection.getAll().filter(livePosts).forEach(item => {

@@ -7,7 +7,6 @@ sourceurl: https://amsat-dl.org/wp-content/uploads/2025/05/AMSAT-Organisations-f
 eventdate: 2025-09-19
 tags:
 - post
-- event
 - AMSAT-DL
 - futureGEO
 - GEO Satellite
