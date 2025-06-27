@@ -7,6 +7,6 @@ linkname: new-at-dlarc
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: link
-order: 3
+order: 5
 issue: 387
 ---

@@ -1,5 +1,5 @@
 ---
-title: Satellite Communications Company AST SpaceMoble Seeks Use of 70 cm Amateur Band
+title: Satellite Communications Company AST SpaceMobile Seeks Use of 70 cm Amateur Band
 date: 2025-06-25
 excerpt: The company has a history of impeding on ham radio bands.
 source: FCC

@@ -7,6 +7,6 @@ linkname: aprs-airshow
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: video
-order: 387
-issue: 19
+order: 18
+issue: 387
 ---
