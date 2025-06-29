@@ -6,7 +6,13 @@ layout: shell.njk
         <div class="main">
           <span class="post-date">{{ date | formatDate }}</span>
           {{ content | safe }}
-          <p class="source">Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
+          <p class="source">
+            Source: <a href="{{ sourceurl | url }}">{{ source }}</a>&nbsp;<span class="material-symbols-outlined icon">open_in_new</span>
+            {% for tag in tags | filterTagList %}
+                {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+                <a class="tag" href="{{ tagUrl | url }}">{{ tag }}</a>
+            {% endfor %}
+          </p>
         </div>
         <div class="side">
           {% include 'sidebar-content.njk' %}

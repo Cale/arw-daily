@@ -4,10 +4,15 @@ ogtype: website
 layout: page-index.njk
 ---
 {% for post in collections.posts limit:2 %}
+      {% assign tags = post.data.tags | filterTagList %}
       <div class="home-post">
         <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
         <span class="post-date">{{ post.date | formatDate }}</span>
         {{ post.templateContent }}
-        <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined">open_in_new</span></p>
+        <p class="source">Source: <a href="{{ post.data.sourceurl | url }}">{{ post.data.source }}</a>&nbsp;<span class="material-symbols-outlined icon">open_in_new</span>
+        {% for tag in tags %}
+              <a class="tag" href="/tags/{{ tag | slug }}/">{{ tag }}</a>
+        {% endfor %}
+        </p>
     </div>
 {% endfor %}

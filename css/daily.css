@@ -178,6 +178,10 @@ blockquote p {
   padding: 1.5rem 1.5rem 1.5rem 3rem;
 }
 
+.icon {
+  padding-right: 1rem;
+}
+
 .tags-list {
   list-style-type: none;
   text-align: center;
