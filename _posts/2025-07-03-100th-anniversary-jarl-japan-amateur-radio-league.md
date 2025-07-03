@@ -1,6 +1,6 @@
 ---
 title: 100th Anniversary of JARL and Amateur Radio in Japan
-date: 2025-07-01
+date: 2025-07-03
 excerpt: Special events will be held in 2026 and 2027.
 source: JARL
 sourceurl: https://www.jarl.org/English/8_info/100thAnniversary.html
