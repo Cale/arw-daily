@@ -7,6 +7,6 @@ linkname: field-day
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: link
-order: 3
+order: 1
 issue: 388
 ---

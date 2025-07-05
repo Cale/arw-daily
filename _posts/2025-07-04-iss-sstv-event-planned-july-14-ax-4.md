@@ -4,7 +4,7 @@ date: 2025-07-04
 excerpt: SSTV event will focus on the 50th anniversary of the Apollo-Soyuz Test Project.
 source: ARISS
 sourceurl: https://ariss-usa.org/sstv-shaping-up-for-july-event/
-event-date: 2025-07-14 
+eventdate: 2025-07-14
 tags:
 - post
 - event
