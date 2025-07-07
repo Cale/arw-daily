@@ -31,4 +31,5 @@ The [May/June newsletter](https://www.ardc.net/?na=view&id=94) from ARDC feature
 
 [The Canadian Amateur](https://www.rac.ca/july-august-2025-tca-is-now-available/) (Membership required)
 
-[QST](https://www.arrl.org/this-month-in-qst) (Membership required)
+[QST](https://www.arrl.org/this-month-in-qst) (Membership required)   
+Topics include [Second Century: IARU Restructuring](https://www.arrl.org/files/file/QST/This%20Month%20in%20QST/2025/08%20August%2025/0825%20Second%20cenntury_0825.pdf) (PDF). A free article, HamSCI: The Future of Ham Radio is Here, is [available for download](https://www.arrl.org/files/file/QST/This%20Month%20in%20QST/2025/08%20August%2025/0825%20hamsci-%20what%20is%20hamsci_0825.pdf) (PDF).
