@@ -2,8 +2,8 @@
 title: Amateur Radio Newsline Announces Young Ham of the Year 2025
 date: 2025-07-08
 excerpt: Katie Campbell (KE8LQR) receives award for community involvement with young hams.
-source: https://www.arnewsline.org/2025-yhoty
-sourceurl: Amateur Radio Newsline
+source: Amateur Radio Newsline
+sourceurl: https://www.arnewsline.org/2025-yhoty
 tags:
 - post
 - Amateur Radio Newsline
