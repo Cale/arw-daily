@@ -1,6 +1,6 @@
 ---
 title: S50CLX Telnet DXCluster focuses on POTA, BOTA, SOTA, WWFF
-date: 2025-07-10
+date: 2025-07-11
 excerpt: An array of options help to narrow searches.
 source: S50CLX DXCluster
 sourceurl: https://s50clx.infrax.si/
