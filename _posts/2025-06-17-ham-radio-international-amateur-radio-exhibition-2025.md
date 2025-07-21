@@ -5,6 +5,7 @@ excerpt: The 2025 theme is Remote Radio - connecting the world.
 source: HAM RADIO
 sourceurl: https://www.hamradio-friedrichshafen.com/
 eventdate: 2025-06-27
+eventdateend: 2025-06-29
 tags:
 - post
 - event

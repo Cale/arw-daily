@@ -5,6 +5,7 @@ excerpt: Everyone to the moon!
 source: Union of Radio Amateurs of Russia
 sourceurl: https://srr.ru/reglament-russian-eme-contest-2025-2/
 eventdate: 2025-07-26
+eventdateend: 2025-07-27
 tags:
 - event
 - post

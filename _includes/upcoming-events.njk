@@ -1,6 +1,10 @@
 {% for event in collections.event | sort(true, false, 'data.eventdate') | limit(10) %}
    <div>
-      <span><strong>{{ event.data.eventdate | formatDate }}</strong></span>
+      <span><strong>{{ event.data.eventdate | formatDate }}
+         {% if 'eventdateend' in event.data %}
+            &mdash; {{ event.data.eventdateend | formatDate}}
+         {% endif %}
+      </strong></span>
       <h4><a href="{{ event.url | url }}">{{ event.data.title }}</a></h4>
       <p>{{ event.data.excerpt }}</p>
    </div>

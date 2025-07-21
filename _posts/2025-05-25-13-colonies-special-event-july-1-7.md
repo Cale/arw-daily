@@ -5,6 +5,7 @@ excerpt: Last year's event generated 292,496 contacts around the world.
 source: 13 Colonies
 sourceurl: http://13colonies.us/
 eventdate: 2025-07-01
+eventdateend: 2025-07-07
 tags:
 - post
 - event

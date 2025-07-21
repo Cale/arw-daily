@@ -299,11 +299,11 @@ footer a:hover {
   padding: .7rem 0 .5rem 0;
 }
 
-.recent h4, .events h4 {
+.recent h4, .events h4, .event h4 {
   margin-bottom: -.5rem;
 }
 
-.events h4 {
+.events h4, .event h4, .event p {
   margin-top: .5rem;
 }
 
@@ -317,6 +317,10 @@ footer a:hover {
 
 .events div {
   margin-top: 1.25rem;
+}
+
+.event div {
+  margin-bottom: 3rem;
 }
 
 table {

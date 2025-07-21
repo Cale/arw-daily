@@ -5,6 +5,7 @@ excerpt: Special event TM5VDL celebrates maritime culture.
 source: Radio Club de l’Agglomération Dunkerquoise
 sourceurl: https://www.qrz.com/db/TM5VDL
 eventdate: 2025-07-05
+eventdateend: 2025-07-19
 tags:
 - post
 - event
