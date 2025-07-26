@@ -7,6 +7,8 @@ sourceurl: https://galwayvhfgroup.blogspot.com/2022/06/connacht-regional-radio-n
 tags:
 - post
 - Newsletter
+- Magazine
+- Ham Radio Ireland Magazine
 ---
 *The following is from Steve (EI5DD), the editor of Ham Radio Ireland Magazine.*
 
