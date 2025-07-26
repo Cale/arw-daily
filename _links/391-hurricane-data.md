@@ -1,5 +1,5 @@
 ---
-title: Hams access crucial hurricane data after US Department of Defense cut it off
+title: Hams access crucial hurricane data after US DoD cut it off
 excerpt: Amateur-built decoder taps SSMIS satellite data amid NOAA cutoff.
 source: The Register
 sourceurl: https://www.theregister.com/2025/07/21/ssmis_satellite_decoder
