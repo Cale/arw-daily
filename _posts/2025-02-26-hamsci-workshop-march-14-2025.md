@@ -4,7 +4,7 @@ date: 2025-02-26
 excerpt: Event celebrates recent achievements March 14-15.
 source: HamSCI
 sourceurl: https://hamsci.org/hamsci2025
-eventsate: 2025-03-14
+eventdate: 2025-03-14
 tags:
 - post
 - event
