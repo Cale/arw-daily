@@ -1,6 +1,6 @@
 ---
 title: HamSCI Meteor Scatter QSO Party
-date: 2025-07-30
+date: 2025-07-31
 excerpt: Hams have two chances to participate in 2025.
 source: HamSCI
 sourceurl: https://www.hamsci.org/msqp
