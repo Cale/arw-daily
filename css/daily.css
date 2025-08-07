@@ -182,6 +182,11 @@ blockquote p {
   padding-right: 1rem;
 }
 
+.icon-sidebar {
+  color: #aaa;
+  padding: 0 .4rem 0 0;
+}
+
 .tags-list {
   list-style-type: none;
   text-align: center;
