@@ -1,5 +1,5 @@
 ---
-title: International Lighthouse Lightship Weekend is August 16-17
+title: International Lighthouse Lightship Weekend
 date: 2025-07-23
 excerpt: Over 500 lighthouse entries will be on the air. 
 source: International Lighthouse Lightship Weekend

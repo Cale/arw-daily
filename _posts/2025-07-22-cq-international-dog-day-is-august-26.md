@@ -1,5 +1,5 @@
 ---
-title: International Dog Day Special Event is August 26
+title: International Dog Day Special Event
 date: 2025-07-22
 excerpt: The event will be looking to hear from dog-lovers and supporters.
 source: International Dog Day

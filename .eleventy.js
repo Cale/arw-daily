@@ -78,8 +78,13 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("events", function (collectionsApi) {
-		const events =  collectionsApi.getFilteredByTag("event").sort((a, b) => a.data.eventdate - b.data.eventdate)
+		const events = collectionsApi.getFilteredByTag("event").sort((a, b) => a.data.eventdate - b.data.eventdate)
     return events.reverse();
+	});
+
+  eleventyConfig.addCollection("futureevents", function (collectionsApi) {
+		const events = collectionsApi.getFilteredByTag("event").sort((a, b) => a.data.eventdate - b.data.eventdate).filter(event => {return event && event.data.eventdate >= now;})
+    return events;
 	});
 
   eleventyConfig.addCollection("tagList", function(collection) {
