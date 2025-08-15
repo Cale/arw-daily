@@ -1,4 +1,4 @@
-{% for event in collections.futureevents | limit(10) %}
+{% for event in collections.event | sort(true, false, 'data.eventdate') %}
    <div>
       <span><strong>{{ event.data.eventdate | formatDate }}
          {% if 'eventdateend' in event.data %}
