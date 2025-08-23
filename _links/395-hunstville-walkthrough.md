@@ -1,6 +1,6 @@
 ---
 title: The biggest Ham Radio event in the south
-excerpt: Huntsville Hamfest 2025 Walkthrough.
+excerpt: Huntsville Hamfest 2025 walkthrough.
 source: KM4ACK
 sourceurl: https://www.youtube.com/watch?v=Rt4JNiUZi-E
 linkname: huntsville-walkthrough
