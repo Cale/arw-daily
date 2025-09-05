@@ -9,6 +9,7 @@ tags:
 - event
 - Special Event
 - ROC-HAM
+- Erie Canal
 ---
 *The following is a message from the [ROC-HAM Radio Network](https://www.roc-ham.net/):*
 
