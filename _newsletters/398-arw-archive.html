@@ -1,0 +1,18 @@
+---
+layout: shell-arw-archive.njk
+subject: Grassroots HOA campaign, remote station setup, Meshtastic drone, more...
+issue: 398
+issuedate: September 20, 2025
+---
+<div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == 398 %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <!-- EVENTS -->  
+                <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0 0 0 40px;line-height: 1.3;padding: 20px 0 5px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal; border-bottom: 1px dashed rgb(26, 109, 143)"><strong>Upcoming Events</strong></h1>  
+                <div style="margin: 20px 40px 0 40px;">  
+                {% for event in collections.futureevents limit:4 %}   
+                    <p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 18px; color: #f1592a"><a href="{{ event.data.sourceurl }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ event.data.linkname }}">{{ event.data.title }}</a></span><br><strong style="font-size: 15px;">{{ event.data.eventdate | formatDate }}</strong></p>  
+                {% endfor %}  
+                </div>
+                <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == 398 %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}

@@ -1,5 +1,5 @@
 ---
-title: IP400 Project Publishes Project Roadmap
+title: IP400 Project Publishes Roadmap
 date: 2025-09-18
 excerpt: Project roadmap revealed at Zero Retries Digital Conference.
 source: IP400 Project

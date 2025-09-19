@@ -1,7 +1,7 @@
 ---
 title: ARDC Seeks Volunteers for 2026 Committees
 date: 2025-09-17
-excerpt: 
+excerpt: Applications will be accepted until December 31st.
 source: ARDC
 sourceurl: https://www.ardc.net/join-ardcs-2026-volunteer-team/
 tags:
