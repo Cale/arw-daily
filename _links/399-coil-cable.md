@@ -1,6 +1,6 @@
 ---
 title: I was coiling cables wrong for years
-excerpt: In this video I show the easy way to avoid tangles, knots and kinks when you're coiling cables.
+excerpt: In this video I show the easy way to avoid tangles, knots, and kinks when you're coiling cables.
 source: Ham Radio DX
 sourceurl: https://www.youtube.com/watch?v=tTPopKVmQ58
 linkname: coil-cable

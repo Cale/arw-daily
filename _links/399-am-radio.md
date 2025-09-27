@@ -7,6 +7,6 @@ linkname: am-radio
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: link
-order: 4
+order: 7
 issue: 399
 ---
