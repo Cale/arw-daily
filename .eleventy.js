@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("filterTagList", tags => {
-    return (tags || []).filter(tag => ["post", "posts", "event"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["post", "posts", "event", "emailarchive"].indexOf(tag) === -1);
   });
 
   eleventyConfig.addFilter("formatDate", dateObj => {
@@ -94,6 +94,11 @@ module.exports = function(eleventyConfig) {
     });
     return [...tagSet];
   });
+
+  eleventyConfig.addCollection("newsletterArchive", function (collectionsApi) {
+		const newsletters = collectionsApi.getFilteredByTag("emailarchive")
+    return newsletters.reverse();
+	});
 
   eleventyConfig.addPassthroughCopy({ "images/favicon.png": "/" });
 
