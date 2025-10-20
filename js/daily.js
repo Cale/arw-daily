@@ -1,4 +1,8 @@
 t = setInterval(getTime,60000);
+let colorSFI = 'green'
+let colorSN = 'green'
+let colorA = 'green'
+let colorK = 'green'
 
 function getTime() {
 
@@ -80,11 +84,15 @@ var getJSON = function(url, callback) {
 }
 
 getTime()
-getJSON('https://services.swpc.noaa.gov/products/noaa-scales.json',
+getJSON('https://dxlook.com/api/v1/public/spaceweather',
     function(err, data) {
         if (err !== null) {
-        document.getElementById("header-solar").innerHTML = "Error loading conditions"
+        document.getElementById("header-solar").innerHTML = 'Error loading conditions'
         } else {
-        document.getElementById("header-solar").innerHTML = "R"+data[0]["R"]["Scale"]+" S"+data[0]["S"]["Scale"]+" G"+data[0]["G"]["Scale"]
+        document.getElementById("header-solar").innerHTML = 
+        'SFI<span class="'+colorSFI+'" title="">'+data['SFI']+' </span>'+
+        'SN<span class="'+colorSN+'" title="">'+data['SN']+' </span>'+
+        'A<span class="'+colorA+'" title="">'+data['A']+' </span>'+
+        'K<span class="'+colorK+'" title="">'+data['K']+'</span>'
         }
     })
