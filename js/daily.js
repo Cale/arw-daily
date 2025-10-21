@@ -87,12 +87,45 @@ getTime()
 getJSON('https://dxlook.com/api/v1/public/spaceweather',
     function(err, data) {
         if (err !== null) {
-        document.getElementById("header-solar").innerHTML = 'Error loading conditions'
+            document.getElementById("header-solar").innerHTML = 'Error loading conditions'
         } else {
-        document.getElementById("header-solar").innerHTML = 
-        'SFI<span class="'+colorSFI+'" title="">'+data['SFI']+' </span>'+
-        'SN<span class="'+colorSN+'" title="">'+data['SN']+' </span>'+
-        'A<span class="'+colorA+'" title="">'+data['A']+' </span>'+
-        'K<span class="'+colorK+'" title="">'+data['K']+'</span>'
-        }
-    })
+            if (data['SFI'] < 110) {
+                colorSFI = 'red'
+            } else if (data['SFI'] >= 110 && data['SFI'] < 160) {
+                colorSFI = 'orange'
+            } else if (data['SFI'] >= 160) {
+                colorSFI = 'green'
+            }
+
+            if (data['A'] < 11) {
+                colorA = 'green'
+            } else if (data['A'] >= 11 && data['A'] < 100) {
+                colorA = 'orange'
+            } else if (data['A'] >= 100) {
+                colorA = 'red'
+            }
+
+            if (data['K'] < 3) {
+                colorA = 'green'
+            } else if (data['K'] >= 3 && data['K'] < 7) {
+                colorA = 'orange'
+            } else if (data['K'] >= 7) {
+                colorA = 'red'
+            }
+
+            document.getElementById("header-solar").innerHTML =
+            '<span class="'+colorSFI+'" title="Solar Flux Index">SFI'+data['SFI']+' </span>'+
+            '<span class="'+colorA+'" title="A Index">A'+data['A']+' </span>'+
+            '<span class="'+colorK+'" title="K Index">K'+data['K']+' </span>'+
+            'SN<span title="Sunspot Number">'+data['SN']+'</span>'
+
+            document.getElementById("80day").classList.add(data['bands']['80m-40m']['day'])
+            document.getElementById("80night").classList.add(data['bands']['80m-40m']['night'])
+            document.getElementById("30day").classList.add(data['bands']['30m-20m']['day'])
+            document.getElementById("30night").classList.add(data['bands']['30m-20m']['night'])
+            document.getElementById("17day").classList.add(data['bands']['17m-15m']['day'])
+            document.getElementById("17night").classList.add(data['bands']['17m-15m']['night'])
+            document.getElementById("12day").classList.add(data['bands']['12m-10m']['day'])
+            document.getElementById("12night").classList.add(data['bands']['12m-10m']['night'])
+    }
+})

@@ -329,7 +329,7 @@ footer a:hover {
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 td {
@@ -345,6 +345,21 @@ table span {
   border: 2px dotted #f1592a;
   margin-bottom: 1rem;
   padding: 0 2rem 1rem 2rem;
+}
+
+.box.band-conditions ul {
+  padding-bottom: .5rem;
+}
+
+.box.band-conditions ul li {
+  font-family: monospace;
+  font-size: .9rem;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.box.band-conditions ul, .box.band-conditions ul li {
+  padding-left: 0;
 }
 
 /* YouTube iframe */
@@ -383,6 +398,20 @@ audio {
 
 .single-post-ad {
   text-align: center;
+}
+
+/* Solar Colors */
+
+.red, .Poor {
+  color: #b62c2c
+}
+
+.orange, .Fair {
+  color: #f5d301;
+}
+
+.green, .Good {
+  color: #58b62c;
 }
 
 @keyframes nav {
