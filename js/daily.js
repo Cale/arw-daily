@@ -89,28 +89,28 @@ getJSON('https://dxlook.com/api/v1/public/spaceweather',
         if (err !== null) {
             document.getElementById("header-solar").innerHTML = 'Error loading conditions'
         } else {
-            if (data['SFI'] < 110) {
+            if (data['SFI'] < 80) {
                 colorSFI = 'red'
-            } else if (data['SFI'] >= 110 && data['SFI'] < 160) {
+            } else if (data['SFI'] >= 80 && data['SFI'] < 100) {
                 colorSFI = 'orange'
-            } else if (data['SFI'] >= 160) {
+            } else if (data['SFI'] >= 100) {
                 colorSFI = 'green'
             }
 
-            if (data['A'] < 11) {
+            if (data['A'] < 7) {
                 colorA = 'green'
-            } else if (data['A'] >= 11 && data['A'] < 100) {
+            } else if (data['A'] >= 7 && data['A'] < 29) {
                 colorA = 'orange'
-            } else if (data['A'] >= 100) {
+            } else if (data['A'] >= 29) {
                 colorA = 'red'
             }
 
-            if (data['K'] < 3) {
-                colorA = 'green'
-            } else if (data['K'] >= 3 && data['K'] < 7) {
-                colorA = 'orange'
-            } else if (data['K'] >= 7) {
-                colorA = 'red'
+            if (data['K'] < 2) {
+                colorK = 'green'
+            } else if (data['K'] >= 3 && data['K'] < 5) {
+                colorK = 'orange'
+            } else if (data['K'] >= 5) {
+                colorK = 'red'
             }
 
             document.getElementById("header-solar").innerHTML =
