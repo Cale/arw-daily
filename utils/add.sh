@@ -7,7 +7,7 @@ read -p "Enter new post name YYYY-MM-DD-name: " postname
 cat > /home/cale/Documents/projects/arw-daily/_posts/$postname.md <<'_EOF'
 ---
 title: 
-date: 2025-09-00
+date: 2025-10-28
 excerpt: 
 source: 
 sourceurl: 
