@@ -464,10 +464,12 @@ audio {
       text-align: center;
     }
     header.wrapper-header .home-header-logo {
-      padding-top: 0;
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 0;
     }
     header.wrapper-header .home-header-logo a {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
     }
     .full-bleed {
       grid-column: 2;
@@ -495,5 +497,8 @@ audio {
     }
     .ad {
       width: auto;
+    }
+    footer {
+      line-height: 1.75rem;
     }
 }
