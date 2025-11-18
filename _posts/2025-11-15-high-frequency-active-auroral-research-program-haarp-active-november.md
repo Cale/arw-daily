@@ -4,8 +4,11 @@ date: 2025-11-15
 excerpt: This campaign will also introduce a Rayleigh LIDAR system.
 source: HAARP
 sourceurl: https://haarp.gi.alaska.edu/
+eventdate: 2025-11-17
+eventdateend: 2025-11-22
 tags:
 - post
+- event
 - HAARP
 ---
 *The following is a press release from the High-frequency Active Auroral Research Program:*
