@@ -83,7 +83,7 @@ module.exports = function(eleventyConfig) {
 	});
 
   eleventyConfig.addCollection("futureevents", function (collectionsApi) {
-		const events = collectionsApi.getFilteredByTag("event").sort((a, b) => a.data.eventdate - b.data.eventdate).filter(event => {return event && event.data.eventdate >= now;})
+		const events = collectionsApi.getFilteredByTag("event").sort((a, b) => a.data.eventdate - b.data.eventdate).filter(event => {return event && event.data.eventdateend >= now;})
     return events;
 	});
 
