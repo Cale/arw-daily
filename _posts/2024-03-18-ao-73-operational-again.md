@@ -6,7 +6,7 @@ source: AMSAT
 sourceurl: https://www.amsat.org/ans-077-amsat-news-service-weekly-bulletins/
 tags:
 - post
-- FUNCube
+- FUNcube
 - AO-73
 - Satellite
 ---
