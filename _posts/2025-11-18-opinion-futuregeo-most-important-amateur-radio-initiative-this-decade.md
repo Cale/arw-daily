@@ -13,7 +13,7 @@ tags:
 ---
 *By Cale Mooth K4HCK*
 
-You might not know it, but plans are currently in progress to launch a geostationary amateur radio satellite that would provide multi-mode communications coverage to Europe and most of North America. Led by [ESA](https://www.esa.int/) and [AMSAT](https://www.amsat.org/), the project is currently called *futureGEO* and would be the pinnacle of achievement for the amateur radio hobby.
+You might not know it, but plans are currently in progress to launch a geostationary amateur radio satellite that would provide multi-mode communications coverage to Europe and most of North America. Led by [ESA](https://www.esa.int/) and [AMSAT](https://amsat-dl.org/), the project is currently called *futureGEO* and would be the pinnacle of achievement for the amateur radio hobby.
 
 futureGEO is likely to be very similar to the [QO-100 satellite](https://amsat-uk.org/satellites/geo/eshail-2/) that covers Europe, Africa, the Middle East, and a large portion of Asia. The major difference of course would be the inclusion of North America within FutureGEO's footprint, opening up geostationary satellite ops to one of the largest ham radio populations in the world.
 
