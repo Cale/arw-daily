@@ -1,7 +1,7 @@
 {% for event in collections.futureevents | limit(10) %}
    <div>
       <span><strong>{{ event.data.eventdate | formatDate }}
-         {% if 'eventdateend' in event.data %}
+         {% if event.data.eventdateend > event.data.eventdate %}
             &mdash; {{ event.data.eventdateend | formatDate}}
          {% endif %}
       </strong></span>
