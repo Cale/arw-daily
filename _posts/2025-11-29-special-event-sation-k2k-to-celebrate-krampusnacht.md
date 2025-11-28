@@ -12,7 +12,7 @@ tags:
 - Special Event
 - Krampusnacht
 ---
-*The following is a message from special event K2K:*
+*The following is a message from special event K2K organizer Caryn Eve Murray (KD2GUT):*
 
 Special event station [K2K](https://www.qrz.com/db/K2K) will be on the air marking a very old European Alpine region holiday tradition that has gained popularity in recent years in the US: Krampusnacht!
 
@@ -23,3 +23,6 @@ Look for one of the many Krampus calling stations on HF using CW and SSB, or on 
 Share your holiday stories and, in due time, you will be rewarded with a beautiful downloadable certificate created by hand just for this event. See our page on [QRZ.com](https://www.qrz.com/db/K2K) for a list of operators and other details.
 
 GRUSS VOM KRAMPUS!
+
+**Editor's Note:**   
+[Amateur Radio News and Notes](https://mvarc.substack.com/) curator N2EC interviewed Caryn Eve Murray about the Krampusnacht event. You can [read or listen to that interview here](https://mvarc.substack.com/p/amateur-radio-news-and-notes-11282025).
