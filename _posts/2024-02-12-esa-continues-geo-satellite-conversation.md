@@ -9,6 +9,7 @@ tags:
 - ESA
 - GEO Satellite
 - QO-100
+- futureGEO
 ---
 On Sunday February 4th, [Frank Zeppenfeldt](https://fosdem.org/2024/schedule/speaker/3QJFPU/) of the European Space Agency (ESA) gave a [presentation at FOSDEM 2024](https://fosdem.org/2024/schedule/event/fosdem-2024-2084-design-of-a-follow-up-qo-100-payload-/) encouraging feedback from amateur radio operators on the subject of a potential follow-up geostationary satellite to QO-100.
 

@@ -9,6 +9,7 @@ tags:
 - GEO Satellite
 - AMSAT-DL
 - Canada
+- futureGEO
 ---
 It's been nearly a year since we've seen public mention of the amateur radio focused geosynchronous satellite project that was [proposed](https://www.youtube.com/watch?v=_FTvlEyDa1Y) by the European Space Agency (ESA) back in late 2023. However, AMSAT-DL [recently sent](https://amsat-dl.org/en/rfei-for-futuregeo-project/) a Request for Expression of Interest (RFEI) to amateur radio associations, AMSAT organizations, and other experts.
 

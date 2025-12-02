@@ -11,6 +11,7 @@ tags:
 - ESA
 - AMSAT
 - BATC
+- futureGEO
 ---
 In response to the recent [GEO satellite proposal](https://www.youtube.com/watch?v=_FTvlEyDa1Y) outlined by the [European Space Agency](https://www.esa.int/), [AMSAT-UK](https://amsat-uk.org/), [British Amateur Television Club](https://batc.org.uk/), [AMSAT-NA](https://www.amsat.org/), and the [UK Microwave Group](https://www.microwavers.org/) have [outlined their own proposal](https://www.amsat.org/wordpress/wp-content/uploads/2023/12/ESA-GEO-proposal-AMSAT-UK.pdf) that suggests potential satellite coverage areas, microwave bands, laser communications, and more.
 

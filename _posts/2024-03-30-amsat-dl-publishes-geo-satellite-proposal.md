@@ -8,6 +8,7 @@ tags:
 - post
 - AMSAT-DL
 - GEO Satellite
+- futureGEO
 ---
 In response to the [IARU](https://www.iaru.org/) and [ESA](https://www.esa.int/) [request for feedback](https://www.youtube.com/watch?v=q5TYe4uBN6U) from the amateur radio community regarding a geostationary satellite, AMSAT-DL has published an extensive proposal for a [Geostationary Microwave Amateur Radio Payload](https://amsat-dl.org/wp-content/uploads/2024/03/AMSAT-DL_Proposal-Geo-Payload_final.pdf) (PDF).
 

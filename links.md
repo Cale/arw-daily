@@ -74,6 +74,7 @@ This page highlights some of the best publications, organizations, and overall l
 - [Digital Library of Amateur Radio & Communications](https://archive.org/details/dlarc)
 - [Open Source in Amateur Radio](https://opensource.radio/)
 - [NetFinder](https://netfinder.radio/)
+- [futureGEO Resource Page](/futuregeo/)
 
 ## Projects
 
