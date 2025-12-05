@@ -67,18 +67,23 @@ header .arw-header-logo img {
   height: 8rem;
 }
 
-nav {
+header nav {
+  background-color: #000;
+  font-size: 1.25rem;
+  font-weight: bold;
   padding-top: .25rem;
   padding-bottom: .25rem;
+  text-transform: uppercase;
 }
 
-nav a {
+header nav a {
+  color: #ffde16;
   padding: 0 .55rem;
   text-decoration: none;
 }
 
-nav span a {
-  color:#000;
+header nav span a {
+  color:#fff;
 }
 
 .home-header-logo {
@@ -111,6 +116,28 @@ nav span a {
   &:hover {
     transform: perspective(3000px) rotateY(5deg);
   }
+}
+
+.sign-up {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 2.5rem 5rem;
+}
+
+input, button {
+  border-radius: .75rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+button {
+  margin-left: 1rem;
+}
+
+.quiet {
+  color: #bbb;
 }
 
 article {
@@ -295,10 +322,6 @@ footer a:hover {
 
 .wrapper-home {
   grid-template-columns: 40% 40%;
-}
-
-.wrapper-home div {
-  border: 1px solid red;
 }
 
 .full-bleed {
