@@ -1,6 +1,6 @@
 ---
 title: HamSCI Meteor Scatter QSO Party
-date: 2025-12-06
+date: 2025-12-07
 excerpt: Event will utilize WSJT-X MSK144 mode.
 source: HamSCI
 sourceurl: https://www.hamsci.org/msqp
