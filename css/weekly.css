@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #00171e;
+  background-color: #000;
   color: #00171e;
   font-family: 'Atkinson', sans-serif;
   margin: 0;
@@ -136,8 +136,15 @@ button {
   margin-left: 1rem;
 }
 
-.quiet {
+.quiet, .quiet a {
   color: #bbb;
+  text-decoration: none;
+}
+
+.about {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 article {
@@ -280,7 +287,7 @@ time, .tag {
 }
 
 footer {
-  background-color: #00171e;
+  background-color: #000;
   color: #fff;
   padding: 1rem 0 1rem 0;
   text-align: center;
