@@ -11,17 +11,22 @@ layout: arw-shell.njk
         <h1>Amateur Radio Weekly</h1>
         <p>Sent every Saturday, Amateur Radio Weekly is an email newsletter featuring links to the most relevant news, projects, technology, videos, and events happening in Ham Radio. <a href="">Read a sample issue</a>.</p>
         <p>Join 8,000+ Hams and sign-up.</p>
-        <p><input type="text" placeholder="Enter your email address"><button>Subscribe</button></p>
+        <p>
+            <form id="signup" action="/signup.php" method="post">
+                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                <input type="email" name="email" placeholder="Enter your email address"><button id="button">Subscribe</button>
+            </form>
+        </p>
         <p class="quiet">Amateur Radio Weekly will never sell or give your email address away.</p>
     </div>
 </div>
 <div class="wrapper-home">
     <div class="sign-up">
         <h2>What Other Hams Are Saying</h2>
-        <blockquote><p>Outstanding<br><span>NA4C</span></p></blockquote>
-        <blockquote><p>I like the short, concise format.<br><span>K9MIT</span></p></blockquote>
-        <blockquote><p>A good weekly newsletter that should interest any active Ham or geek.<br><span>N4OAH</span></p></blockquote>
-        <blockquote><p>I enjoy ARW. It&rsquo;s my only newsletter.<br><span>KK4YMI</span></p></blockquote>
+        <blockquote><p>Outstanding<br><span class="quiet">&mdash;NA4C</span></p></blockquote>
+        <blockquote><p>I like the short, concise format.<br><span class="quiet">&mdash;K9MIT</span></p></blockquote>
+        <blockquote><p>A good weekly newsletter that should interest any active Ham or geek.<br><span class="quiet">&mdash;N4OAH</span></p></blockquote>
+        <blockquote><p>I enjoy ARW. It&rsquo;s my only newsletter.<br><span class="quiet">&mdash;KK4YMI</span></p></blockquote>
     </div>
     <div class="sign-up">
         <h2>About Amateur Radio Weekly</h2>
