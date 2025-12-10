@@ -3,12 +3,15 @@ title: Amateur Radio Weekly Newsletter
 excerpt: Ham radio special events that are coming soon.
 layout: arw-shell.njk
 ---
-<h1>Amateur Radio Weekly Archive2</h1>
-
-{% for newsletter in collections.newsletterArchive %}
-   <p>
-      <strong><a href="{{ newsletter.url }}">Issue {{ newsletter.data.issue }}</a></strong>
-      <br>{{ newsletter.data.subject }}
-      <br>{{ newsletter.data.issuedate }}
-   </p>
-{% endfor %}
+<div class="wrapper-single">
+    <div class="about">
+         <h1>Amateur Radio Weekly Archive</h1>
+         {% for newsletter in collections.newsletterArchive %}
+            <p>
+               <strong><a href="{{ newsletter.url }}">Issue {{ newsletter.data.issue }}</a></strong>
+               <br>{{ newsletter.data.subject }}
+               <br>{{ newsletter.data.issuedate }}
+            </p>
+         {% endfor %}
+   </div>
+</div>
