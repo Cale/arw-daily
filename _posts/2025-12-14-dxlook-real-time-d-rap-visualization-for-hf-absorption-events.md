@@ -1,6 +1,6 @@
 ---
 title: DXLook Introduces Real-Time D-RAP Visualization for HF Absorption Events
-date: 2025-12-13
+date: 2025-12-14
 excerpt: Update helps amateur radio operators understand and visualize HF absorption caused by solar X-ray flares.
 source: DXLook
 sourceurl: https://dxlook.com

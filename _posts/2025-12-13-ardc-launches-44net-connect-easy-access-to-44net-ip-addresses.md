@@ -1,6 +1,6 @@
 ---
 title: ARDC Launches 44Net Connect
-date: 2025-12-14
+date: 2025-12-13
 excerpt: New portal and VPN simplify access to 44Net IP space.
 source: ARDC
 sourceurl: https://connect.44net.cloud/
