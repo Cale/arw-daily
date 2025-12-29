@@ -96,7 +96,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("newsletterArchive", function (collectionsApi) {
-		const newsletters = collectionsApi.getFilteredByTag("emailarchive")
+		const newsletters = collectionsApi.getFilteredByTag("emailarchive").sort((a, b) => a.data.issue - b.data.issue)
     return newsletters.reverse();
 	});
 
