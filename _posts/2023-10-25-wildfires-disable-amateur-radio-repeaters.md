@@ -6,7 +6,7 @@ source: WTVC
 sourceurl: https://newschannel9.com/news/local/radio-tower-damaged-cables-destroyed-by-wildfire-on-lookout-mountain
 tags:
 - post
-- Repeaters
+- Repeater
 - Amateur Radio Club
 - Wildfires
 ---
