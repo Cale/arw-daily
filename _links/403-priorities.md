@@ -1,6 +1,6 @@
 ---
 title: What are Amateur Radio’s top three priorities in the next three years?
-excerpt: Figuring out what should be the focus of efforts promoting amateur radio in the 21st century.
+excerpt: Figuring out what should be the focus of efforts promoting Amateur Radio in the 21st century.
 source: KB6NU
 sourceurl: https://www.kb6nu.com/what-are-amateur-radios-top-three-priorities-in-the-next-three-years/
 linkname: priorities
