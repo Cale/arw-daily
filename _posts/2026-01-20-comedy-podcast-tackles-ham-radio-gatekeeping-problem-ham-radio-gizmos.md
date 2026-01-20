@@ -16,7 +16,7 @@ tags:
 
 Guy and Gus launch innovative series as survey data reveals 73% of new operators feel intimidated by online ham radio communities
 
-Orlando, FL – January 20, 2025 – As amateur radio experiences a post-pandemic surge in new licensees, a troubling trend has emerged: online communities have become battlegrounds where "real radio" debates and equipment tribalism drive newcomers away from a hobby designed around experimentation and connection.
+Orlando, FL – January 20, 2026 – As amateur radio experiences a post-pandemic surge in new licensees, a troubling trend has emerged: online communities have become battlegrounds where "real radio" debates and equipment tribalism drive newcomers away from a hobby designed around experimentation and connection.
 
 [Ham Radio Gizmos](http://hamradiogizmos.com) is tackling this challenge head-on with an innovative solution: a comedy podcast that makes learning fun again.
 
