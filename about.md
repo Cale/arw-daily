@@ -13,6 +13,12 @@ The text portion of Amateur Radio Daily is made available under a Creative Commo
 
 [See the full license deed](https://creativecommons.org/licenses/by-sa/4.0/).
 
+## Technical Details
+
+This site is built with [Eleventy](https://www.11ty.dev/) (11ty), a static site generator. No scripting languages or databases getting in the way, just raw HTML served directly to you the user from a VPS. Posts are written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and the project is managed using [Visual Studio Code](https://code.visualstudio.com/). The entire project can be viewed on [GitHub](https://github.com/Cale/arw-daily).
+
+The primary font used for article copy is [Atkinson](https://www.brailleinstitute.org/freefont/), a typeface designed by the [Braille Institute](https://www.brailleinstitute.org/) founder, J. Robert Atkinson. The typeface is specifically designed for users with low vision. It also includes a wonderful [slashed zero](https://en.wikipedia.org/wiki/Slashed_zero) (0) glyph to help differentiate between zero and "O" in call signs. The header typeface is [Newsreader](https://fonts.google.com/specimen/Newsreader).
+
 
 ## Established in 2023
 
