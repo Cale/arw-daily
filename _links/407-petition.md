@@ -1,5 +1,5 @@
 ---
-title: 'Petition for Rulemaking: Ecryption and Ham Radio'
+title: 'Petition for Rulemaking: Encryption and Ham Radio'
 excerpt: Permit limited use of cryptographic protection for certain Amateur emergency and resiliency communications.
 source: FCC
 sourceurl: https://www.fcc.gov/ecfs/document/122533192529/1

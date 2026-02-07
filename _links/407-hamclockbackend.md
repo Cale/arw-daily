@@ -1,6 +1,6 @@
 ---
 title: open-hamclock-backend aims to keep HamClock ticking
-excerpt: A group of ham radio operators have stepped up to keep HamClock operating beyond it's scheduled sunset in June.
+excerpt: A group of Ham Radio operators have stepped up to keep HamClock operating beyond its scheduled sunset in June.
 source: open-hamclock-backend
 sourceurl: https://daily.hamweekly.com/2026/02/open-hamclock-backend-seeks-to-keep-hamclock-ticking/
 linkname: hamclockbackend

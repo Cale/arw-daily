@@ -1,6 +1,6 @@
 ---
 title: Weekly Wednesday FSQ night
-excerpt: we will help stations new to the FSQ mode practice with relay and trigger commands, as well as answer questions regarding the mode in general and provide operating tips.
+excerpt: We will help stations new to the FSQ mode practice with relay and trigger commands, as well as answer questions regarding the mode in general and provide operating tips.
 source: FSQcall
 sourceurl: http://fsqcall.org/
 linkname: fsqcall

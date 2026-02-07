@@ -1,6 +1,6 @@
 ---
-title: 3D print moxon rectangle antenna
-excerpt: A simple OpenSCAD script you can use to generate a frame for a moxon rectangle antenna and print it on your 3D printer.
+title: 3D print Moxon rectangle antenna
+excerpt: A simple OpenSCAD script you can use to generate a frame for a Moxon rectangle antenna and print it on your 3D printer.
 source: Gaspode T. Wonderdog
 sourceurl: https://github.com/gaspode-t-wonderdog/moxon-frame-generator
 linkname: moxon
