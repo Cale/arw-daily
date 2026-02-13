@@ -7,7 +7,7 @@ sourceurl: https://www.spottedham.com/
 tags:
 - post
 - Press Release
-- Spotted Ham
+- SpottedHam
 - POTA
 ---
 *The following is a press release from [SpottedHam.com](https://www.spottedham.com/):*
