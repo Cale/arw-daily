@@ -1,6 +1,6 @@
 ---
 title: You should try Linux for Ham Radio today
-excerpt: It's never been easier running Linux on cheap laptop for ham Radio.
+excerpt: It's never been easier running Linux on a cheap laptop for Ham Radio.
 source: Ham Radio Crash Course
 sourceurl: https://www.youtube.com/watch?v=YAL5KNePRSg
 linkname: link
