@@ -22,6 +22,7 @@ This page features every link related to the futureGEO geostationary amateur rad
 - [AMSAT-DL payload proposal 2024](https://amsat-dl.org/wp-content/uploads/2024/03/AMSAT-DL_Proposal-Geo-Payload_final.pdf) (PDF)
 - [2023 AMSAT-UK & BATC payload proposal](https://www.amsat.org/wordpress/wp-content/uploads/2023/12/ESA-GEO-proposal-AMSAT-UK.pdf) (PDF)
 - A complete set of proposals is available on the [AMSAT-DL GitLab space](https://gitlab.com/amsat-dl/futuregeo).
+- [ARDC](https://www.ardc.net/apply/priority-areas-for-funding/#space-based-comms) (Willingness to fund a geostationary satellite project.)
 
 ## Articles
 

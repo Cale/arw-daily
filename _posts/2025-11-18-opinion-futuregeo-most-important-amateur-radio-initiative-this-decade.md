@@ -40,6 +40,7 @@ AMSAT-NA has relayed updates from AMSAT-DL and contributed to a proposal in 2023
 Personally, I find this the most exciting active development in ham radio. To show my support I've become a member of AMSAT-UK and will continue to promote this project through both *Amateur Radio Daily* and *Amateur Radio Weekly*. If this project interests you, I'd highly encourage you to find a way to help promote it. Present about it at an upcoming club meeting. Mention it on the air on the local repeater. Post to your favorite Facebook Group. It's up to us.
 
 **futureGEO Resources**   
+- [Amateur Radio Daily futureGEO resources page](https://daily.hamweekly.com/futuregeo/)
 - [2023 ESA futureGEO presentation](https://www.youtube.com/watch?v=_FTvlEyDa1Y)
 - [2023 AMSAT-UK & BATC payload proposal](https://www.amsat.org/wordpress/wp-content/uploads/2023/12/ESA-GEO-proposal-AMSAT-UK.pdf) (PDF)
 - [2024 ESA futureGEO presentation at FOSDEM](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2084-design-of-a-follow-up-qo-100-payload-/)
