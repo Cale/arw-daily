@@ -11,6 +11,7 @@ This page features every link related to the futureGEO geostationary amateur rad
 
 - [futureGEO presentation](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2084-design-of-a-follow-up-qo-100-payload-/) Presented by Frank Zeppenfeldt (PD0AP), ESA at FOSDEM 2024
 - [Geostationary Microwave Amateur Payload Proposal](https://www.youtube.com/watch?v=_FTvlEyDa1Y) Presented by Frank Zeppenfeldt (PD0AP), ESA at the AMSAT-UK colloquium in 2023
+- [AMSAT mention at HamCation 2026](https://www.youtube.com/watch?v=n3bp0lF4u4Y&t=1980s) AMSAT President Drew Glasbrenner (KO4MA) discusses futureGEO and his desire to target "higher market" opportunities.
 
 ## Workshops
 
