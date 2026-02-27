@@ -9,9 +9,9 @@ This page features every link related to the futureGEO geostationary amateur rad
 
 ## Presentations
 
+- [AMSAT at HamCation 2026](https://www.youtube.com/watch?v=n3bp0lF4u4Y&t=1980s) AMSAT President Drew Glasbrenner (KO4MA) discusses futureGEO and his desire to target "higher market" opportunities
 - [futureGEO presentation](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2084-design-of-a-follow-up-qo-100-payload-/) Presented by Frank Zeppenfeldt (PD0AP), ESA at FOSDEM 2024
 - [Geostationary Microwave Amateur Payload Proposal](https://www.youtube.com/watch?v=_FTvlEyDa1Y) Presented by Frank Zeppenfeldt (PD0AP), ESA at the AMSAT-UK colloquium in 2023
-- [AMSAT at HamCation 2026](https://www.youtube.com/watch?v=n3bp0lF4u4Y&t=1980s) AMSAT President Drew Glasbrenner (KO4MA) discusses futureGEO and his desire to target "higher market" opportunities
 
 ## Workshops
 
@@ -27,17 +27,17 @@ This page features every link related to the futureGEO geostationary amateur rad
 
 ## Articles
 
+- [GEO Payload / Satellite for Western Hemisphere](https://www.zeroretries.radio/zero-retries-0239/) Zero Retries 0239
 - [Opinion: futureGEO is the Most Important Amateur Radio Initiative of this Decade. Why is no one Talking About it?](https://daily.hamweekly.com/2025/11/opinion-futuregeo-most-important-amateur-radio-initiative-this-decade/)
 - [More Thoughts on a new (Western Hemisphere?) Amateur Radio GEO](https://www.zeroretries.org/i/179535757/more-thoughts-on-a-new-western-hemisphere-amateur-radio-geo) Zero Retries 0230
 - [GEO Capability for Western Hemisphere](https://www.zeroretries.org/i/178953945/geo-capability-for-western-hemisphere) Zero Retries 0229
 - [What is the ESA FutureGEO Project?](https://www.openresearch.institute/2025/08/04/what-is-the-esa-futuregeo-project/) ORI
 - [Project Eyes Ham Radio on Geosynchronous Satellite](https://www.arnewsline.org/news-text/2025/5/29/project-eyes-ham-radio-on-geosynchronous-satellite) Amateur Radio Newsline
 - [AMSAT-CA Position Paper Announcement](https://amsat-ca.org/2025/02/25/upcoming-event/)
-- [Amateur Radio Daily news items tagged *futureGEO*](https://daily.hamweekly.com/tags/futuregeo/)
-
 
 ## Other Resources
 
 - [futureGEO GitLab space](https://gitlab.com/amsat-dl/futuregeo) AMSAT-DL
 - [futureGEO Wiki](https://gitlab.com/amsat-dl/futuregeo/-/wikis/home) AMSAT-DL
 - [futureGEO forum](https://forum.amsat-dl.org/index.php?board/43-futuregeo/) AMSAT-DL
+- [Amateur Radio Daily news items tagged *futureGEO*](https://daily.hamweekly.com/tags/futuregeo/)
