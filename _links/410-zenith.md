@@ -1,5 +1,5 @@
 ---
-title: The history of the Hams that founded Zenith
+title: The story of the Hams that founded Zenith
 excerpt: What happened to the factory that put a television in every American living room?
 source: The Last Shift
 sourceurl: https://www.youtube.com/watch?app=desktop&v=BqJ66pSrL1k
