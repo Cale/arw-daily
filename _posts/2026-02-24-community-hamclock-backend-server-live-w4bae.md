@@ -8,7 +8,9 @@ tags:
 - post
 - HamClock
 ---
-*Editor's Note: Amateur Radio Daily is a contributor to the [Open HamClock Backend project](https://github.com/BrianWilkinsFL/open-hamclock-backend) and recommends their [public server](https://github.com/BrianWilkinsFL/open-hamclock-backend). Amateur Radio Daily headlines have appeared on HamClock since 2023.*
+**Editor's Note:** *Since the publication of this article, Amateur Radio Daily has become a contributor to the [Open HamClock Backend project](https://github.com/BrianWilkinsFL/open-hamclock-backend) and recommends their [public server](https://github.com/BrianWilkinsFL/open-hamclock-backend). Amateur Radio Daily headlines have appeared on HamClock since 2023.*
+
+*In addition, hamclock.com has [established a trustee agreement](https://www.hamclock.com/continuity.html) with [PSKReporter.info](https://pskreporter.info/) maintainer Philip Gladstone.*
 
 The first known community backend server for HamClock is now available for all HamClock users. The project, [hamclock.com](https://hamclock.com/), is free for anyone to use and will keep existing HamClock installs running indefinitely.
 

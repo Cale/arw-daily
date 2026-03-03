@@ -3,7 +3,7 @@ title: futureGEO Continues to be a Topic of Discussion
 date: 2026-02-27
 excerpt: Several events will focus on futureGEO in 2026.
 source: Amateur Radio Daily
-sourceurl: https://daily.hamweekly.com/
+sourceurl: https://daily.hamweekly.com/2026/02/futuregeo-updates-bochum-space-day-ham-radio-2026/
 tags:
 - post
 - futureGEO
