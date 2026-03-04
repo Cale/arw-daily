@@ -19,6 +19,15 @@ This site is built with [Eleventy](https://www.11ty.dev/) (11ty), a static site 
 
 The primary font used for article copy is [Atkinson](https://www.brailleinstitute.org/freefont/), a typeface designed by the [Braille Institute](https://www.brailleinstitute.org/) founder, J. Robert Atkinson. The typeface is specifically designed for users with low vision. It also includes a wonderful [slashed zero](https://en.wikipedia.org/wiki/Slashed_zero) (0) glyph to help differentiate between zero and "O" in call signs. The header typeface is [Newsreader](https://fonts.google.com/specimen/Newsreader).
 
+## Traffic and Demographics
+
+The Amateur Radio Daily website averages about 600 views per day. The month of February 2026 saw 16,389 views across 12,956 users. 53,396 unique clients accessed the RSS feed during the first week of February 2026. The top referring domains to Amateur Radio Daily are:
+
+- southgatearc.org
+- google.com
+- news.google.com
+- duckduckgo.com
+
 
 ## Established in 2023
 
