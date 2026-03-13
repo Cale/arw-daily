@@ -1,0 +1,37 @@
+---
+layout: shell-arw-email.njk
+issue: 412
+issuedate: March 14, 2026
+---
+<!-- START MAIN CONTENT AREA -->
+<tr>
+    <td class="wrapper">
+        <div style="display: block;margin-bottom: 10px;font-weight: normal;line-height: 1.5;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: rgb(122, 122, 122);text-align: right"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+        <!-- TOP LINKS -->
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 0 0 20px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal"><strong>Top Links</strong></h1>
+        {% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: #f1592a"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ links.data.linkname }}">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span class="e2ma-style" style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>{% endif %}
+        {% endfor %}
+        <!-- EVENTS -->  
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0 0 0 40px;line-height: 1.3;padding: 20px 0 5px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal; border-bottom: 1px dashed rgb(26, 109, 143)"><strong>Upcoming Events</strong></h1>  
+        <div style="margin: 20px 40px 0 40px;">  
+        {% for event in collections.futureevents limit:4 %}  
+                <p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 18px; color: #f1592a"><a href="{{ event.data.sourceurl }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ event.data.linkname }}">{{ event.data.title }}</a></span><br><strong style="font-size: 15px;">{{ event.data.eventdate | formatDate }}{% if event.data.eventdateend > event.data.eventdate %}
+            &mdash; {{ event.data.eventdateend | formatDate}}
+         {% endif %}</strong></p>
+        {% endfor %}
+        <p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 18px; color: #f1592a"><a href="https://daily.hamweekly.com/events/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="more-events">See more events</a></span></p>
+        </div>
+        <!-- VIDEO -->
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 30px 0 20px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal"><strong>Video</strong></h1>
+        {% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}
+                <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: #f1592a"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ links.data.linkname }}">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span class="e2ma-style" style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>{% endif %}
+        {% endfor %}
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 30px 0 20px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal"><strong>Editor's Corner</strong></h1>
+        <div style="padding: 0 0 0 0;"><p style="font-family: Helvetica, Arial, sans-serif;">Hi, my name is Cale (K4HCK) and I'm the editor of Amateur Radio Weekly. <p style="font-family: Helvetica, Arial, sans-serif;">The most-clicked link from last week's newsletter was the story about Indiana Hams <a href="https://www.arrl.org/news/indiana-hams-living-under-hoas-gain-antenna-protections" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">gaining antenna protections if they live under an HOA</a>. The first question that came to mind was whether it makes sense to shift lobbying efforts from national, to state level legislation in the US. The Indiana law establishes good precedent.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;"><a href="https://hamvention.org/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Hamvention</a> is just around the corner and once again I'll be making the trip to Dayton. <a href="https://www.zeroretries.radio/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Zero Retries</a> and <a href="https://archive.org/details/dlarc" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">DLARC</a> have generously allowed me to use their booth as a meet-up spot for myself and any other Amateur Radio Weekly readers that wish to say hi. Reply to this email if you're planning to be at Hamvention. I'd like to hear from you. Also, stickers will be on-hand! I'll be floating the idea of another <a href="https://mastodon.radio/deck/getting-started" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Mastodon</a> meet-up as well.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">General feedback regarding this newsletter or the content within is always welcome. Got a link to share? Simply hit reply.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">73<br>Cale<br>K4HCK</p>
+        </div>
+    </td>
+</tr>
