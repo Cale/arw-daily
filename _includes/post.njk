@@ -18,13 +18,10 @@ layout: shell.njk
           {% include 'sidebar-content.njk' %}
         </div>
       </article>
-      <div class="ad">
-        <section class="single-post-ad">
-          <div>
-            {% include 'aff-adsense.njk' %}
-          </div>
-        </section>
-      </div>
+      <section class="recent">
+        <h3 class="section-header">Affiliate Links</h3>
+        {% include 'aff-links.njk' %}
+      </section>
       <section class="recent">
         <h3 class="section-header">Recent News</h3>
         {% include 'recent-news.njk' %}
