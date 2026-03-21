@@ -1,6 +1,6 @@
 ---
 title: Hush
-excerpt: An Open Source alternative to VARA-HF
+excerpt: An Open Source alternative to VARA-HF.
 source: Hush
 sourceurl: https://github.com/kc1wzq/Hush
 linkname: hush
