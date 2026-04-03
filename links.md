@@ -11,7 +11,7 @@ This page highlights some of the best publications, organizations, and overall l
 
 ### Newsletters
 
-- [Zero Retries](https://www.zeroretries.radio/)
+- [Zero Retries](https://www.zeroretries.org/)
 - [Random Wire](https://www.randomwire.us/)
 - [Ria's Ham Shack](https://n2rj.substack.com/)
 - [73 from G5DOC](https://g5doc.substack.com/)
