@@ -3,7 +3,7 @@ title: Follow One Ham Radio Operator Tracking Artemis II for NASA
 date: 2026-04-05
 excerpt: Scott Tilley (VE7TIL) was selected by NASA to help track Orion.
 source: Amateur Radio Daily
-sourceurl: https://daily.hamweekly.com/
+sourceurl: https://daily.hamweekly.com/2026/04/follow-one-ham-tracking-artemiss-ii-for-nasa/
 tags:
 - post
 - NASA

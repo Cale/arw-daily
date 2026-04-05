@@ -8,7 +8,7 @@ tags:
 - post
 - HamClock
 ---
-**Editor's Note:** *Since the publication of this article, Amateur Radio Daily has become a contributor to the [Open HamClock Backend project](https://github.com/BrianWilkinsFL/open-hamclock-backend) and recommends their [public server](https://github.com/BrianWilkinsFL/open-hamclock-backend). Amateur Radio Daily headlines have appeared on HamClock since 2023.*
+**Editor's Note:** *Since the publication of this article, Amateur Radio Daily has become a code contributor to the [Open HamClock Backend project](https://github.com/komacke/open-hamclock-backend) and recommends their [public server](https://ohb.works/). Amateur Radio Daily headlines have appeared on HamClock since 2023.*
 
 *In addition, hamclock.com has [established a trustee agreement](https://www.hamclock.com/continuity.html) with [PSKReporter.info](https://pskreporter.info/) maintainer Philip Gladstone.*
 
@@ -18,4 +18,4 @@ The first known community backend server for HamClock is now available for all H
 
 With the [passing](https://daily.hamweekly.com/2026/01/hamclock-creator-elwood-downey-wb0oew-silent-key-hamclock-to-shut-down/) of HamClock creator Elwood Downey (WB0OEW), HamClock will stop working in June unless users point their installations to a new backend service. Updating existing HamClock installations is a simple task. Users have two options, updating their hosts file, or updating the command used to start HamClock. Both require only simple text changes.
 
-Hamclock.com is run by Bruce Edrich (W4BAE) and is built upon [open-hamclock-backend](https://github.com/BrianWilkinsFL/open-hamclock-backend).
+Hamclock.com is run by Bruce Edrich (W4BAE) and is built upon [open-hamclock-backend](https://github.com/komacke/open-hamclock-backend).

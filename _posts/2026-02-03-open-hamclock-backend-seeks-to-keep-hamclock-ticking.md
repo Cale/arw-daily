@@ -9,9 +9,11 @@ tags:
 - HamClock
 - Open Source
 ---
+*Editor's note: Since this article was published the OHB project has changed ownership and the included GitHub links have been updated accordingly.*
+
 A group of ham radio operators have stepped up to keep HamClock operating beyond it's [scheduled sunset](https://daily.hamweekly.com/2026/01/hamclock-creator-elwood-downey-wb0oew-silent-key-hamclock-to-shut-down/) in June. An open source replacement for the backend processes required to keep the popular HamClock project alive is well under way. 
 
-Developed by Brian (KO4AQF) and Austin (KN4LNB), [open-hamclock-backend](https://github.com/BrianWilkinsFL/open-hamclock-backend) is designed to be a drop-in replacement for the backend server that populates HamClock with its signature set of 40+ data points and visualizations.
+Developed by Brian (KO4AQF) and Austin (KN4LNB), [open-hamclock-backend](https://github.com/komacke/open-hamclock-backend) is designed to be a drop-in replacement for the backend server that populates HamClock with its signature set of 40+ data points and visualizations.
 
 From Brian (KO4AQF):
 
