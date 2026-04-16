@@ -7,6 +7,7 @@ sourceurl: https://www.amsat.org/amsat-at-hamvention-2026/
 tags:
 - post
 - AMSAT
+- Hamvention
 ---
 [AMSAT](https://www.amsat.org/) has announced their [lineup](https://www.amsat.org/amsat-at-hamvention-2026/) of events and activities for [Hamvention](https://hamvention.org/) 2026:
 
