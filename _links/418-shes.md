@@ -1,6 +1,6 @@
 ---
 title: A conversation with She’s On Frequency
-excerpt: Elle-Marie shares how she discovered ham radio while looking for reliable off-grid communication.
+excerpt: Elle-Marie shares how she discovered Ham Radio while looking for reliable off-grid communication.
 source: Alliance Amateur Radio Network
 sourceurl: https://allianceamateur.org/ke9dqs-a-conversation-with-shes-on-frequency-kj5lxp/
 linkname: shes

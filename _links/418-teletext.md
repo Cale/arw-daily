@@ -7,6 +7,6 @@ linkname: teletext
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: link
-order: 2
+order: 3
 issue: 418
 ---

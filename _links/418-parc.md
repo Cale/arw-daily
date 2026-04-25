@@ -1,6 +1,6 @@
 ---
 title: 'PARC: Protected Area Radio Community'
-excerpt: The new amateur radio park activation program.
+excerpt: The new Amateur Radio park activation program.
 source: PARC
 sourceurl: https://parc-community.com/
 linkname: parc
