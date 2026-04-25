@@ -1,5 +1,5 @@
 ---
-title: Icom teases X-023 radio to be Revealed at Hamvention
+title: Icom teases X-026 radio to be Revealed at Hamvention
 excerpt: Dubbed as a "concept mock-up," the radio appears to be a mobile VHF/UHF/HF rig.
 source: Icom
 sourceurl: https://www.facebook.com/reel/1740855356941241
