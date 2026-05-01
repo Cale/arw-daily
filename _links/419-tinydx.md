@@ -1,6 +1,6 @@
 ---
 title: Building the TinyDX – with a little help from AI
-excerpt: The TinyDX is a miniature FT8/4 QRP ~1W transceiver designed to be powered and operated via a USB connection to a smartphone/tablet running an FT8 app such as FT8TW for android or IFTX for IOS.
+excerpt: The TinyDX is a miniature FT8/4 QRP ~1W transceiver designed to be powered and operated via a USB connection to a smartphone/tablet running an FT8 app such as FT8TW for android or IFTX for iOS.
 source: M0KNF
 sourceurl: https://daily.hamweekly.com/2026/04/building-the-tinydx-with-help-from-ai-m0knf/
 linkname: tinydx
