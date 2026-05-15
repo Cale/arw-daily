@@ -7,6 +7,6 @@ linkname: mercury
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: link
-order: 1
+order: 2
 issue: 421
 ---
