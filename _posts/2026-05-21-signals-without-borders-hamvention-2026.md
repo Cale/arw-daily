@@ -14,7 +14,7 @@ tags:
 
 **At a Glance**
 
-- **Attendees:** 30,000+  (official count pending)
+- **Attendees:** 37,924
 - **Countries represented:** 43+
 - **Volunteers:** 600+
 

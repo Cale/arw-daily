@@ -1,5 +1,5 @@
 ---
-title: Will Meshtastic be the New APRS?
+title: Will Meshtastic be the new APRS?
 excerpt: It doesn’t replace traditional Amateur Radio, it rethinks how data propagates across a network while preserving familiar concepts.
 source: Seed Studio
 sourceurl: https://www.seeedstudio.com/blog/2026/05/08/will-meshtastic-be-the-new-aprs/
