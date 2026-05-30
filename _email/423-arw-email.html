@@ -1,0 +1,38 @@
+---
+layout: shell-arw-email.njk
+issue: 423
+issuedate: May 30, 2026
+---
+<!-- START MAIN CONTENT AREA -->
+<tr>
+    <td class="wrapper">
+        <div style="display: block;margin-bottom: 10px;font-weight: normal;line-height: 1.5;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: rgb(122, 122, 122);text-align: right"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+        <!-- TOP LINKS -->
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 0 0 20px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal"><strong>Top Links</strong></h1>
+        {% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: #f1592a"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ links.data.linkname }}">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span class="e2ma-style" style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>{% endif %}
+        {% endfor %}
+        <!-- EVENTS -->  
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0 0 0 40px;line-height: 1.3;padding: 20px 0 5px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal; border-bottom: 1px dashed rgb(26, 109, 143)"><strong>Upcoming Events</strong></h1>  
+        <div style="margin: 20px 40px 0 40px;">  
+        {% for event in collections.futureevents limit:4 %}  
+                <p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 18px; color: #f1592a"><a href="{{ event.data.sourceurl }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ event.data.linkname }}">{{ event.data.title }}</a></span><br><strong style="font-size: 15px;">{{ event.data.eventdate | formatDate }}{% if event.data.eventdateend > event.data.eventdate %}
+            &mdash; {{ event.data.eventdateend | formatDate}}
+         {% endif %}</strong></p>
+        {% endfor %}
+        <p style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 18px; color: #f1592a"><a href="https://daily.hamweekly.com/events/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="more-events">See more events</a></span></p>
+        </div>
+        <!-- VIDEO -->
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 30px 0 20px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal"><strong>Video</strong></h1>
+        {% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}
+                <p style="font-family: Helvetica, Arial, sans-serif;"><strong><span style="font-size: 18px; color: #f1592a"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;" data-type="url" target="_blank" data-name="{{ links.data.linkname }}">{{ links.data.title }}</a></span></strong><br>{{ links.data.excerpt }}<br><span class="e2ma-style" style="color: rgb(26, 109, 143)">{{ links.data.source }}</span></p>{% endif %}
+        {% endfor %}
+        <h1 style="display: block;font-size: 20px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 30px 0 20px 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: rgb(26, 109, 143);font-weight: normal"><strong>Editor's Corner</strong></h1>
+        <div style="padding: 0 0 0 0;"><p style="font-family: Helvetica, Arial, sans-serif;">Hi, my name is Cale (K4HCK) and I'm the editor of Amateur Radio Weekly.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">The most-clicked link from <a href="https://hamweekly.com/archive/issues/amateur-radio-weekly-issue-422.html" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">last week's newsletter</a> was Off Grid Ham's comments about the plain old telephone service (POTS) <a href="https://offgridham.com/2026/05/pots-an-amateurs-professional-perspective/?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">coming to an end</a>. POTS is dead at my house. We recently did a kitchen remodel and the drywall contractor walled over the old phone plug no questions asked. In my mind the ISDN line was the pinnacle of POTS. I pined over 128 kbit/s of fat bandwidth for many years.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">Need more Amateur Radio news? Check out <a href="https://daily.hamweekly.com/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Amateur Radio Daily</a>.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">General feedback regarding this newsletter or the content within is always welcome. Got a link to share? Simply hit reply.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">73<br>Cale<br>K4HCK</p>
+        </div>
+    </td>
+</tr>
