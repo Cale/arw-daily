@@ -1,5 +1,5 @@
 ---
-title: Installing a AT-D578UV Mobile
+title: Installing a AT-D578UV mobile
 excerpt: The quest to get the mobile installed began.
 source: N8DMT
 sourceurl: https://qsl.net/n8dmt/installing-at-d578uv-mobile/index.html

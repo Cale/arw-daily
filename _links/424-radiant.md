@@ -1,5 +1,5 @@
 ---
-title: 'RADIANT: Radio Amateur Delay-tolerant Interplanetary Networking Testbed'
+title: 'Radio Amateur Delay-tolerant Interplanetary Networking Testbed'
 excerpt: RADIANT brings Delay-Tolerant Networking to Amateur Radio, enabling store-and-forward messaging across disrupted links from terrestrial ground stations to Low Earth Orbit.
 source: AMSAT-UK
 sourceurl: https://radiant.amsat-uk.org/
