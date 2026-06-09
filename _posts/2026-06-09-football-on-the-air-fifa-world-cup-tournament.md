@@ -4,6 +4,8 @@ date: 2026-06-09
 excerpt: 16 special event callsigns will be active.
 source: 2026 World Soccer Tournament
 sourceurl: http://www.wc2026ses.org
+eventdate: 2026-06-11
+eventdateend: 2026-07-19
 tags:
 - post
 - event
