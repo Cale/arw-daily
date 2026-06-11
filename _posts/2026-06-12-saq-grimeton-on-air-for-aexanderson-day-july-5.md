@@ -1,6 +1,6 @@
 ---
 title: SAQ Grimeton On the Air for Alexander Day
-date: 2026-06-11
+date: 2026-06-12
 excerpt: 200kW alternator will transmit CW on 17.2 kHz.
 source: The Alexander association
 sourceurl: https://alexander.n.se/en/celebrate-100-years-with-saq-grimeton/
