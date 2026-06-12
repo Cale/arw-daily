@@ -1,6 +1,6 @@
 ---
 title: Ask an Astronaut
-excerpt: Find your question among hundreds of astronaut interviews aboard the ISS. Search for "ham radio."
+excerpt: Find questions among hundreds of astronaut interviews aboard the ISS. Search for "ham radio."
 source: ISS In Real Time
 sourceurl: https://askanastronaut.issinrealtime.org/
 linkname: astro

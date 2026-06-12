@@ -7,6 +7,6 @@ linkname: mesh
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: video
-order: 19
+order: 21
 issue: 425
 ---
