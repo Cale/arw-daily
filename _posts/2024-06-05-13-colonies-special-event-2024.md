@@ -9,6 +9,7 @@ tags:
 - post
 - event
 - Special Event
+- 13 Colonies
 ---
 The [13 Colonies Special Event](http://13colonies.us/) returns for 2024 and will take place July 1-7. 13 special callsigns will be on the air, each one representing one of the original 13 British colonies that were [first established in 1607](https://en.wikipedia.org/wiki/Thirteen_Colonies). Three additional bonus callsigns will be on the air representing Great Britain, France, and Philadelphia.
 
