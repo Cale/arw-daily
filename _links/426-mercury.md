@@ -1,6 +1,6 @@
 ---
 title: First Winlink email sent over Mercury on RF
-excerpt: The guys at Rhizomatica just made a better VARA than VARA. Unlike VARA, it's free, open-source, runs on Linux and Raspberry Pi.
+excerpt: The guys at Rhizomatica just made a better VARA than VARA. Unlike VARA, it's free, open-source, and runs on Linux & Raspberry Pi.
 source: KM6LYW
 sourceurl: https://www.youtube.com/watch?v=JkU0f3BeJcE
 linkname: mercury
