@@ -4,6 +4,8 @@ date: 2026-06-29
 excerpt: Celebrate America's Birthday on HF.
 source: W2JLD
 sourceurl: https://www.qrz.com/db/W2A
+eventdate: 2026-07-04
+eventdateend: 2026-07-04
 tags:
 - post
 - event
