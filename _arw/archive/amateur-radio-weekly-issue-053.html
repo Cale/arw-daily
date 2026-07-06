@@ -1,0 +1,17 @@
+---
+layout: shell-arw-archive.njk
+subject: CO gets antenna law, the tallest towers in the world, AM transmitter kit
+issue: 53
+issuedate: March 21st, 2015
+tags:
+- emailarchive
+---
+<div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <h1>New products</h1>{% for links in collections.links %}{% if links.data.linktype == 'product' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <h1>Reviews</h1>{% for links in collections.links %}{% if links.data.linktype == 'review' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
