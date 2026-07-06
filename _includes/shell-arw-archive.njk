@@ -21,14 +21,26 @@
     <link rel="icon" type="image/png" href="/favicon.png" sizes="228x228">
   </head>
   <body class="archived-issue">
-    <div>
-        <header class="archived-header">
+    <header class="archive-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>You're viewing the Amateur Radio Weekly Archive</li>
+        <li><a href="">Previous Issue</a></li>
+        <li><a href="">Next issue</a></li>
+        <li><a href="/">Sign up</a></li>
+      </ul>
+    </header>
+    <main>
+        <div class="archived-header">
             <a href="https://hamweekly.com/"><img src="https://hamweekly.com/images/amateur-radio-weekly.gif" width="700"></a>
-        </header>
-        <main class="archive-content">
+        </div>
+        <div class="archive-content">
             {{ content | safe }}
-        </main>
-    </div>
+        </div>
+    </main>
+    <footer>
+      <p></p>
+    </footer>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z67TCGRJF"></script>
     <script>
