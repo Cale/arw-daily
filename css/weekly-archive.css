@@ -1,0 +1,154 @@
+@font-face {
+  font-family: Atkinson;
+  src: url('/css/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'), 
+    url('/css/Atkinson-Hyperlegible-Regular-102.woff') format('woff');
+}
+
+body {
+  background-color: #ddd;
+  color: #00171e;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* div, article, main, h1 {
+  border: 1px solid red;
+} */
+
+a {
+  color: #f1592a;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #ffde16;
+  color: #00171e;
+  text-decoration-color: #00171e;
+}
+
+::selection {
+  color: #00171e;
+  background-color: #ffde16;
+}
+
+header, footer {
+  background-color: #000;
+  color: #ddd;
+  font-family: 'Atkinson';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header {
+  margin-bottom: 4rem;
+  padding: 0 .5rem;
+}
+
+header p, header ul {
+  display: inline;
+}
+
+header p {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 0 0 1px;
+}
+
+header li a, header li a:hover {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: .5rem;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #555;
+}
+
+main {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.archive-header a:hover {
+  background-color: #fff;
+}
+
+.archive-content {
+  padding: 2rem;
+}
+
+.archive-content  h1 {
+  color: rgb(26, 109, 143);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.archive-issue-date {
+  color: #777;
+  font-size: .8em;
+  text-align: right;
+}
+
+.archive-source {
+  color: rgb(26, 109, 143);
+}
+
+.events {
+  margin: 2rem 0 3rem 4rem;
+}
+
+.events h1 {
+  display: block;
+  text-decoration: dashed;
+  text-decoration-line: underline;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+footer a:hover {
+  background-color: transparent;
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+.web-ring nav {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1500px) {
+  
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+
+@media print {
+  header, footer {
+    display: none;
+  }
+}

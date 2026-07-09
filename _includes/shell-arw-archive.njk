@@ -1,5 +1,5 @@
 ---
-
+latestissue: 429
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -17,21 +17,18 @@
     <meta property="og:description" content="Issue {{ issue }} of Amateur Radio Weekly features {{ subject }}">
     <meta property="og:image" content="https://s3.amazonaws.com/emma-assets/b3h3/eb034ed72fd9f0ea240405f6861b43b1/arw-header-700.gif">
     <meta name="fediverse:creator" content="@k4hck@mastodon.radio" />
-    <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/weekly-archive.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/favicon.png" sizes="228x228">
   </head>
   <body class="archived-issue">
     <header class="archive-nav">
+      <p>You're viewing the Amateur Radio Weekly Archive</p>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li>You're viewing the Amateur Radio Weekly Archive</li>
-        <li><a href="">Previous Issue</a></li>
-        <li><a href="">Next issue</a></li>
-        <li><a href="/">Sign up</a></li>
+        <li><a href="/">Home</a></li><li><a href="/archive">Issue List</a></li>{% if issue > 1 %}<li><a href="/archive/amateur-radio-weekly-issue-{{ issue - 1 }}/">Previous Issue ({{ issue - 1 }})</a></li>{% endif %}{% if (issue + 1) != latestissue %}<li><a href="/archive/amateur-radio-weekly-issue-{{ issue + 1 }}/">Next issue ({{ issue + 1 }})</a></li>{% endif %}<li><a href="/">Sign up</a></li>
       </ul>
     </header>
     <main>
-        <div class="archived-header">
+        <div class="archive-header">
             <a href="https://hamweekly.com/"><img src="https://hamweekly.com/images/amateur-radio-weekly.gif" width="700"></a>
         </div>
         <div class="archive-content">
@@ -39,7 +36,8 @@
         </div>
     </main>
     <footer>
-      <p></p>
+      <p>Copyright &copy; {% year %} A Midnight Cheese Production</p>
+      <p><a href="/about/" title="About Amateur Radio Weekly">About</a> | <a href="/archive/" title="Links to all issues">Archive</a> | <a href="https://daily.hamweekly.com/">Daily News</a> | <a href="/links/">Links</a> | <a href="https://netfinder.radio/">Net Finder</a> | <a href="http://hamweekly.com/rss/issues.xml" title="RSS feed">RSS</a></p>
     </footer>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z67TCGRJF"></script>
