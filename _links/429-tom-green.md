@@ -6,7 +6,7 @@ sourceurl: https://www.youtube.com/watch?v=l6XJMMjFswI
 linkname: tom-green
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
-linktype: link
-order: 19
+linktype: video
+order: 21
 issue: 429
 ---
