@@ -1,6 +1,6 @@
 ---
-title: Amateur radio team seeks world championship glory
-excerpt: While England's footballers continue their quest for World Cup glory, Britain's top amateur radio enthusiasts are also taking on the world in a contest which takes place every four years.
+title: Amateur Radio team seeks world championship glory
+excerpt: While England's footballers continue their quest for World Cup glory, Britain's top Amateur Radio enthusiasts are also taking on the world in a contest which takes place every four years.
 source: BBC
 sourceurl: https://www.bbc.com/news/articles/ce8kkjkjwj9o
 linkname: champs

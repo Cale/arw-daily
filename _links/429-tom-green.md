@@ -7,6 +7,6 @@ linkname: tom-green
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
 linktype: video
-order: 21
+order: 23
 issue: 429
 ---

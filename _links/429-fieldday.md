@@ -1,6 +1,6 @@
 ---
 title: When disasters strike, cell phones and the internet aren’t always reliable
-excerpt: The Humboldt Amateur Radio Club is showing how Ham radio can keep people connected when other forms of communication fail.
+excerpt: The Humboldt Amateur Radio Club is showing how Ham Radio can keep people connected when other forms of communication fail.
 source: Redwood News
 sourceurl: https://www.facebook.com/RedwoodNews/videos/when-disasters-strike-cell-phones-and-the-internet-arent-always-reliable-this-we/795583250212294/
 linkname: fieldday
