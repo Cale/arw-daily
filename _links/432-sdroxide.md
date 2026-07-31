@@ -1,5 +1,5 @@
 ---
-title: 'SDRoxide: Software-define transceiver'
+title: 'SDRoxide: Software-defined transceiver'
 excerpt: A powerful SDR transceiver client with a GPU panadapter, dual VFOs, neural noise reduction, built-in skimmers, a full stack of digital modes and a live 3D space-weather globe — wrapped in a cyberpunk interface and running native on Linux, macOS & Windows, or streamed to any browser.
 source: SDRoxide
 sourceurl: https://sdroxide.com/
