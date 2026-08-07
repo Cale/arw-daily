@@ -4,7 +4,7 @@ excerpt: This year’s conference will bring together Hams and people interested
 source: Zero Retries
 sourceurl: https://www.zeroretries.org/p/zero-retries-0258?open=false#%C2%A7zrdc-2026-registration-now-open
 linkname: zrdc
-urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
+urlparams: 
 headerimage: arw-header.gif
 linktype: link
 order: 3
