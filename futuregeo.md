@@ -15,11 +15,13 @@ This page features every link related to the futureGEO geostationary amateur rad
 
 ## Workshops
 
+- [QO-100+/futureGEO community workshop at HAM RADIO 2026](https://amsat-dl.org/en/qo-100-futuregeo-community-workshop-at-ham-radio-2026/)
 - [Review: futureGEO Workshop 2025 in Bochum](https://amsat-dl.org/en/review-futuregeo-workshop-2025-in-bochum/) AMSAT-DL
 - [futureGEO Workshop Memo](https://www.openresearch.institute/2025/10/30/futuregeo-workshop-memo/) Open Research Institute (ORI)
 
 ## Proposals
 
+- [ORI futureGEO White Paper](https://www.openresearch.institute/2026/05/15/ori-futuregeo-white-paper/) HAM RADIO 2026
 - [AMSAT-DL payload proposal 2024](https://amsat-dl.org/wp-content/uploads/2024/03/AMSAT-DL_Proposal-Geo-Payload_final.pdf) (PDF)
 - [2023 AMSAT-UK & BATC payload proposal](https://www.amsat.org/wordpress/wp-content/uploads/2023/12/ESA-GEO-proposal-AMSAT-UK.pdf) (PDF)
 - A complete set of proposals is available on the [AMSAT-DL GitLab space](https://gitlab.com/amsat-dl/futuregeo).
@@ -41,3 +43,5 @@ This page features every link related to the futureGEO geostationary amateur rad
 - [futureGEO Wiki](https://gitlab.com/amsat-dl/futuregeo/-/wikis/home) AMSAT-DL
 - [futureGEO forum](https://forum.amsat-dl.org/index.php?board/43-futuregeo/) AMSAT-DL
 - [Amateur Radio Daily news items tagged *futureGEO*](https://daily.hamweekly.com/tags/futuregeo/)
+
+Last updated August 15, 2026.
