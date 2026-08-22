@@ -1,5 +1,5 @@
 ---
-title: Zero Retries Digital Conference 2026 Announced
+title: Zero Retries Digital Conference 2026
 date: 2026-02-18
 excerpt: ZRDC takes place one day before Pacificon 2026 in the same city.
 source: Zero Retries Digital Conference
