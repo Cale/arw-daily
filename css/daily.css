@@ -182,6 +182,10 @@ blockquote.mastodon-embed:before {
   content: "";
 }
 
+blockquote.mastodon-embed {
+  margin-bottom: 1rem !important;
+}
+
 .icon {
   padding-right: 1rem;
 }
