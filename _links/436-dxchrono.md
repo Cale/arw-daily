@@ -1,6 +1,6 @@
 ---
 title: DXChrono
-excerpt: A dedicated shack-wall display for amateur radio operators.
+excerpt: A dedicated shack-wall display for Amateur Radio operators.
 source: DXChrono
 sourceurl: https://dxchrono.com/
 linkname: dxchrono

@@ -1,6 +1,6 @@
 ---
 title: 2 Meter FM simplex net on August 22, 2026
-excerpt: Recording of the 2m FM Simplex Net in the Rochester, NY region with realtime distance maps.
+excerpt: Recording of the 2m FM simplex net in the Rochester, NY region with realtime distance maps.
 source: N2MAK
 sourceurl: https://www.youtube.com/watch?v=QODy6Qb1dQ8
 linkname: simplex
