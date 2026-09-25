@@ -1,6 +1,6 @@
 ---
-title: POTA/SOTA Activation at Diamond Head Turns Into Real-World Emergency Response
-excerpt: An opportunity for an amateur radio operator to put years of emergency preparedness and communications training to practical use.
+title: POTA/SOTA activation at Diamond Head turns into real-world emergency response
+excerpt: An opportunity for an Amateur Radio operator to put years of emergency preparedness and communications training to practical use.
 source: KH6ML
 sourceurl: https://youtu.be/_GO4as2CSvc
 linkname: emergency
