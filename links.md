@@ -20,6 +20,7 @@ This page highlights some of the best publications, organizations, and overall l
 - [The Logger's Bark](https://www.w7dk.org/2012-04-11-16-51-17)
 - [Amateur Radio Society of India](https://arsi.info/newsletter/)
 - [Amateur Radio Weekly](https://hamweekly.com/)
+- [Apple Amateur Radio Bulletin](https://appleamateurradio.substack.com/)
 
 ### Video Publications
 
