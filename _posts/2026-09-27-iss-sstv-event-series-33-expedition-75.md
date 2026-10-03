@@ -5,7 +5,7 @@ excerpt: Series 33 will feature images focused on student education.
 source: ARISS
 sourceurl: https://mastodon.hams.social/@ARISS_Intl/117315559694748769
 eventdate: 2026-10-02
-eventdateend: 2026-10-02
+eventdateend: 2026-10-06
 tags:
 - post
 - event
