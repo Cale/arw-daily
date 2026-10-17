@@ -11,7 +11,7 @@ tags:
 ---
 *The following is a message from APRS Connect:*
 
-[APRS Connect](https://aprsconnect.com), the messaging-first APRS client that [launched on Android in August](http://localhost:8080/2026/09/aprs-connect-messaging-first-client-for-android/), is now on the App Store for iPhone (iOS 16.4 or later). It is free to install and use over APRS-IS. Connecting a radio and several advanced features are part of APRS Connect Pro, a subscription with a 7-day free trial. 
+[APRS Connect](https://aprsconnect.com), the messaging-first APRS client that [launched on Android in August](https://daily.hamweekly.com/2026/09/aprs-connect-messaging-first-client-for-android/), is now on the App Store for iPhone (iOS 16.4 or later). It is free to install and use over APRS-IS. Connecting a radio and several advanced features are part of APRS Connect Pro, a subscription with a 7-day free trial. 
 
 [APRS OTA](https://aprsota.org), the on-the-air activity that runs entirely over APRS, has its own screens in the app, so you tap buttons instead of typing bot commands. Hosts go on the air in one tap. Each chaser's call arrives with their message, where they are and a Confirm button. A bar across the top shows QSOs, points and time left, with buttons to stay longer or message every chaser at once. A live map shows you and your chasers and adds up how far your contacts have reached. Chasers get the list of hosts on the air, tap one to call, and watch each step through to the host's QSL. Every op is saved with its map and scores and can be shared as a picture. Chasing works over APRS-IS, free. Hosting needs a radio, as APRS OTA's rules require.
 

@@ -1,0 +1,27 @@
+---
+layout: shell-arw-archive.njk
+subject: eBay limits radio listings, Swiss Army Knife Hams.com launches, 44Net Connect
+issue: 443
+issuedate: October 17, 2026
+tags:
+- emailarchive
+---
+<div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <!-- EVENTS -->  
+                <div class="events">
+                <h1><strong>Upcoming Events</strong></h1>
+                {% for event in collections.futureevents limit:4 %}
+                    <p><a href="{{ event.data.sourceurl }}" target="_blank">{{ event.data.title }}</a></span><br><strong>{{ event.data.eventdate | formatDate }}</strong></p>
+                {% endfor %}
+                </div>
+                <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <h1>Editor's Corner</h1>
+        <div style="padding: 0 0 0 0;"><p style="font-family: Helvetica, Arial, sans-serif;">Hi, my name is Cale (K4HCK) and I'm the editor of Amateur Radio Weekly.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">The most-clicked link from <a href="https://hamweekly.com/archive/issues/amateur-radio-weekly-issue-442.html" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">last week's newsletter</a> was Off Grid Ham's <a href="https://offgridham.com/2026/10/anderson-powerpoles/?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">history of the Anderson Power Pole</a>.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">It's a short issue this week since I'm currently attending <a href="https://www.zeroretries.org/p/conference" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Zero Retries Digital Conference</a> and <a href="https://www.pacificon.org/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Pacificon</a>. If you're at Pacificon today, stop by booth 33 and say hello!</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">General feedback regarding this newsletter or the content within is always welcome. Got a link to share? Simply hit reply.</p>
+        <p style="font-family: Helvetica, Arial, sans-serif;">73<br>Cale<br>K4HCK</p>
+        </div>
