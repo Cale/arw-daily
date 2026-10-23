@@ -8,5 +8,5 @@ urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsl
 headerimage: arw-header.gif
 linktype: link
 order: 5
-issue: 445
+issue: 444
 ---
