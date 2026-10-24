@@ -21,6 +21,7 @@ This page features every link related to the futureGEO geostationary amateur rad
 
 ## Proposals
 
+- [Which Downlink? An Open Trade Study of Candidate Bands for futureGEO](https://www.openresearch.institute/2026/09/08/which-downlink-an-open-trade-study-of-candidate-bands-for-futuregeo/)
 - [ORI futureGEO White Paper](https://www.openresearch.institute/2026/05/15/ori-futuregeo-white-paper/) HAM RADIO 2026
 - [AMSAT-DL payload proposal 2024](https://amsat-dl.org/wp-content/uploads/2024/03/AMSAT-DL_Proposal-Geo-Payload_final.pdf) (PDF)
 - [2023 AMSAT-UK & BATC payload proposal](https://www.amsat.org/wordpress/wp-content/uploads/2023/12/ESA-GEO-proposal-AMSAT-UK.pdf) (PDF)
@@ -44,4 +45,4 @@ This page features every link related to the futureGEO geostationary amateur rad
 - [futureGEO forum](https://forum.amsat-dl.org/index.php?board/43-futuregeo/) AMSAT-DL
 - [Amateur Radio Daily news items tagged *futureGEO*](https://daily.hamweekly.com/tags/futuregeo/)
 
-Last updated August 15, 2026.
+Last updated October 23, 2026.
