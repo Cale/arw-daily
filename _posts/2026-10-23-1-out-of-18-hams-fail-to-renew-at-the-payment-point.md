@@ -25,7 +25,7 @@ These payment failures exclude initial license grants, and they exclude operator
 
 Some hams failed multiple times to pay, and KK6UPP holds the top spot with [seven attempts](https://wireless2.fcc.gov/UlsApp/UlsSearch/allApplications.jsp?licKey=3708023) to achieve success. W2ANN failed to make payment with three of his four renewal applications; in one other attempt he probably filed an incomplete application. Luckily, W2ANN has almost a year of grace period left to make a fifth try.
 
-Others were … “not” so lucky. I’ve written the [sad tale of KE6MIT](https://daily.hamweekly.com/2026/09/call-sign-grace-period-a-hard-lesson-learned/) whose call sign expired after multiple attempts to pay. Over the last two years, **431 call signs lapsed** and 1,221 remained in grace period after those operators failed 1.1 times on average to pay a renewal fee.
+Others were … “not” so lucky. I’ve written the [sad tale of KE6MIT](https://daily.hamweekly.com/2026/09/call-sign-grace-period-a-hard-lesson-learned/) whose call sign expired after multiple attempts to pay. Over the last two years, **1,431 call signs lapsed** and 1,221 remained in grace period after those operators failed 1.1 times on average to pay a renewal fee.
 
 That “1.1 times on average” reveals a bigger problem: 92% of hams who failed to make a payment the first time simply walked away.
 
@@ -44,3 +44,5 @@ Third, ARRL should **work** with the FCC to reduce this problem at the national 
 Now that we recognize the “1 out of 18” problem, we can seek to know why it happens and we can find other ways to tackle it. For example, I’m going to print this and mail it to my congressman. Let’s get QRL!
 
 [![ULS attrition](https://assets.midnightcheese.com/amateur-radio-daily/images/renewal-snapshot.png)](https://assets.midnightcheese.com/amateur-radio-daily/images/renewal-snapshot.png)
+
+**CORRECTION:** Due to the author's cut & paste error, the original article said 431 call signs lapsed."
