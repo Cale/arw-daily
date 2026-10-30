@@ -4,8 +4,11 @@ date: 2023-10-08
 excerpt: CW QRP event is a casual, fun event for zombies.
 source: Zombie Shuffle
 sourceurl: http://www.zianet.com/qrp/ZOMBIE/pg.html
+eventdate: 2023-10-27
+eventdateend: 2023-10-27
 tags:
 - post
+- event
 - Contesting
 - Zombie
 ---
