@@ -6,7 +6,7 @@ sourceurl: https://qrpedia.com/
 linkname: qrpedia
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
 headerimage: arw-header.gif
-linktype: link
+linktype: app
 order: 5
-issue: 446
+issue: 500
 ---
