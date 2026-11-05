@@ -1,6 +1,6 @@
 ---
 title: Pocket Shack Brings AllStarLink to iPhone, iPad, Mac, Apple Watch, and Carplay
-date: 2026-11-03
+date: 2026-11-05
 excerpt: Find a node, listen in free, and key up from your phone, your wrist or your dashboard.
 source: Cygnus Strategy
 sourceurl: https://pocketshack.cygnusstrategy.com
