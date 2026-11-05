@@ -1,6 +1,6 @@
 ---
 title: QSL Shack
-excerpt: Free social network for Ham Radio operators &amp; enthusiasts
+excerpt: Free social network for Ham Radio operators &amp; enthusiasts.
 source: QSL Shack
 sourceurl: https://qslshack.com/
 linkname: qslshack
