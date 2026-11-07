@@ -76,6 +76,7 @@ This page highlights some of the best publications, organizations, and overall l
 - [Open Source in Amateur Radio](https://opensource.radio/)
 - [NetFinder](https://netfinder.radio/)
 - [futureGEO Resource Page](/futuregeo/)
+- [BG7BAG Radio](https://bg7bag.com/)
 
 ## Projects
 
