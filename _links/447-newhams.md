@@ -7,6 +7,6 @@ linkname: newhams
 urlparams: 
 headerimage: arw-header.gif
 linktype: link
-order: 2
+order: 1
 issue: 447
 ---
