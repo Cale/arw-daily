@@ -1,0 +1,11 @@
+---
+layout: shell-arw-archive.njk
+subject: 'Year-end Review: The most clicked links of 2022'
+issue: 268
+issuedate: December 31st, 2022
+tags:
+- emailarchive
+---
+<div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <h1>The most clicked links of 2022</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
