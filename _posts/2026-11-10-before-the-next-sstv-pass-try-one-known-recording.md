@@ -27,4 +27,4 @@ Once the known file works, add the live audio path one stage at a time and retai
 
 The walkthrough and sample are at [https://sstv.org.uk/receive/first-decode/](https://sstv.org.uk/receive/first-decode/). [SSTV Lite](https://apps.apple.com/gb/app/sstv-lite-ham-radio/id6793821600) and [SSTV Signal Desk](https://apps.apple.com/us/app/sstv-signal-desk/id6754263308) (Pro) are available for iPhone, iPad and Mac. Lite includes unlimited built-in practice; saving a complete imported image can use a free reception, so check its remaining allowance first.
 
-Disclosure: CannedRocket develops the apps and publishes [SSTV.org.uk](https://sstv.org.uk/). The linked Mac video is a retained [SSTV Signal Desk 2.0](https://apps.apple.com/us/app/sstv-signal-desk/id6754263308) file-replay demonstration, not a new 2.0.4 device test or an on-air reception.
+Disclosure: CannedRocket develops the apps and publishes [SSTV.org.uk](https://sstv.org.uk/). The linked Mac video is a retained [SSTV Signal Desk 2.0](https://sstv.org.uk/receive/first-decode/#demo) file-replay demonstration, not a new 2.0.4 device test or an on-air reception.
