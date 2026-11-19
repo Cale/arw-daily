@@ -1,6 +1,6 @@
 ---
 title: IU0VYT Flash is an Open Source Radio Programming Utility Supporting 623 Models
-date: 2026-11-19
+date: 2026-11-22
 excerpt: The software now covers AnyTone DMR radios.
 source: IU0VYT
 sourceurl: https://iu0vyt.github.io/IU0VYT/
