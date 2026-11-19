@@ -1,5 +1,5 @@
 ---
-title: 'Silent Key: A Ham Radio Themed Horror Podcast'
+title: 'Silent Key: A Ham Radio themed horror podcast'
 excerpt: New episodes every Thursday.
 source: Silent Key
 sourceurl: https://shows.acast.com/silent-key
