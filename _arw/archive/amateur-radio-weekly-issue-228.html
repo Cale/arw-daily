@@ -7,7 +7,11 @@ tags:
 - emailarchive
 ---
 <div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
-                <h1>2018 Year in Review</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <span style="text-align: center;"><h1>2018 Year in Review</h1>
+                <table cellpadding="0" cellspacing="0" style="font-family: Helvetica;font-size: 12px" width="100%"> <tbody><tr> <td class="e2ma-holder" style="padding: 0 0 0 0;background-color: transparent" valign="top"> <div class="e2ma-content-block"> <div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;line-height: 1.5;font-weight: normal;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000;text-align: center"><span style="color: rgb(146, 146, 146); font-size: 12px; line-height: 1.5; background-color: transparent">For this final email of the year, I pulled the most clicked links from each issue and complied the top 10<br>
+                as a "look back" on the world of Amateur Radio in 2018. Enjoy! –Cale K4HCK</span> </div></div>
+                </td></tr></tbody></table></span>
+                {% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
                 <h1>Bonus!</h1>{% for links in collections.links %}{% if links.data.linktype == 'bonus' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}

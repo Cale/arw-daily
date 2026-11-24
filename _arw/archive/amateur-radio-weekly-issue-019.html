@@ -8,7 +8,9 @@ tags:
 ---
 <div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
                 <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
-                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% if links.data.linkname == 'fire-tower' %}<div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;line-height: 1.5;font-weight: normal;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000"><strong>Editor's note<br>
+                </strong>I had the pleasure of speaking to N4AOW earlier this week during my daily commute in to Nashville. He had one of his beams pointing to a local Nashville repeater, easily making the ~170 mile VHF QSO out of East Tennessee. --KK4HSX<br>
+                <span class="e2ma-style" style="color: rgb(26, 109, 143)">CQ VHF magazine</span> </div>{% endif %}{% endfor %}
                 <h1>How to</h1>{% for links in collections.links %}{% if links.data.linktype == 'howto' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
                 <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}

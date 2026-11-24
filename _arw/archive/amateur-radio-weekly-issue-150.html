@@ -7,6 +7,10 @@ tags:
 - emailarchive
 ---
 <div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <table cellpadding="0" cellspacing="0" style="font-family: Helvetica;font-size: 12px" width="100%"> <tbody><tr> <td class="e2ma-holder" style="padding: 0 0 20px 0;background-color: transparent" valign="top"> <div class="e2ma-content-block"> <div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;line-height: 1.5;font-weight: normal;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000;text-align: center"><span class="e2ma-style" style="font-size: 12px; color: rgb(146, 146, 146)"><a data-name="arw-footer" data-type="url" href="http://hamweekly.com/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=footer" style="font-weight: normal;font-weight: normal;color: #f1592a;text-decoration: underline;font-weight: inherit" title="Amateur Radio Weekly"></a></span><span class="e2ma-style" style="color: rgb(146, 146, 146); font-size: 12px">150 issues strong! If you find value in ARW each week, please tell your fellow Hams about us<br>
+                on social media and spread the word at your local club meeting. Thank you! K4HCK</span><span class="e2ma-style" style="color: rgb(146, 146, 146); font-size: 12px"><br>
+                </span> </div></div>
+                </td> </tr> </tbody></table>
                 <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
                 <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}

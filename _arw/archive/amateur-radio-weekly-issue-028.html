@@ -7,5 +7,8 @@ tags:
 - emailarchive
 ---
 <div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <table cellpadding="0" cellspacing="0" style="font-family: Helvetica;font-size: 12px" width="100%"> <tbody><tr> <td class="e2ma-holder" style="padding: 0 0 0 0;background-color: transparent" valign="top"> <div class="e2ma-content-block"> <div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;line-height: 1.5;font-weight: normal;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000;text-align: center"><span class="e2ma-style" style="color: rgb(122, 122, 122); font-size: 12px">Apologies for the lack of ARW last week. Your editor was busy attending the NASA/SpaceX rocket launch. <br>
+                </span><span class="e2ma-style" style="color: rgb(122, 122, 122); font-size: 12px">As compensation, this week's issue is packed full of extra links! -KK4HSX</span> </div></div>
+                </td> </tr> </tbody></table>
                 <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
