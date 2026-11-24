@@ -1,5 +1,5 @@
 ---
-title: "TAP: A Morse Code alternative"
+title: "1. TAP: A Morse Code alternative"
 excerpt: This mode has roots in ancient Greece.
 source: SV3ORA
 sourceurl: http://qrp.gr/tap/

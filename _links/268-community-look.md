@@ -1,5 +1,5 @@
 ---
-title: Taking a long hard look at our community
+title: 5. Taking a long hard look at our community
 excerpt: Without the efforts of each individual amateur, our worldwide license to experiment is doomed.
 source: VK6FLAB
 sourceurl: https://www.eham.net/article/48285

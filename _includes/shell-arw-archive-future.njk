@@ -1,5 +1,5 @@
 ---
-latestissue: 447
+latestissue: 448
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -24,12 +24,12 @@ latestissue: 447
     <header class="archive-nav">
       <p>You're viewing the Amateur Radio Weekly Archive</p>
       <ul>
-        <li><a href="/">Home</a></li><li><a href="/archive">Issue List</a></li>{% if issue > 1 %}<li><a href="/archive/amateur-radio-weekly-issue-{{ issue - 1 }}/">Previous Issue ({{ issue - 1 }})</a></li>{% endif %}{% if (issue + 1) != latestissue %}<li><a href="/archive/amateur-radio-weekly-issue-{{ issue + 1 }}/">Next issue ({{ issue + 1 }})</a></li>{% endif %}<li><a href="/">Sign up</a></li>
+        <li><a href="/">Home</a></li><li><a href="/archive">Issue List</a></li>{% if issue > 1 %}<li><a href="/archive/amateur-radio-weekly-issue-{{ issue - 1 }}/">Previous Issue ({{ issue - 1 }})</a></li>{% endif %}{% if issue != latestissue %}<li><a href="/archive/amateur-radio-weekly-issue-{{ issue + 1 }}/">Next issue ({{ issue + 1 }})</a></li>{% endif %}<li><a href="/">Sign up</a></li>
       </ul>
     </header>
     <main>
         <div class="archive-header">
-            <a href="https://hamweekly.com/"><img src="https://hamweekly.com/images/amateur-radio-weekly.gif" width="700"></a>
+            <a href="https://hamweekly.com/">{% if issue == 347 %}<img src="https://hamweekly.com/images/arw-header-700-b-side.gif" width="700">{% else %}<img src="https://hamweekly.com/images/amateur-radio-weekly.gif" width="700">{% endif %}</a>
         </div>
         <div class="archive-content">
             {{ content | safe }}

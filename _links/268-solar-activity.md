@@ -1,5 +1,5 @@
 ---
-title: Sun is more active than NASA predicted
+title: 3. Sun is more active than NASA predicted
 excerpt: It could be in its strongest cycle since records began.
 source: Forbes
 sourceurl: https://www.forbes.com/sites/jamiecartereurope/2022/08/02/the-sun-is-now-more-active-than-nasa-predicted-it-could-be-in-its-strongest-cycle-since-records-began/

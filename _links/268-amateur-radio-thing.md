@@ -1,5 +1,5 @@
 ---
-title: "Yes, Amateur Radio is still a thing: Here's why"
+title: "10. Yes, Amateur Radio is still a thing: Here's why"
 excerpt: With great power comes greater responsibility, and Amateur Radio is no exception.
 source: Electronics360
 sourceurl: https://electronics360.globalspec.com/article/18575/yes-amateur-radio-is-still-a-thing-here-s-why

@@ -1,5 +1,5 @@
 ---
-title: KrakenSDR locates a repeater jammer in 1 hour
+title: 2. KrakenSDR locates a repeater jammer in 1 hour
 excerpt: Using the KrakenSDR Radio Direction Finder, we were at his house in 60 minutes.
 source: RTL-SDR.com
 sourceurl: https://www.rtl-sdr.com/krakensdr-locates-a-repeater-jammer-in-1-hour

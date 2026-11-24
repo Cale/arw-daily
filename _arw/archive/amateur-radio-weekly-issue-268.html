@@ -7,5 +7,9 @@ tags:
 - emailarchive
 ---
 <div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <table cellpadding="0" cellspacing="0" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px" width="100%"> <tbody><tr> <td class="e2ma-holder" style="padding: 20px 40px 20px 40px;background-color: transparent" valign="top"> <div class="e2ma-content-block">
+                <div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;font-weight: normal;line-height: 1.5;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000"><span style="line-height: 1.5">As is tradition, the last issue of the year takes a look back at the most popular links from the past 12 months. 2022 was an abbreviated year (ARW spun back up in April), but plenty of great articles were published in the past 9 months. So without further delay, here are the top links measured by number of clicks for 2022!<br></span></div>
+                </div>
+                </td> </tr> </tbody></table>
                 <h1>The most clicked links of 2022</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}

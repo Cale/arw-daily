@@ -7,6 +7,11 @@ tags:
 - emailarchive
 ---
 <div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate }}</div>
+                <table cellpadding="0" cellspacing="0" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px" width="100%"> <tbody><tr> <td class="e2ma-holder" style="padding: 20px 40px 20px 40px;background-color: transparent" valign="top"> <div class="e2ma-content-block"> <h1 style="display: block;font-size: 30px;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 1;color: #1A6D8F;font-weight: normal">300 Issues!<br></h1>
+                <div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;font-weight: normal;line-height: 1.5;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000"><span style="line-height: 1.5">Today marks the 300th issue of Amateur Radio Weekly. That's almost 6 years of newsletters. Thanks to all of you whether you're skimming the headlines or clicking the links and finding useful information. I appreciate your interest and enjoy doing this each week. Here's to another 300!</span></div>
+                <div class="e2ma-p-div" style="display: block;margin-bottom: 10px;font-size: 12px;font-weight: normal;line-height: 1.5;font-family: Helvetica, Arial, sans-serif;font-size: 14px;color: #000"><span style="line-height: 1.5"><span class="e2ma-style" style="color: rgb(96, 96, 96)">73 K4HCK</span> <br></span></div>
+                </div>
+                </td> </tr> </tbody></table>
                 <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
                 <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
                 <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}

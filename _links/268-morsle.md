@@ -1,5 +1,5 @@
 ---
-title: "Morsle: The daily Morse code challenge"
+title: "7. Morsle: The daily Morse code challenge"
 excerpt: You have 21 tries to guess the word
 source: Morsle
 sourceurl: https://morsle.fun/help/
