@@ -1,7 +1,7 @@
 ---
-title: Repeater owner bans Baofeng radios
+title: 2. Repeater owner bans Baofeng radios
 excerpt: Simply put, these radios do not allow for "advancing skills in both the communication and technical phases of the art" (Part 97.1).
-source: N4NJJ
+source: 'N4NJJ <a data-name="Issue 108" data-type="url" href="http://hamweekly.com/archive/issues/amateur-radio-weekly-issue-108.html" style="font-weight: normal;font-weight: normal;color: #f1592a;text-decoration: underline;font-weight: inherit" title="Issue 108">Issue 108</a>'
 sourceurl: http://n4njj.com/baofeng-policy/
 linkname: baofeng-ban
 urlparams: '?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter'
