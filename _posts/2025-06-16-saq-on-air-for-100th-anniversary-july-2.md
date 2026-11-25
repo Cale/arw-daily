@@ -5,6 +5,7 @@ excerpt: 200kW alternator will transmit CW on 17.2 kHz.
 source: The Alexander association
 sourceurl: https://alexander.n.se/en/celebrate-100-years-with-saq-grimeton/
 eventdate: 2025-07-02
+eventdateend: 2025-07-02
 tags:
 - post
 - event

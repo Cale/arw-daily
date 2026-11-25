@@ -4,8 +4,8 @@ date: 2026-10-31
 excerpt: Zoom sessions will take place November and December.
 source: East Coast Reflector
 sourceurl: https://ecr.radio/zoom
-eventdate: 2026-11-2
-eventdateend: 2026-11-2
+eventdate: 2026-11-02
+eventdateend: 2026-11-02
 tags:
 - post
 - event

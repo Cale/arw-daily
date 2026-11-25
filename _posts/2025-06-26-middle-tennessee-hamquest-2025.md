@@ -5,6 +5,7 @@ excerpt: The annual event is celebrating its 10th year.
 source: HamQuest
 sourceurl: https://midtnhamquest.com/
 eventdate: 2025-07-19
+eventdateend: 2025-07-19
 tags:
 - post
 - event

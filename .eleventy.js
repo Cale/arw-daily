@@ -19,6 +19,10 @@ module.exports = function(eleventyConfig) {
     excerpt: true
   });
 
+  eleventyConfig.setLiquidOptions({
+    timezoneOffset: 0
+  });
+
   eleventyConfig.addPlugin(pluginSEO, {
     title: "Amateur Radio Daily | Ham Radio News",
     description: "A daily log of Ham Radio related news stories.",
