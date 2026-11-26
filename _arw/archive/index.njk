@@ -8,7 +8,7 @@ layout: arw-shell.njk
          <h1>Amateur Radio Weekly Archive</h1>
          {% for newsletter in collections.newsletterArchive %}
             <p>
-               <strong><a href="{{ newsletter.url }}">Issue {{ newsletter.data.issue }}</a></strong>
+               <strong><a href="/archive/amateur-radio-weekly-issue-{{ newsletter.data.issue }}">Issue {{ newsletter.data.issue }}</a></strong>
                <br>{{ newsletter.data.subject }}
                <br>{{ newsletter.data.issuedate }}
             </p>

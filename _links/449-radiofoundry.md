@@ -1,6 +1,6 @@
 ---
 title: RadioFoundry
-excerpt: Open-source multi-mode firmware for digital radios: DMR, P25, NXDN and FM.
+excerpt: 'Open-source multi-mode firmware for digital radios: DMR, P25, NXDN and FM.'
 source: RadioFoundry
 sourceurl: https://radiofoundry.org/
 linkname: radiofoundry
