@@ -1,0 +1,37 @@
+---
+layout: shell-arw-archive.njk
+subject: TCP/IP over the air, LoRa APRS, New Wave Hams
+issue: 449
+issuedate: 2026-11-28
+tags:
+- emailarchive
+---
+<div class="archive-issue-date"><strong>Issue {{ issue }} </strong>{{ issuedate | date: "%B %e, %Y" }}</div>
+                <h1>Top links</h1>{% for links in collections.links %}{% if links.data.linktype == 'link' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <h1>Apps</h1>{% for links in collections.links %}{% if links.data.linktype == 'app' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <!-- EVENTS -->
+                <div class="events">
+                    <h1>Upcoming Events</h1>  
+                    {% assign events_reversed = collections.events | reverse %}
+                    {% for event in events_reversed %}
+                        {% assign eventend   = event.data.eventdateend | date: "%Y%m%d" | plus: 0 %}
+                        {% assign eventstart = event.data.eventdate    | date: "%Y%m%d" | plus: 0 %}
+                        {% assign issuesenddate = issuedate            | date: "%Y%m%d" | plus: 0 %}
+                        {% if eventend >= issuesenddate %}    
+                            <p><a href="{{ event.data.sourceurl }}" target="_blank">{{ event.data.title }}</a><br><strong>{{ event.data.eventdate | formatDate }}{% if eventend != eventstart %} &mdash; {{ event.data.eventdateend | formatDate }}{% endif %}</strong></p>
+                            {% assign shown = shown | plus: 1 %}
+                            {% if shown >= 4 %}{% break %}{% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <h1>Video</h1>{% for links in collections.links %}{% if links.data.linktype == 'video' and links.data.issue == issue %}
+                <p><span class="archive-headline"><a href="{{ links.data.sourceurl }}{{ links.data.urlparams }}" target="_blank">{{ links.data.title }}</a></span><br>{{ links.data.excerpt }}<br><span class="archive-source">{{ links.data.source }}</span></p>{% endif %}{% endfor %}
+                <h1>Editor's Corner</h1>
+                <div style="padding: 0 0 0 0;"><p style="font-family: Helvetica, Arial, sans-serif;">Hi, my name is Cale (K4HCK) and I'm the editor of Amateur Radio Weekly.</p>
+                <p style="font-family: Helvetica, Arial, sans-serif;">The most-clicked link from <a href="https://hamweekly.com/archive/issues/amateur-radio-weekly-issue-447.html" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">last week's newsletter</a> was VA3KOT's article about <a href="https://hamradiooutsidethebox.ca/2026/11/11/the-double-bazooka-coax-dipole-antenna/?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">the Double Bazooka coax dipole antenna</a>. <a href="https://hamradiooutsidethebox.ca/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Ham Radio Outside the Box</a> has been a consistent favorite among Amateur Radio Weekly readers for many years. VA3KOT always publishes fun and thoughtful projects. Thanks, John!</p>
+                <p style="font-family: Helvetica, Arial, sans-serif;">General feedback regarding this newsletter or the content within is always welcome. Got a link to share? Simply hit reply.</p>
+                <p style="font-family: Helvetica, Arial, sans-serif;">73<br>Cale<br>K4HCK</p>
+                <p style="font-family: Helvetica, Arial, sans-serif;">P.S. Thanks to <a href="https://myemma.com/" style="font-weight: inherit; color: #f1592a; font-family: Helvetica, Arial, sans-serif;">Emma</a> for providing the service that delivers these emails into inboxes each week.</p>
+                </div>
